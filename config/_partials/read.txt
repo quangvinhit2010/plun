@@ -82,6 +82,15 @@ return array(
 		'tablePrefix' => '',
 		'emulatePrepare' => true,
 	),
+	'db_candy' => array(
+		'connectionString' => 'mysql:host=localhost;dbname=plunasia_db_candy',
+		'class'            => 'CDbConnection',
+		'username' => 'root',
+		'password' => 'root',
+		'charset' => 'utf8',
+		'tablePrefix' => '',
+		'emulatePrepare' => true,
+	),
 	'mongodb_plun' => array(
 		'class'            => 'backend.extensions.ymds.EMongoDB',
 		'connectionString' => 'mongodb://plun:pl11n@localhost:27017/plunasia_db',
