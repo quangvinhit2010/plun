@@ -1,0 +1,351 @@
+######### config.php ########### v2
+<?php
+return array(
+	'db'=>array(
+		'connectionString' => 'mysql:host=localhost;dbname=plunasia_db',
+		'emulatePrepare' => true,
+		'username' => 'root',
+		'password' => 'root',
+		'charset' => 'utf8',
+		'tablePrefix' => '',
+		'enableProfiling' => true,
+		'enableParamLogging' => true
+	),
+	'db_activity' => array(
+		'connectionString' => 'mysql:host=localhost;dbname=plunasia_db_activity',
+		'class'            => 'CDbConnection',
+		'username' => 'root',
+		'password' => 'root',
+		'charset' => 'utf8',
+		'tablePrefix' => '',
+		'emulatePrepare' => true,
+	),
+	'db_search' => array(
+        'connectionString' => 'mysql:host=localhost;dbname=plunasia_search',
+        'class'            => 'CDbConnection',
+        'username' => 'root',
+        'password' => 'root',
+        'charset' => 'utf8',
+        'tablePrefix' => '',
+        'emulatePrepare' => true,
+    ),
+    'db_mail' => array(
+        'connectionString' => 'mysql:host=localhost;dbname=plunasia_mail',
+        'class'            => 'CDbConnection',
+        'username' => 'root',
+        'password' => 'root',
+        'charset' => 'utf8',
+        'tablePrefix' => '',
+        'emulatePrepare' => true,
+    ),
+	'db_openfire' => array(
+		'connectionString' => 'mysql:host=192.168.0.100;dbname=openfire',
+		'class'            => 'CDbConnection',
+		'username' => 'root',
+		'password' => '123456!',
+		'charset' => 'utf8',
+		'tablePrefix' => '',
+		'emulatePrepare' => true,
+	),
+	'mongodb' => array(
+		'class'            => 'EMongoDB',
+		'connectionString' => 'mongodb://localhost:27017',
+		'dbName'           => 'plun',
+		'fsyncFlag'        => true,
+		'safeFlag'         => true,
+		'useCursor'        => false
+	),
+	'db_event' => array(
+        'connectionString' => 'mysql:host=localhost;dbname=plunasia_event',
+        'class'            => 'CDbConnection',
+        'username' => 'root',
+        'password' => 'root',
+        'charset' => 'utf8',
+        'tablePrefix' => '',
+        'emulatePrepare' => true,
+    ),
+    'db_tigase' => array(
+		'connectionString' => 'mysql:host=localhost;dbname=tigasedb',
+		'class'            => 'CDbConnection',
+		'username' => 'root',
+		'password' => 'root',
+		'charset' => 'utf8',
+		'tablePrefix' => '',
+		'emulatePrepare' => true,
+	),
+    'db_vtn' => array(
+		'connectionString' => 'mysql:host=localhost;dbname=vtn_dbmain',
+		'class'            => 'CDbConnection',
+		'username' => 'root',
+		'password' => 'root',
+		'charset' => 'utf8',
+		'tablePrefix' => '',
+		'emulatePrepare' => true,
+	),
+	'mongodb_plun' => array(
+		'class'            => 'backend.extensions.ymds.EMongoDB',
+		'connectionString' => 'mongodb://plun:pl11n@localhost:27017/plunasia_db',
+		'dbName'           => 'plunasia_db',
+		'fsyncFlag'        => true,
+		'safeFlag'         => true,
+		'useCursor'        => false
+	),
+);
+
+#### params.php ###
+
+<?php
+return array(
+	'webRoot' => dirname(dirname(dirname(__FILE__))),
+	'upload_path' => 'D:/Server/xampp/htdocs/www/project/dwm/plun.asia',
+	'phpmailer' => array(
+		'transport'=>'smtp',
+		'html'=>true,
+		'properties'=>array(
+			'CharSet' => 'UTF-8',
+			'SMTPDebug' => false,
+			'SMTPAuth' => true,
+			'SMTPSecure' => 'ssl',
+			'Host' => 'plun.asia',
+			'Port' => 465,
+			'Username' => 'noreply',
+			'Password' => 'HI9U),1oL&hFMVJ*$BBr',
+		),
+		'msgOptions'=>array(
+			'fromName' => 'plun.asia',
+			'toName'   => 'plun.asia',
+		),
+		'send'	=>	true,
+		'func_send' => array(
+			'register' =>true,				
+		),
+	),
+	'cookie' 			=> array(
+		'expire'	=> '86400',
+		'domain'	=> '.plun.asia',
+		'path'		=> '/',
+	),
+	'uploads'=>array(
+		'upload_method'	=>	'web',
+		'ftp_basedir'	=>	'/www/staging.img.plun.asia',
+		'avatar'=>array(
+			'extension'=>array(),
+			'size'=>'5000000',
+			'p150x0' => array('w'=>160, 'h'=>160, 'p'=>'uploads/avatar/p150x0'),
+			'tmp' => array('w'=>425, 'h'=>320, 'p'=>'uploads/avatar/p150x0'),
+		),
+		'hotbox'=>array(
+			'extension' => array('jpg','jpeg','png'),
+			'size'=> 20 * 1024 * 1024,
+			'thumb300x0' => array('w'=>300, 'h'=> 300, 'p'=>'uploads/hotbox/{year}/{month}/{day}/thumb300x0'),
+			'detail600x0' => array('w'=>600, 'h'=> null, 'p'=>'uploads/hotbox/{year}/{month}/{day}/detail600x0'),
+			'origin' => array('w'=>799, 'h'=> null, 'p'=>'uploads/hotbox/{year}/{month}/{day}/origin'),
+			'path' => 'uploads/hotbox/{year}/{month}/{day}',
+		),		
+		'isu'=>array(
+			'extension' => array('jpg','jpeg','png'),
+			'size'=> 20 * 1024 * 1024,
+			'thumb300x0' => array('w'=>300, 'h'=> 300, 'p'=>'uploads/isu/{year}/{month}/{day}/thumb300x0'),
+			'detail600x0' => array('w'=>600, 'h'=> null, 'p'=>'uploads/isu/{year}/{month}/{day}/detail600x0'),
+			'origin' => array('w'=>799, 'h'=> null, 'p'=>'uploads/isu/{year}/{month}/{day}/origin'),
+			'path' => 'uploads/isu/{year}/{month}/{day}',
+		),	
+		'venues'=>array(
+			'extension' => array('jpg','jpeg','png'),
+			'size'=> 20 * 1024 * 1024,
+			'detail200x200' => array('w'=>200, 'h'=> 200, 'p'=>'uploads/venues/{year}/{month}/{day}/detail200x200'),
+			'origin' => array('w'=>200, 'h'=> 200, 'p'=>'uploads/venues/{year}/{month}/{day}/origin'),
+			'path' => 'uploads/venues/{year}/{month}/{day}',
+		),		
+		'photo'=>array(
+				'extension' => array('jpg','jpeg','png'),
+				'size'=> 20 * 1024 * 1024,
+				'thumb768x1024' => array('w'=>768, 'h'=> 1024, 'p'=>'uploads/photo/album/{year}/{month}/{day}/thumb768x1024'),
+				'thumb50x50' => array('w'=>50, 'h'=> 50, 'p'=>'uploads/photo/album/{year}/{month}/{day}/thumb50x50'),
+				'thumb160x160' => array('w'=>160, 'h'=> 160, 'p'=>'uploads/photo/album/{year}/{month}/{day}/thumb160x160'),
+				'thumb275x275' => array('w'=>275, 'h'=> 275, 'p'=>'uploads/photo/album/{year}/{month}/{day}/thumb275x275'),
+				'thumbwatermark' => array('watermarktransparency' => 80, 'watermarkposition' => '100% 100%','w'=>275, 'h'=> 275, 'p'=>'uploads/photo/album/{year}/{month}/{day}/thumbwatermark'),
+				'detail425x320' => array('w'=>425, 'h'=> 320, 'p'=>'uploads/photo/album/{year}/{month}/{day}/detail425x320'),
+				'detail1600x900' => array('w'=>1600, 'h'=> 900, 'p'=>'uploads/photo/album/{year}/{month}/{day}/detail1600x900'),
+				'detailw200' => array('w'=>200, 'p'=>'uploads/photo/album/{year}/{month}/{day}/detailw200'),
+				'origin' => array('p'=>'uploads/photo/album/{year}/{month}/{day}/origin'),
+				'path' => 'uploads/photo/album/{year}/{month}/{day}',
+				'limit_display' => array('page' => 5, 'public_thumbnail' => 5, 'private_thumbnail' => 5, 'vault_thumbnail' => 9,'public_list' => 5, 'private_list' => 5, 'vault_list' => 5, 'limit_group_day' => 10),
+				'limit_upload' => array('public' => 5, 'vault' => 20, 'private'=>10),
+				'resend_request_limit'	=>	3
+		),					
+	),	
+    'XMPP' => array(
+        'http-bind' => 'http://test.plun.asia:7070/http-bind/',
+        'server' => 'test.plun.asia',
+        'room' => 'conference@conference.test.plun.asia',
+        'port' => 5222,
+    ),
+	'NodeJs' => array(
+		'socket_url' => 'http://localhost.push.plun.asia',
+		'socket_url_mobile' => 'http://localhost.plun.asia:3000'
+	),
+    'Lucene' => array(
+        'index_file_dir' => '/var/www/search'
+    ),
+    'waiting_request_addfriend' =>  array(
+        'limit_display' =>  20,
+        'popup_limit_display' =>  12
+    ),
+    'myfriend_list' =>  array(
+        'limit_display' =>  50
+    ),
+    'news_feed' =>  array(
+        'limit_display' =>  20,
+        'limit_view_liked' => 20,
+    ),
+    'register_suggest_box' =>  array(
+        'limit_display' =>  50
+    ),
+    'search_result' => array(
+        'limit_display' => 48,
+        'mobile_limit_display' => 18,
+        'limit_query'   =>  2000,
+        'suggest_friend_limit'	=>	'5'
+    ),
+    'feet_to_cm'   =>  '30.480',
+	'pound_to_kg'   =>  '0.45',
+    'kg_to_pound'   =>  '2.20462262',
+	'g_to_kg'   =>  '1000',
+    'cm_to_m'   =>  '0.01',
+	'cm_to_inch'   =>  '0.39',
+	'cm_to_feet'   =>  '0.033',
+	'feet_to_cm'   =>  '30.480',
+	'pound_to_kg'   =>  '0.45',	
+    'constants' => array(
+        'sex_roles' => array(
+            '1' => 'Top',
+            '2' => 'Middle',
+            '3' => 'Bottom'
+        ),
+        'safe_sex' => array(
+            '1' => 'Always',
+            '2' => 'Usually',
+            '3' => 'Often',
+            '4' => 'Hardly Ever',
+            '5' => 'Never'
+        ),
+        'ethinics' => array(
+            '1' => 'Asian',
+            '2' => 'European',
+            '3' => 'African',
+            '4' => 'Middle Eastern',
+            '5' => 'Indian',
+            '6' => 'Latino American',
+            '7' => 'Mixed',
+            '8' => 'White/Caucasian',
+            '9' => 'Pacific Islander'
+        )
+    ),
+    'Invitation' => array(
+			'enable' => true,
+			'event_id' => 1,
+	),
+	'twitter' => array(
+		'CallbackURL' => 'http://staging.plun.asia/register/TwitterCallBack'
+	),
+	'googleapi' => array(
+		'client_id' => '248132742114.apps.googleusercontent.com',
+		'client_secret'	=>	'ZnI8a2kicgOabWpU8rA3Ycar',
+		'limit'	=>	10
+	),
+	'yahooapi' => array(
+		'yahoo_key' => 'dj0yJmk9RnRhTE1LcEp3V1RlJmQ9WVdrOVZHVnZkbkJaTm5NbWNHbzlNakV5T1Rjek5EWTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD0wNQ--',
+		'yahoo_secret'	=>	'd97c92d92b0c57fa787112da85152998c5ffb5d1',
+		'yahoo_app_id'	=>	'TeovpY6s',
+		'limit'	=>	10
+	),
+	'page_limit' => array(
+		'bookmark_limit' => '10',
+		'hotbox_limit' => '10',
+		'hotbox_comment_limit' => '10',
+		'isu_limit' => '10',
+		'home_user_top' => '25',
+		'message_conversation' => '20',
+		'message_answers' => '20',
+	),
+	'list_users_notshow'	=>	'1',
+    'Elastic' => array(
+        'host_http' => '127.0.0.1:9200',
+        'prefix_key'	=>	'localhost_',
+        'update_activity_time' => 120,
+        'time_is_newregister'	=>	172800
+    ), 	
+    'mobile' => array(
+        'url' => 'http://localhost.m.plun.asia/',
+    ),
+    'purpleguy' => array(
+        'url' => 'http://localhost.purpleguy.plun.asia/',
+    ),
+    'ftp'=>array(
+        'host'=>'192.168.1.52',
+        'port'=>21,
+        'username'=>'imgplun',
+        'password'=>'24241324',
+        'ssl'=>false,
+        'timeout'=>90,        
+    ),
+    'banner' => array(
+		'enabled' => '1',
+	),
+	'support'=>array(
+        'url'=>'http://localhost.support.dwm.vn/',
+        'api'=>array(
+            'key'=>'D2E50703ED36E270473AD19FBE4AB1EF',                    
+        ),                
+    ),
+    'img_webroot_url'	=>	'img.localhost.plun.asia',
+    'purpleguy_popup'	=>	true,
+    'vtn_domain' => 'localhost.vtn.plun.asia',
+    'vtn'=>array(
+		'migrate'=>array(
+			'updateuser' => true,
+			'createuser' => true,
+			'validate' => true,
+			'logout' => true,
+		),
+		'url'=> 'http://localhost.vtn.plun.asia',
+		'apikey'=> 'ZZZ4ZZZZ',
+	),
+	'mediaFilter' => array(
+		'filterYoutube' => true,
+		'filterZing' => true,
+		'filterNhaccuatui' => true,
+	),
+	'newsfeed'=>array(
+		'profile_feed'=>true,
+		'public_like_comment'=>true,
+	),
+	'from_plun'=>array(
+		'birthday'	=>	true,
+		'news'	=>	true,
+		'feedback'	=>	true,
+	),
+	'anonymousChat'=>true,
+	'candy'=>array(
+		'ip'=>'115.79.46.7',
+		'limitHistoryShow'=>3,
+	),
+	'visitor'=>array(
+		'menu'=>true,		
+		'enable'=>true,
+		'more_will_charge'=>true,		
+		'more_will_charge_limit'=>5,		
+		'limit_show_free'=>10,		
+	),
+	'loginsocial'=>array(
+		'enable'=>true,		
+	),
+	'rate'=>array(
+		'enable'=>false,
+	),
+	'systems_alert'=>array(
+		'enable'=>true,
+		'limit'=>5,
+	),		
+);
