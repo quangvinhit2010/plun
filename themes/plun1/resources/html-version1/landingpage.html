@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<title>Plun Asia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<link href="css/landing.css" rel="stylesheet" type="text/css" />
+<link href="css/circular-countdown.css" rel="stylesheet" type="text/css"  />
+</head>
+<body>
+	<div class="Wrapper">
+    	<div class="Container">
+        	<div class="inner">
+                <div class="countdown"></div>						
+			</div>
+            <form action="#" id="frm-get-invite" class="frm-get-invite" method="post">
+            	<input id="email" type="text" class="email" placeholder="Input your email address here">
+                <button class="btn-submit">Submit</button>
+            </form>
+            <a class="FB" href="https://www.facebook.com/plun.asia" title="" target="_blank">Facebook</a>
+        </div>
+    </div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.circular-countdown.js"></script>
+<script>
+	$(document).ready(function() {
+		$(".countdown").circularCountdown({
+			startDate:"2013/10/03 12:30:00",
+			endDate:"2013/12/03 12:30:00",
+			timeZone:+7
+		});
+	});
+</script>
+</body>
+</html>

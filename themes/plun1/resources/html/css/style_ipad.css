@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header .navigation ul li:last-child{ display:none;}
+.header .navigation ul li a{ margin:0 8px;}
+.header .navigation-sec{ margin:5px 10px 5px 336px;}
+.header .navigation-sec .w400{ width:123px !important;}
+.quicksearch_suggestuser{ width:102px !important;}
+
+
+.home-left .buttons .signin, #login-form .error input, .login-remember input, .tab-cont input.input-type-2{
+	-webkit-appearance: none;
+	border-radius:0px;
+	border:1px solid #C0C0C0;
+}
+#login-form .error input, .form-login ul li.signin_now input, .login-remember input, .setting_col1 table tr td .input_setting{
+	-webkit-appearance: none;
+	border-radius:0px;
+	border:1px solid #C0C0C0;	
+}
+
+@media screen and (width: 768px) {
+	.home-right{ width:0 !important;}
+	#triquiback{ width:100% !important;}
+	.main .col-right .members .list ul li .ava img{ width:132px !important; height:132px !important;}
+	.main .col-right .title_message{ width:212px !important;}
+	.message-detail .message-list{ width:210px !important;}
+	.col-right .right a img{ display:none !important;} /* banner */
+	.photos-block .tabs .num_photo{ display:none !important;}
+	.setting_col1 table tr td{ padding:8px 0 !important;}
+	.message-detail ul li .right{ width:146px !important;}
+	.hotbox-new .list .item{ width:220px !important;}
+	.hotbox-new .list .item .photo li img{ width:220px !important;}
+	.isu-new .pint-style .list .item{ width:210px !important;}
+	#isu-list .list .item .cont .image img{ width:210px !important;}
+	.alert_detail{ width:570px !important;}
+	.alert_detail .content{ width:558px !important;}
+	.hotbox_detail{ width:460px !important;}
+	.col-left + .col-right-hotnew{ left:490px !important;}
+	.btn-del-hotbox{ right:140px !important;}
+	#nextslide{ right:10px !important;}
+	.gallery_hotbox, .popup_hotbox{ width:100% !important;}
+	.detail_hotbox_400{ display:none !important;}
+}
+
+
+@media screen and (width: 1024px) {
+	#triquiback{ width:49% !important;}
+	.home-right{ width:520px !important;}
+	.main .col-right .members .list ul li .ava img{ width:154px !important; height:154px !important;}
+	.main .col-right .members .list ul li .ava img{ width:146px !important; height:146px!important;}
+	.hotbox-new .list .item{ width:230px !important;}
+	.hotbox-new .list .item .photo li img{ width:230px !important;}
+	.isu-new .pint-style .list .item{ width:220px !important;}
+	#isu-list .list .item .cont .image img{ width:220px !important;}
+}
+
+

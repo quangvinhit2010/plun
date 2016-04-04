@@ -1,0 +1,37 @@
+@media screen and (max-width: 1152px){
+    .page_tablefortwo .people .content .bg_car,
+    .page_tablefortwo .people .content .bg_person{
+        display:none;
+    }
+    .page_tablefortwo .people .content{
+        width: 475px;
+    }
+    .page_tablefortwo .people{
+        margin-top: 130px;
+    }
+}
+@media screen and (min-width: 1600px){
+    .list_request_page .menu_list{
+        right: -22%;
+    }
+}
+@media screen and (max-height:768px){
+    .list_request_page .menu_list{
+        top: -110px;
+    }
+    .table42_footer{
+        bottom: 23px;
+    }
+    .wrap_user_req h1{
+        margin-bottom:15px;
+    }
+    .page_tablefortwo .people .content .bg_car{
+        display:none;
+    }
+    .seemore_btn a{
+         padding: 1px 25px 4px;
+     }
+     .page_tablefortwo .people{
+         margin-top: 108px;
+     }
+}

@@ -1,0 +1,1 @@
+<?php CController::forward('/NewsFeed/index', false); ?>

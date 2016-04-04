@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<title>Plun Asia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<link href="css/plugins.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 9]>
+<link href="css/ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print"/>
+<script type="text/javascript" src="js/jquery.js"></script>	
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>	
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxSlider.min.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="js/inview.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+
+<!-- Pop up : Sign up -->
+
+<div class="wrapper">
+    <div class="header">
+        <div class="logo">
+            <a href="#" title=""></a>
+        </div>
+        <!-- logo -->
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#" title="">Who's Here</a>
+                    <span class="line"></span>
+                </li>
+                <li class="current">
+                    <a href="#" title="">HOT BOX</a>
+                    <span class="line"></span>
+                </li>
+                <li>
+                    <a href="#" title="">ISU</a>
+                    <span class="line"></span>
+                </li>
+                <li>
+                    <a href="#" title="">Talk That Talk</a>
+                    <span class="line"></span>
+                </li>
+            </ul>
+        </div>
+        <!-- page navigation -->
+        <div class="navigation-sec">
+            <div class="navblock nav-country">
+                <span class="line"></span>
+                <a href="#" class="btn-country" data-toggle="dropdown"><i class="imed flag-fr"></i><span class="text">France</span><i class="imed imed-arrow-wd"></i></a>
+                <div class="spr-submenu">
+                    <ul>
+                        <li><a href="#"><i class="imed flag-fr"></i><span class="text">France</span></a></li>
+                        <li><a href="#"><i class="imed flag-eng"></i><span class="text">English</span></a></li>
+                        <li><a href="#"><i class="imed flag-vn"></i><span class="text">VN</span></a></li>
+                    </ul>
+                </div>
+                <!-- submenu -->
+            </div>
+            <!-- sub nav -->
+            <div class="navblock nav-country">
+                <span class="line"></span>
+                <a href="#"><i class="imed imed-wifi"></i></a>
+            </div>
+            <!-- sub nav -->
+            <div class="navblock nav-country">
+                <span class="line"></span>
+                <a href="#"><i class="imed imed-sound"></i></a>
+            </div>
+            <!-- sub nav -->
+        </div>
+        <!-- second navigation -->
+    </div>
+    
+    <div id="modal" class="modal hide fade in" aria-hidden="false" aria-labelledby="myModalLabel" style="display: block;">
+        <div class="modal-body">
+            <script>
+				function cboxSelected(classSelect){
+					var i = classSelect;
+					$(i).on('change',function(){
+						var item_select = $(this).find(':selected').text();
+						$(this).parent().find('.txt_select span').text(item_select);
+					});
+				}
+				$(function(){
+					var select_cbox = '.select_style select';
+					cboxSelected(select_cbox);
+					$('.select_style select').css('opacity','0');
+				});
+			</script>
+
+            <div id="page-signup">
+                <div class="spr-modal-wrap">
+                    <div class="form-contain form-login">
+                        <div class="form-contain-wrap" style="background:none;">
+                            <!-- close button -->
+                            <form method="" id="register-form">
+                            <div class="title">
+                                <p class="signin">Sign in</p>
+                                <!--<p>Lorem Ipsum is simply dummy text.</p>-->
+                            </div>
+                            <ul class="w390">
+                                <li>
+                                    <div class="input-wrap">
+                                        <span class="w117">Username</span>                                        
+                                        <div class="error">
+											<input type="text" class="input_txt_other" value="Username" onblur="if(this.value=='') this.value=this.defaultValue" onfocus="if(this.value==this.defaultValue) this.value=''"/>
+                                        	<label class="arrow"></label>
+                                        	<div style="" id="LoginForm_username_em_" class="errorMessage">Username cannot be blank.</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="left w100_per">
+                                    <div class="input-wrap">
+                                        <span class="w117">Date of Birth</span>
+                                        <div class="select_style w112">
+                                            <select >
+                                              <option value="0">November</option>
+                                              <option value="0">Octorber</option>
+                                            </select>
+                                            <span class="txt_select"><span>Octorber</span></span> <span class="btn_combo_down"></span>
+                                        </div>
+                                        <div class="select_style w62">
+                                            <select >
+                                              <option value="0">17</option>
+                                            </select>
+                                            <span class="txt_select"><span>17</span></span> <span class="btn_combo_down"></span>
+                                        </div>
+                                        <div class="select_style w76">
+                                            <select >
+                                              <option value="0">1985</option>
+                                            </select>
+                                            <span class="txt_select"><span>1985</span></span> <span class="btn_combo_down"></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="input-wrap">
+                                        <span class="w117">Email</span>                                        
+                                        <div class="error">
+											<input type="text" class="input_txt_other" value="Enter email ..." onblur="if(this.value=='') this.value=this.defaultValue" onfocus="if(this.value==this.defaultValue) this.value=''"/>
+                                        	<label class="arrow"></label>
+                                        	<div style="" id="LoginForm_username_em_" class="errorMessage">Email is not a valid email address.</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="input-wrap">
+                                        <span class="w117">Password</span>
+                                        <div class="error">
+											<input type="text" class="input_txt_other" value="Enter Password ..." onblur="if(this.value=='') this.value=this.defaultValue" onfocus="if(this.value==this.defaultValue) this.value=''"/>
+                                        	<label class="arrow"></label>
+                                        	<div style="" id="LoginForm_username_em_" class="errorMessage">Password cannot be blank.</div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="input-wrap">
+                                        <span class="w117">Confirm Password</span>
+                                        <div class="error">
+											<input type="text" class="input_txt_other" value="Repeat Password ..." onblur="if(this.value=='') this.value=this.defaultValue" onfocus="if(this.value==this.defaultValue) this.value=''"/>
+                                        	<label class="arrow"></label>
+                                        	<div style="" id="LoginForm_username_em_" class="errorMessage">Confirm Password cannot be blank.</div>
+                                        </div>
+                                    </div>
+                                </li>                    
+                                <li>
+                                    <div class="input-wrap">
+                                        <span class="w117">Captcha</span>
+                                        
+                                        <div class="error">
+                                        	<div style="width:286px; float:left;">
+											<input type="text" class="input_txt_captchar left" value="Type text besides" onblur="if(this.value=='') this.value=this.defaultValue" onfocus="if(this.value==this.defaultValue) this.value=''"/>
+                                        	<span class="left"><img src="css/images/captchar_1.jpg" align="absmiddle" /></span>
+                                        	<span class="left reload"><a href="#"><img src="css/images/reload.png" align="absmiddle" /></a></span>
+                                            </div>
+                                        	<label class="arrow"></label>
+                                        	<div style="" id="LoginForm_username_em_" class="errorMessage">    The verification code is incorrect.</div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="clear">&nbsp;</div>
+                            <ul class="w247 w100_per">
+                                <li class="color_error">                                	
+                                    <input name="" type="checkbox" value="" /> By joining PLUN, you must be over 16 years old, and have to agree with our <a class="terms" href="#">Terms of Service</a>
+                                    
+                                </li>
+                                <li class="signup_now">
+                                    <input name="" type="button" value="Sign up now"/>
+                                </li>
+                                <li class="link_signup"><a href="#">Sign in</a></li>
+                            </ul>
+                                
+                            </form>
+                        </div>
+                    </div>
+                    <!-- form container -->
+                </div>
+                <!-- wrap -->
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- wrapper -->
+<div class="footer">
+    <div class="ft-wrap">
+        <ul>
+            <li>
+                <a href="#" title="">About</a>
+            </li>
+            <li>
+                <a href="#" title="">Privacy</a>
+            </li>
+            <li>
+                <a href="#" title="">Terms</a>
+            </li>
+            <li>
+                <a href="#" title="">Community Guidelines</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- footer -->
+	
+</body>
+</html>

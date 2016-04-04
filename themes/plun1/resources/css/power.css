@@ -1,0 +1,509 @@
+.step-cont {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #333333;
+    height: 467px;
+    left: 124px;
+    overflow: inherit;
+    padding: 42px 25px 20px;
+    position: absolute;
+    top: 100px;
+    width: 605px;
+}
+.main-wrap {
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.page-createisu {
+	background: #F4F2F3;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+	text-align: center;
+}
+.page-createisu .form-contain {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: middle;
+}
+.page-createisu .position {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: middle;
+	height: 100%;
+	width: 0;
+}
+#isu-form {
+	height: 100%;
+	overflow: auto;
+}
+.page-createisu .form-contain-wrap {
+	border: #bebebe solid 1px;
+}
+.form-login ul li.share {
+	float: none;
+}
+.form-login ul {
+	text-align: center;
+}
+.share-wrap {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+.page-form {
+	text-align: center;
+}
+.position {
+	width: 0;
+	height: 100%;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: middle;
+}
+.page-form .spr-modal-wrap {
+	height: 100%;
+	padding: 0;
+}
+.form-login .w117 {
+	text-align: left;
+}
+#register-form .captcha {
+	text-align: left;
+}
+#register-form .captcha input {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;	
+}
+
+#register-form .captcha img{
+	float: left;
+}
+.w390 {
+	width: 410px;
+}
+#register-form .captcha a {
+	float: left;
+	display: block;
+	margin: 10px 0 0 5px;
+	background: url("../html/css/images/reload.png") no-repeat;
+	padding: 10px;
+}
+
+.block-step .frame {
+	height: 300px;
+    width: 300px;
+}
+
+.block-step .frame img {
+    height: auto;
+    width: auto;
+    max-height: 300px;
+    max-width: 300px;
+}
+#block-chat {
+	position: absolute;
+	top: 48px;
+	left: 20px;
+	right: 20px;
+	bottom: 95px;
+}
+#block-chat .tabs {
+    display: block;
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.list-chat .item-chat p {
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 20px;
+    padding: 0 0 10px 50px;
+}
+
+.list-chat .item-chat .ava img{
+    display: block;
+    float: left;
+    position: relative;
+	max-height: 40px;
+	max-width: 40px;
+}
+.ui-tabs .ui-tabs-nav li {
+	float: left;
+}
+.ui-tabs .ui-tabs-nav li a {
+	cursor: pointer;
+	padding: 0.5em 0.6em;
+	float: left;
+}
+.chat .cont .feed-list-item {
+	bottom: 10px;
+}
+.news-feed .cont .feed-list-item.roster-area {
+	top: 52px;
+}
+.chat .cont .padding {
+	border: 0;
+	height: 10px;
+	background: #fff;
+}
+.main .col-left .chat .frmSearchChat {
+	padding: 10px;
+	background: #f7f7f7;
+	border-bottom: #bebebe solid 1px;
+}
+.chat .status {
+	background: url("../html/css/images/sprites2.png") repeat scroll -135px -225px rgba(0, 0, 0, 0);
+    display: block;
+    height: 8px;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 6px;
+	display: none;
+}
+.chat .online .status {
+	display: block;
+}
+.news-feed .cont ul .item:last-child {
+	border-bottom: #bebebe solid 1px;
+}
+body .chat-area .ui-tabs-panel.ui-widget-content {
+	border: #bebebe solid 1px;
+	top: 34px;
+}
+.block-type {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	padding: 15px 20px;
+	background: #F7F7F7;
+	border-top: #bebebe solid 1px;
+}
+.block-type input {
+	width: 100%;
+	height: 50px;
+	border: #c0c0c0 solid 1px;
+}
+.chat-area .ui-tabs-panel.ui-widget-content {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	border: #662D91 solid 1px;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+	cursor: pointer;
+}
+.item-chat {
+	position: relative;
+}
+.list-chat .item-chat h5 {
+	border-bottom: 0;
+}
+.list-chat .item-chat .line {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	background: #bebebe;
+	height: 1px;
+	right: 0;
+	z-index: 5;
+}
+.list-chat .item-chat .time {
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 2px 6px;
+	background: #fff;
+	z-index: 10;
+	color: #444;
+	font-size: 11px;
+}
+.list-chat .item-chat .ava img {
+	z-index: 10;
+}
+.list-chat .item-chat h5 {
+	position: relative;
+	z-index: 10;
+}.list-chat .item-chat h5 span {
+	background: #fff;
+	padding-left: 10px;
+	padding-right: 4px;
+}
+.list-chat .item-chat h5 {
+	margin-left: 40px;
+}
+.list-chat {
+	margin-left: 0;
+}
+.chat-area .btn-load-history {
+	color: #999999;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 1em;
+    text-align: center;
+}
+.chat-area .btn-load-history:hover {
+	color: #000;
+}
+.main .col-left .chat .frmSearchChat input {
+	border: #C0C0C0 solid 1px;
+	border-right: 0;
+}
+
+.photo-view .photo .photo-wrap {
+	height: 100%;	
+}
+.user-info .cont {
+	border:0;
+	display: none;
+	animation: fadein 0.3s;
+    -moz-animation: fadein 0.3s; /* Firefox */
+    -webkit-animation: fadein 0.3s; /* Safari and Chrome */
+    -o-animation: fadein 0.3s; /* Opera */
+}
+.user-info .cont.active {
+	display: block;
+}
+.user-info .cont ul .item, .stage-comment .item {
+	border-left: 0;
+	border-right: 0;
+}
+.main .col-left .user-info > .info {
+	border: 0;
+}
+.news-feed .cont .padding {
+	border-left: 0;
+	border-right: 0;
+}
+.news-feed .cont .padding.padding-gray {
+	height: 10px;
+	background: #a8a8a8;
+}
+.news-feed .cont ul .item-active .marginline {
+	height:12px;
+}
+.text {
+ 	word-wrap: break-word;
+}
+.no-request-friends {
+	padding: 10px;
+}
+/* Calendar */
+.ui-datepicker-trigger {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+	vertical-align: middle;
+	background-image: url('../html/css/images/sprites.png');
+	background-repeat: no-repeat;
+	width: 28px;
+	height: 28px;
+	background-position: -291px -28px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	cursor: pointer;
+	text-indent: -99999em;
+	background-color: transparent;
+}
+#ui-datepicker-div {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	color: #bebebe;
+	-webkit-text-shadow: 0 1px 0 #fff;
+	-moz-text-shadow: 0 1px 0 #fff;
+	text-shadow: 0 1px 0 #fff;
+	background: #f4f4f4;
+}
+.ui-timepicker-div,
+.ui-datepicker .ui-datepicker-buttonpane {
+	display: none;
+}
+.ui-datepicker-header {
+	background: transparent;
+	border: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	font-weight: normal;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+.ui-datepicker table {
+	font-size: 9px;
+	margin-bottom: 0;
+}
+.ui-datepicker table tbody {
+	border-left: #b5b5b5 solid 1px;
+	border-top: #b5b5b5 solid 1px;
+}
+.ui-datepicker-calendar thead th {
+	text-transform: uppercase;
+	font-size: 8px;
+	font-family: Arial, Calibri, Geneva,sans-serif;
+	color: #333;
+}
+.ui-datepicker td {
+	text-align: center;
+	padding: 0;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	text-align: center;
+}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled,
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	border-left: 0;
+	border-top: 0;
+	opacity: 1;
+	font-size: 11px;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+	background: #e5e5e5;
+	border-left: 0;
+	border-top: 0;
+	border-right: #b5b5b5 solid 1px;
+	border-bottom: #b5b5b5 solid 1px;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	background: #662D91;
+	color: #fff;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	text-shadow: none;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+	padding: 0.5em 0.4em;
+}
+.ui-datepicker {
+	width: auto;
+	padding: 10px;
+}
+.ui-datepicker .ui-datepicker-prev span {
+	border-right: 6px solid #333;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	display: block;
+	width: 0;
+	height: 0;
+	background: transparent;
+	top: 50%;
+	left: 50%;
+	margin-left: -3px;
+	margin-top: -4px;
+}
+.ui-datepicker .ui-datepicker-next span {
+	border-left: 6px solid #333;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	display: block;
+	width: 0;
+	height: 0;
+	background: transparent;
+	top: 50%;
+	left: 50%;
+	margin-left: -3px;
+	margin-top: -4px;
+}
+.ui-datepicker .ui-datepicker-prev:hover span {
+	border-right: 6px solid #fff;
+}
+.ui-datepicker .ui-datepicker-next:hover span {
+	border-left: 6px solid #fff;
+}
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+	background: #e5e5e5;
+	border: #b5b5b5 solid 1px;
+	box-shadow: 0 1px 0 0 #fff;
+	width: 2em;
+	height: 2em;
+}
+.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover {
+	background: #662D91;
+	border: #662D91 solid 1px;
+	margin: 0;
+	top: 2px;
+}
+.ui-datepicker .ui-datepicker-prev-hover {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+	right: 2px;
+}
+.ui-datepicker .ui-datepicker-title {
+	line-height: 2em;
+}
+.chat-area .head-tab {
+	float: left;
+	width: 100%;
+}
+.home-center {
+	background: url(../html/css/images/bg.gif) center top no-repeat;
+}
+.main .col-left .user-info .info p.des em{
+	color: #B6B6B6; 
+}
+.news-feed .cont ul .item .feed .info h4 {
+    margin-bottom: 6px;
+	word-wrap: break-word;
+	width: 200px;
+}
+.pint-style .item .ulti {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 10px;
+	background: #000;
+	background: rgba(0,0,0,0.4);
+}
+.pint-style .item .ulti-delete {
+	top: 30%;
+	text-align: center;
+	padding: 6px 0;
+}
+.pint-style .item .ulti {
+	display: none;
+}
+.pint-style .item .ulti.active {
+	display: block;
+}
+.pint-style .item .ulti-delete,
+.pint-style .item .ulti-done,
+.pint-style .item .ulti-edit {
+	z-index: 300;
+}
+.pint-style .item .ulti-delete a,
+.pint-style .item .ulti-delete p,
+.pint-style .item .ulti-done a,
+.pint-style .item .ulti-edit a {
+	color: #fff;
+	text-shadow: 1px 1px 0 #000;
+}
+.pint-style .item .ulti-delete p {
+	font-size: 14px;
+	font-size: 1.4rem;
+	padding: 6px 0;
+}
+.pint-style .item .ulti-delete .buttons {
+	margin-bottom: 6px;
+}
+.pint-style .item .ulti-delete .buttons button {
+	margin-right: 10px;
+}
+/* .pint-style .item img{
+	max-width: 200px;
+} */

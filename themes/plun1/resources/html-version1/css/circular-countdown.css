@@ -1,0 +1,50 @@
+/* fonts */
+@font-face {
+	font-family: 'UTM Bebas';
+	src: url('fonts/utmbebas.eot');
+	src: url('fonts/utmbebas.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/utmbebas.woff') format('woff'),
+			 url('fonts/utmbebas.ttf') format('truetype'),
+			 url('fonts/utmbebas.svg#utmbebas') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.circular-countdown * {
+	margin:0;
+	padding:0
+}
+.circular-countdown .time { 
+	position:relative;
+	float:left
+}
+.circular-countdown canvas.bg {
+	position:absolute;
+	z-index:1
+}
+.circular-countdown canvas.circle {
+	position:relative;
+	z-index:2
+}
+.circular-countdown .count {
+	position:absolute;
+	z-index:3;
+	top:0;
+	left:0;
+	text-align:center;
+	color:#333; 
+	font-family: 'UTM Bebas', Arial, Calibri, Geneva,sans-serif;
+	font-size: 32px;
+	line-height:30px
+}
+.circular-countdown .text { 
+	position:absolute;
+	z-index:4;
+	top:0;
+	left:0; 
+	text-align:center; 
+	color:#5f5f5f; 
+	font-family:"Open Sans",sans-serif;
+	font-weight:400;
+	font-size:14px;
+	line-height:14px
+}

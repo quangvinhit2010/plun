@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<title>Plun Asia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<link href="css/plugins.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]>
+<link href="css/ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print"/>
+<script type="text/javascript" src="js/jquery.js"></script>	
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxSlider.min.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="js/inview.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+
+<script type="text/javascript">
+	var cSpeed=4;
+	var cWidth=80;
+	var cHeight=80;
+	var cTotalFrames=18;
+	var cFrameWidth=80;
+	var cImageSrc='css/images/sprites_2.png';
+	
+	var cImageTimeout=false;
+	var cIndex=0;
+	var cXpos=0;
+	var cPreloaderTimeout=false;
+	var SECONDS_BETWEEN_FRAMES=0;
+	
+	function startAnimation(){
+		
+		document.getElementById('loaderImage').style.backgroundImage='url('+cImageSrc+')';
+		document.getElementById('loaderImage').style.width=cWidth+'px';
+		document.getElementById('loaderImage').style.height=cHeight+'px';
+		
+		//FPS = Math.round(100/(maxSpeed+2-speed));
+		FPS = Math.round(100/cSpeed);
+		SECONDS_BETWEEN_FRAMES = 1 / FPS;
+		
+		cPreloaderTimeout=setTimeout('continueAnimation()', SECONDS_BETWEEN_FRAMES/1000);
+		
+	}
+	
+	function continueAnimation(){
+		
+		cXpos += cFrameWidth;
+		//increase the index so we know which frame of our animation we are currently on
+		cIndex += 1;
+		 
+		//if our cIndex is higher than our total number of frames, we're at the end and should restart
+		if (cIndex >= cTotalFrames) {
+			cXpos =0;
+			cIndex=0;
+		}
+		
+		if(document.getElementById('loaderImage'))
+			document.getElementById('loaderImage').style.backgroundPosition=(-cXpos)+'px 0';
+		
+		cPreloaderTimeout=setTimeout('continueAnimation()', SECONDS_BETWEEN_FRAMES*1000);
+	}
+	
+	function stopAnimation(){//stops animation
+		clearTimeout(cPreloaderTimeout);
+		cPreloaderTimeout=false;
+	}
+	
+	function imageLoader(s, fun)//Pre-loads the sprites image
+	{
+		clearTimeout(cImageTimeout);
+		cImageTimeout=0;
+		genImage = new Image();
+		genImage.onload=function (){cImageTimeout=setTimeout(fun, 0)};
+		genImage.onerror=new Function('alert(\'Could not load the image\')');
+		genImage.src=s;
+	}
+	
+	//The following code starts the animation
+	new imageLoader(cImageSrc, 'startAnimation()');
+</script>
+
+
+</head>
+<body>
+	<div class="plun">
+		<div class="wrapper">
+			<div class="header">
+				<div class="logo">
+					<a href="#" title=""></a>
+				</div>
+				<!-- logo -->
+				<div class="navigation">
+					<ul>
+						<li class="current">
+							<a href="#" title="">Who's Here</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="#" title="">HOT BOX</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="#" title="">ISU</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="#" title="">Talk That Talk</a>
+							<span class="line"></span>
+						</li>
+					</ul>
+				</div>
+				<!-- page navigation -->
+				<div class="navigation-sec">
+					<div class="navblock nav-country">
+						<span class="line"></span>
+						<a href="#" class="btn-country" data-toggle="dropdown"><i class="imed flag-fr"></i><span class="text">France</span><i class="imed imed-arrow-wd"></i></a>
+						<div class="spr-submenu">
+							<ul>
+								<li><a href="#"><i class="imed flag-fr"></i><span class="text">France</span></a></li>
+								<li><a href="#"><i class="imed flag-eng"></i><span class="text">English</span></a></li>
+								<li><a href="#"><i class="imed flag-vn"></i><span class="text">VN</span></a></li>
+							</ul>
+						</div>
+						<!-- submenu -->
+					</div>
+					<!-- sub nav -->
+					<div class="navblock nav-country">
+						<span class="line"></span>
+						<a href="#"><i class="imed imed-wifi"></i></a>
+					</div>
+					<!-- sub nav -->
+					<div class="navblock nav-country">
+						<span class="line"></span>
+						<a href="#"><i class="imed imed-sound"></i></a>
+					</div>
+					<!-- sub nav -->
+				</div>
+				<!-- second navigation -->
+			</div>
+			<!-- header but display at bottom -->
+			<div class="col-nav">
+				<div class="user">
+					<div href="#" title="" class="photo">
+						<div class="photo-wrap">
+							<img src="css/images/img-photo-150.jpg" alt="" border=""/>
+							<a href="#" class="btn-edit">Edit Photo</a>
+						</div>
+					</div>
+					<!-- user photo -->
+					<div class="info">
+						<h2 class="name">Ryan.vo</h2>
+						<div class="buttons">
+							<button class="btn btn-violet btn-navpost"><i class="imed imed-pencil"></i><span class="inline-text">Post Status</span></button>
+							<div class="pop-status">
+								<div class="border">
+									<div class="wrap">
+										<span class="arrow"></span>
+										<a href="#" class="btn-close"></a>
+										<form method="">
+											<div class="input-wrap">
+												<textarea rows="6" cols="43" placeholder="Write something....."></textarea>
+											</div>
+											<div class="input-foot">
+												<span class="chars">
+													0/500
+												</span>
+												<div class="btn-wrap">
+													<button class="btn">Post</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+							<!-- Status post -->
+						</div>
+						<div class="menu">
+							<ul>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-message" title=""></i>
+										<span class="text">Message</span>
+										<span class="count">25</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-alert" title=""></i>
+										<span class="text">Alerts</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="" class="active">
+										<i class="imed imed-friend" title=""></i>
+										<span class="text">Friends</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-candy" title=""></i>
+										<span class="text">Candy</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-setting" title=""></i>
+										<span class="text">Setting</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-signout" title=""></i>
+										<span class="text">Sign Out</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- user menu -->
+					</div>
+				</div>
+				<!-- user -->
+			</div>
+			<!-- navigation column -->
+			<div class="main clearfix">
+				
+				<div id="panel">
+                    <span id="loading2" class="loading">
+                        <!--<span id="outerCircle"><img src="css/images/24.gif" align="absmiddle"></span>-->
+						<!--<span class="bg">Loading...</span>-->
+                        <div id="loaderImage"></div>
+                    </span>
+                    
+            	</div>
+			</div>
+			<!-- main -->
+		</div>
+		<!-- wrapper -->
+		<div class="footer">
+			<div class="ft-wrap">
+				<ul>
+					<li>
+						<a href="#" title="">About</a>
+					</li>
+					<li>
+						<a href="#" title="">Privacy</a>
+					</li>
+					<li>
+						<a href="#" title="">Terms</a>
+					</li>
+					<li>
+						<a href="#" title="">Community Guidelines</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- footer -->
+	</div>
+	<!-- body -->
+</body>
+</html>

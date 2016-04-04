@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+@media screen and (min-width: 320px) and (max-width: 768px){
+	.header .menu ul li a{ padding:0 10px;}
+	.banner_home{ display:none; width:0 !important;}
+	.bookmark_page .banner_home{ display:none;}
+	.photo_video .link_photo_video ul{ padding:0;}
+	.photo_video .link_photo_video ul li {
+		margin-right: 10px;
+		padding: 10px 0;
+		font-size:16px;
+	}
+	.wrap_icon_photo{ padding-top:10%;}
+	.photo_video .content ul li.bg_soc a.active label{ font-size:10px;}
+	.slideTrue {
+		width: 169px !important;
+	}
+	.wrap-feed {
+		z-index: 2;
+	}
+	.explores_page .explore {
+		z-index: 3;
+	}
+	.find-him-pop {
+		left: -255px;
+	}
+	.arrow_tab {
+		left: 450px;
+	}
+	.list_explore .online_num a ins.icon_location{ left:-12px;}
+	.list_explore .list_user ul li .info a {
+		padding: 10px;
+	}
+	.feed #wall-status-form {
+		right: -310px;
+	}
+	.feed .post_status {
+		width: 300px;
+	}
+	.setting_page .content_setting table{ width:auto !important;}
+	.hasBanner_300 .explore .list_explore, .hasBanner_160 .explore .list_explore{ width:700px;}
+	.bookmark_page.hasBanner_160 .explore .list_explore{ width:700px;}
+	.bookmark_page .list_explore .list_user ul li{ width:128px;}
+	.photo_video .content ul li a p {
+		font-size: 0.5em;
+	}
+	.hasBanner_160 .explore .message_send {
+		width: 356px;
+	}
+	.content_community, .content_company, .content_ourcom_new .group, .about .about_us, .best_event{ width:475px;}
+	.content_community .content{ width:475px;}
+	.content_contact .content{ width:475px;}
+	.about_vip .avatar {
+		width: 475px;
+	}
+	.what_say ul li .pics {
+		margin-right: 10px;
+	}
+	.what_say ul li .info {
+		width: 125px;
+	}
+	.w960 {
+		width: 754px;
+	}
+	.w369 {
+		width: 200px;
+	}
+	.form_cont {
+		padding-left: 10px;
+	}
+	.content_contact .content .info_contact {
+		width: 40%;
+	}
+	.content_contact .content .form_contact {
+		width: 60%;
+	}
+	#ContactForm_subject, .content_contact .content .form_contact table ul li input, .content_contact .content .form_contact table ul li textarea {
+		width: 265px;
+	}
+	.content_contact .content .form_contact table ul li input#ContactForm_verifyCode{ width:172px;}
+	
+}
+@media screen and (min-width:769px) and (max-width: 800px){
+	.banner_home{ display:none; width:0 !important;}
+	.bookmark_page .banner_home{ display:block;}
+	.photo_video .link_photo_video ul{ padding:0;}
+}
+
+@media screen and (min-width: 801px) and (max-width: 980px){
+	/*.home_hot_pics{ width:72%;}*/
+	.banner_home{ display:none; width:0 !important;}
+}
+
+@media screen and (max-width:1024px) {
+	
+}

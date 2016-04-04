@@ -1,0 +1,102 @@
+{
+    "ourTeam": [
+        {
+            "name": "Kelvin To",
+            "position": "Founder/CEO",
+            "image": "/themes/plun2/resources/html/images/parallax/kevin.jpg",
+            "discrip_en": "<p>Born in Vietnam, raised in Singapore and a Northumbria University (UK) graduate in Fashion Merchandising & Marketing, Kelvin To was posted to Asia for a position at Philips-Van Heusen (Far East) in Hong Kong. Despite enjoying the fast paced world of fashion, he soon realized that the Internet was his true passion. This brought him back to Vietnam in 2004 to become VietnamWorks.com's first Marketing Manager, a job that took part in efforts to ensure the company's position as Vietnam's number one recruitment website.<br/>After holding a series of high ranking positions across a range of web companies, Kelvin is currently the regional head of a technology company operating in e-gaming in the Philippines, where he lives full time. PLUN.ASIA is one of his “part-time” ventures.</p>",
+            "discrip_vi": "<p>Sinh tại Việt Nam nhưng Kelvin Tô trải qua phần lớn thời niên thiếu của mình tại Singapore trước khi theo học ngành Quản trị & Tiếp thị Thời trang Đại học Northumbria tại Newcastle, Anh quốc. Sau tốt nghiệp anh được gửi đến Hong Kong làm việc cho Philips-Van Heusen (Viễn Đông) nơi anh sớm nhận ra niềm đam mê thật sự của mình ở lĩnh vực internet bên cạnh thời trang. Anh trở lại Việt Nam năm 2004 với vai trò Giám đốc Tiếp thị đầu tiên của VietnamWorks.com.<br/>Sau gần 10 năm giữ vị trí trọng yếu tại các công ty internet khác nhau, Kelvin hiện là người đứng đầu bộ phận Đông Nam Á của một công ty công nghệ tại Philippines, nơi anh dành phần lớn thời gian của mình. PLUN.ASIA là một trong những dự án cá nhân mà anh đang trải nghiệm đầu tư.</p>"
+        },
+        {
+            "name": "Trần Minh Chánh",
+            "position": "Marketing Executive",
+            "image": "/themes/plun2/resources/html/images/parallax/chanh.jpg",
+            "discrip_en": "<p>Chanh has 3 years of experience in game products management. After his graduation from NIIT in 2010 Chanh joined ASIASOFT, an online game services provider, as its Game Operator.</p>",
+            "discrip_vi": "<p>Chánh có 3 năm kinh nghiệm ở vị trí quản lý điều hành sản phẩm. Sau khi tốt nghiệp NIIT năm 2010 Chánh tham gia làm việc ở vị trí Game Operator tại ASIASOFT, công ty chuyên ngành giải trí và cung cấp các dịch vụ về game online.</p>"
+        },
+        {
+            "name": "Giáp Lê Tú",
+            "position": "Marketing Executive",
+            "image": "/themes/plun2/resources/html/images/parallax/tu.jpg",
+            "discrip_en": "<p>Graduated from RMIT Vietnam in Design & Communication, Tu worked for Integration, an agency handling accounts like Philips, Abbott Vietnam, Escape Party and VinaWealth Group. Tu is currently in charge of offline marketing activities.</p>",
+            "discrip_vi": "<p>Tú tốt nghiệp trường RMIT chuyên ngành Design & Communication. Tú có 1 năm làm việc tại Integration phụ trách các khách hàng như Philips, Abbott Vietnam, Escape Party và tập đoàn VinaWealth. Tú hiện chịu trách nhiệm cho các hoạt động Marketing.</p>"
+        },
+        {
+            "name": "Phạm Quốc Dũng",
+            "position": "Customer & Member Service Representative",
+            "image": "/themes/plun2/resources/html/images/parallax/dung.jpg",
+            "discrip_en": "<p>After his graduation in Hospitality Management, Dung worked for Hotel Equatorial Saigon in 4 years. Currently Dung is in charge of community and customer support.</p>",
+            "discrip_vi": "<p>Tốt nghiệp ngành Quản Trị Nhà Hàng - Khách Sạn. Sau tốt nghiệp Dũng làm việc tại Hotel Equatorial Saigon. Từ những kinh nghiệm 4 năm trong ngành dịch vụ, ẩm thực, khách sạn đã giúp cho Dũng phát triển tốt công việc hiện tại.</p>"
+        },
+        {
+            "name": "Nguyễn Quang Vinh",
+            "position": "Team Lead, Products & Technology",
+            "image": "/themes/plun2/resources/html/images/parallax/vinh.jpg",
+            "discrip_en": "<p>Leading DWM team of technology & product development engineers, Vinh graduated from the University of Industry and the University of Transportation. With 8 years of experience in LAMP, Vinh helped to build websites and services for web support. Prior to DWM, Vinh worked for LikeVN.</p>",
+            "discrip_vi": "<p>Là quản lý đội ngũ phát triển sản phẩm & kỹ thuật của DWM, Vinh tốt nghiệp từ trường Đại học Công Nghiệp và  Đại học Giao thông Vận tải. Với kinh nghiệm 8 năm về LAMP, Vinh đã xây dựng rất nhiều website cùng các service để hỗ trợ web. Trước DWM, Vinh làm việc tại LikeVN.</p>"
+        },
+        {
+            "name": "Đỗ Minh Huy",
+            "position": "Developer",
+            "image": "/themes/plun2/resources/html/images/parallax/huy.jpg",
+            "discrip_en": "<p>Huy graduated from the University of Industry, Ho Chi Minh City with 7 years of experience developing web, social networks, e-commerce and ad networks with Sutrixmedia and VinaGame (ZingME, Zing MP3…). Huy is currently in charge of PLUN’s search system and recommendation algorithm.</p>",
+            "discrip_vi": "<p>Huy tốt nghiệp Đại Học Công Nghiệp TP Hồ Chí Minh với 7 năm kinh nghiệm trong lĩnh vực phát triển website, mạng xã hội, Thương mại Điện tử và ad network tại Sutrixmedia và VinaGame (ZingME, Zing MP3…). Hiện tại đang phụ trách mảng phát triển hệ thống tìm kiếm và các thuật toán kết nối thành viên của PLUN.ASIA.</p>"
+        },
+        {
+            "name": "Quách Tuấn Lệnh",
+            "position": "Developer",
+            "image": "/themes/plun2/resources/html/images/parallax/lenh.jpg",
+            "discrip_en": "<p>After his graduation from Mekong Delta Aptech in 2011 Lenh worked as a Developer with Mat Biec in Can Tho, a technology solutions and web services provider before moving to Thanh Cong Software in Ho Chi Minh City then DWM.</p>",
+            "discrip_vi": "<p>Sau khi tốt nghiệp trường Mekong Delta Aptech năm 2011 Lệnh làm việc với vị trí Lập Trình Viên tại công ty Mắt Biếc tại Cần Thơ, công ty chuyên cung cấp các giải pháp về công nghệ và xây dựng website trước khi tham gia Thành Công Software tại TP Hồ Chí Minh và sau đó là DWM.</p>"
+        },
+        {
+            "name": "Võ Đình Thanh",
+            "position": "Creative Team Leader",
+            "image": "/themes/plun2/resources/html/images/parallax/thanh.jpg",
+            "discrip_en": "<p>Lead Designer of DWM’s web platforms, Thanh graduated from the University of Science before working for Sutrixmedia. Prior to DWM, Thanh was Web Designer at FPT Online for 4 years.</p>",
+            "discrip_vi": "<p>Là người thiết kế chính cho mảng web của DWM, Thanh tốt nghiệp Đại học khoa học tự nhiên sau đó làm việc cho Sutrixmedia. Trước khi tham gia DWM, Thanh là Web Designer tại công ty Cty Cổ Phần FPT Online trong 4 năm.</p>"
+        },
+        {
+            "name": "Nguyễn Thế Bảo",
+            "position": "Web & Graphic Designer",
+            "image": "/themes/plun2/resources/html/images/parallax/bao.jpg",
+            "discrip_en": "<p>Bao graduated from Arena Multimedia in Multimedia Arts. Prior to joining DWM in 2012 Bao worked as a freelancer.</p>",
+            "discrip_vi": "<p>Tốt nghiệp Arena Multimedia ngành Mỹ thuật Đa Phương tiện.  Trước khi tham gia DWM năm 2012 Bảo từng làm freelance ở nhiều công ty khác nhau.</p>"
+        },        
+        {
+            "name": "Trương hoàng điển",
+            "position": "HTML Develover",
+            "image": "/themes/plun2/resources/html/images/parallax/dien.jpg",
+            "discrip_en": "<p>After his graduation from Saigon University, Dien worked a HTML Developer at Quynh Minh before joining FPT in the role of Web Designer. His expertise includes CSS, JavaScript and jQuery development.</p>",
+            "discrip_vi": "<p>Sau khi tốt nghiệp tại trường Đại Học Sài Gòn, Điển từng làm việc tại tại công ty Quỳnh Minh ở vị trí HTML Developer và sau đó FPT với vị trí Web Designer. Các chuyên môn khác của Điển là phát triển CSS, JavaScript and jQuery.</p>"
+        },
+        {
+            "name": "Nguyễn Trung trực",
+            "position": "Tester",
+            "image": "/themes/plun2/resources/html/images/parallax/truc.jpg",
+            "discrip_en": "<p>After his graduation from Information Technology College Ho Chi Minh City, Truc worked as IT Support for Shopping 24h for a year before joining DWM in 2012</p>",
+            "discrip_vi": "<p>Sau khi tốt nghiệp Cao Đẳng Công Nghệ Thông Tin, Trực đã có một thời gian làm IT support cho Shopping 24h kéo dài 1 năm. Gia nhập vào công ty DWM vào cuối năm 2012.</p>"
+        },
+        {
+            "name": "Phạm ngọc ngân",
+            "position": "Office Manager",
+            "image": "/themes/plun2/resources/html/images/parallax/ngan.jpg",
+            "discrip_en": "<p>Ngan graduated from Saigon University with 3 years of experience in office operation. Prior to joining DWM Ngan helped to operate BDO office for 2 years.</p>",
+            "discrip_vi": "<p>Ngân tốt nghiệp tại Đại Học Sài Gòn cùng với 3 năm kinh nghiệm ở lĩnh vực quản trị văn phòng và có một kiến thức nền tảng rộng. Trước khi về làm việc cho DWM, Ngân là quản lý văn phòng tại BDO trong 2 năm.</p>"
+        },
+        {
+            "name": "Trần Ngọc Ánh",
+            "position": "General Accountant",
+            "image": "/themes/plun2/resources/html/images/parallax/anh.jpg",
+            "discrip_en": "<p>After her graduation from Ho Chi Minh City Pedagogical University and University of Economy majored in Finance & Accounting in 2004, Anh worked as an accountant for Lien Phuong and Viet Thang Jean before moving to Tan Viet Tien, a flowers exporter as its Da Lat Branch Manager. She returned to Ho Chi Minh City in 2010 to work for An Phat Dat before joining DWM in 2014.</p>",
+            "discrip_vi": "<p>Sau khi tốt nghiệp Đại học Sư Phạm và Kinh tế TP Hồ Chí Minh khoa Tài chính Kế toán 2004, Ánh là kế toán tại các công ty Xuất nhập khẩu Liên Phương, Việt Thắng Jean và Tân Việt Tiến, công ty chuyên về xuất nhập khẩu hoa với cương vị là Trưởng Chi nhánh Đà Lạt. Năm 2010, Ánh trở về thành phố Hồ Chí Minh và làm kế toán cho công ty An Phát Đạt trước khi làm việc cho DWM vào năm 2014.</p>"
+        },
+        {
+            "name": "Đoàn thị thúy oanh",
+            "position": "Administrative Assistant",
+            "image": "/themes/plun2/resources/html/images/parallax/oanh.jpg",
+            "discrip_en": "<p>Oanh graduated from Ho Chi Minh City Institute of Applied Science & Technology in Auditing & Accounting in 2010. Oanh has 3 years of experience in accounting and administrative with Nguyet Hau Home Appliances and One in Tan Huong Industrial Zone before joining DWM.</p>",
+            "discrip_vi": "<p>Oanh tốt nghiệp trường Cao đẳng Kinh tế Công Nghệ TP Hồ Chí Minh năm 2010 khoa Kế toán Kiểm toán. Oanh có 3 năm kinh nghiệm ở vị trí kế toán, hành chính tại Công ty Điện Gia dụng Nguyệt - Hậu và công ty One ở KCN Tân Hương ở vị trí kiểm hàng trước khi đến làm việc cho DWM.</p>"
+        }
+    ]
+}

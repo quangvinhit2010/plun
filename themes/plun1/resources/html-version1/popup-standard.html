@@ -1,0 +1,53 @@
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxSlider.min.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="js/inview.js"></script>
+<script type="text/javascript" src="js/popup.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/jquery.poshytip.js"></script>
+
+<link href="css/plugins.css" rel="stylesheet" type="text/css" />
+
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.ui.button.js"></script>
+<script>
+	$(function() {
+		$( ".popup-alert" ).dialog({
+			title: 'Hello',
+			width: 540,
+			buttons: [
+			 {
+			   text: "OK",
+			   click: function() {
+			  $( this ).pdialog( "close" );
+			   }
+			 },
+			 {
+			   text: "Change Email",
+			   click: function() {
+			  $( this ).pdialog( "close" );
+			   }
+			 },
+			  ],
+		});
+	});
+</script>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+
+<link href="css/jquery-plun.css" rel="stylesheet" type="text/css"/>
+
+
+<div class="popup-alert">
+  <div class="form-contain">
+    <div class="form-contain-wrap">
+      <div class="content_dialog">
+      	<div class="form-message">
+        	<p>Hello</p>
+        </div>    
+      </div>
+    </div>
+  </div>
+</div>

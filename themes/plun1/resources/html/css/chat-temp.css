@@ -1,0 +1,43 @@
+.chat-boxed {
+	-webkit-transition: right 0.2s;
+	-o-transition: right 0.2s;
+	-moz-transition: right 0.2s;
+	-ms-transition: right 0.2s;
+	transition: right 0.2s;
+}
+.chat-boxed .chat-conversation .item-wrap {
+	height: 290px;
+}
+.chat-box-area .chat-boxed-wrap {
+	width: 250px;
+}
+.chat-boxed .sprnav input[type="text"] {
+	width: 250px;
+}
+.chat-boxed .chat-conversation .item .info {
+	width: 172px;
+	overflow-x: hidden;
+}
+.chat-boxed .chat-conversation .item .info p {
+	line-height: 20px;
+}
+.emo {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background-image: url(../images/emo.png);
+	vertical-align: middle;
+	background-size: auto 100%;
+}
+.emo.smile-1 {
+	background-position: 0px 0px;
+}
+.emo.smile-2 {
+	background-position: -740px 0px;
+}
+.emo.smile-love {
+	background-position: -120px 0px;
+}
+.emo.smile-angry {
+	background-position: -680px 0px;
+}

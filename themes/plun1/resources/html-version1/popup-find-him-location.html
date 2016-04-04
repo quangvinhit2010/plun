@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<title>Plun Asia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/style-plus.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="pop-find-him" class="popup find-him-pop" style="position:static;margin:50px;">
+	<div class="pop-header">
+    	<h2>Find Him</h2>
+        <a class="btn-close" href="#" title="Close">X</a>
+    </div><!--end pop-header-->
+    <div class="pop-cont">
+    	<ul class="pop-tab">
+        	<li class="active"><a class="location-tab" href="javascript;" title=""><span>By location</span></a></li>
+            <li><a class="reference-tab" href="javascript;" title=""><span>By reference</span></a></li>
+        </ul>
+        <div class="tab-cont location-cont">
+        	<form action="#" id="location" class="frm-location" method="post">
+                <ul>
+                    <li>
+                        <label for="txt-country">Country:</label>
+                        <select id="txt-country" class="select-type-1">
+                            <option value="0">Viet Nam</option>
+                            <option value="1">Lao</option>
+                            <option value="2">Thai Lan</option>
+                            <option value="3">Viet Nam</option>
+                            <option value="4">Campuchia</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="txt-city">City:</label>
+                        <select id="txt-city" class="select-type-1">
+                            <option value="0">Ho Chi Minh</option>
+                            <option value="1">Ho Chi Minh</option>
+                            <option value="2">Ho Chi Minh</option>
+                            <option value="3">Ho Chi Minh</option>
+                            <option value="4">Ho Chi Minh</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="txt-district">District:</label>
+                        <select id="txt-district" class="select-type-2" multiple="multiple">
+                            <option value="0">Binh Chanh</option>
+                            <option value="1">Binh Tan</option>
+                            <option value="2">District 1</option>
+                            <option value="3">District 10</option>
+                            <option value="4">District 5</option>
+                            <option value="4">District 3</option>
+                            <option value="4">District 4</option>
+                            <option value="4">District 11</option>
+                            <option value="4">District 6</option>
+                            <option value="4">District 7</option>
+                            <option value="4">District 8</option>
+                            <option value="4">District 9</option>
+                            <option value="4">Can Gio</option>
+                            <option value="4">Cu Chi</option>
+                            <option value="4">Tan Phu</option>
+                            <option value="4">Binh Thanh</option>
+                            <option value="4">Go Vap</option>
+                            <option value="4">Binh Thanh</option>
+                            <option value="4">Can Gio</option>
+                        </select>
+                    </li>
+                </ul>
+                <button class="btn btn-white">Find</button>
+            </form>
+        </div>
+    	<div class="tab-cont reference-cont" style="display:none;">
+        	<form action="#" id="location" class="frm-location" method="post">
+                <ul>
+                    <li>
+                        <label for="txt-name">Email/Name:</label>
+                        <input id="txt-name" type="text" class="input-type-1" placeholder="Enter text...">
+                    </li>
+                    <li>
+                        <label>Age:</label>
+                        <input id="txt-age-from" type="text" class="input-type-2" placeholder="From">
+                        <input id="txt-age-to" type="text" class="input-type-2" placeholder="To">
+                    </li>
+                    <li>
+                        <label>Position:</label>
+                        <input type="checkbox" name="position-top" id="position-top" class="input-type-3">
+                        <span>Top</span>
+                        <input type="checkbox" name="position-bottom" id="position-bottom" class="input-type-3">
+                        <span>Bottom</span>
+                        <input type="checkbox" name="position-center" id="position-center" class="input-type-3">
+                        <span>Center</span>
+                    </li>
+                    <li>
+                        <label>Smoke:</label>
+                        <input type="checkbox" name="smoke-no" id="smoke-no" class="input-type-3">
+                        <span>No</span>
+                        <input type="checkbox" name="smoke-yes" id="smoke-yes" class="input-type-3">
+                        <span>Yes</span>
+                    </li>
+                    <li>
+                        <label>Dick size:</label>
+                        <input type="checkbox" name="sizeL" id="sizeL" class="input-type-3">
+                        <span>L</span>
+                        <input type="checkbox" name="sizeM" id="sizeM" class="input-type-3">
+                        <span>M</span>
+                        <input type="checkbox" name="sizeS" id="sizeS" class="input-type-3">
+                        <span>S</span>
+                    </li>
+                    <li>
+                        <label>Weight:</label>
+                        <input id="weight-from" type="text" class="input-type-2" placeholder="From">
+                        <select id="txt-weight-from" class="select-type-3">
+                            <option value="0">kg</option>
+                            <option value="1">pound</option>
+                        </select>
+                        <input id="weight-to" type="text" class="input-type-2" placeholder="To">
+                        <select id="txt-weight-to" class="select-type-4">
+                            <option value="0">kg</option>
+                            <option value="1">pound</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label>Height:</label>
+                        <input id="height-from" type="text" class="input-type-2" placeholder="From">
+                        <select id="txt-height-from" class="select-type-3">
+                            <option value="0">cm</option>
+                            <option value="1">m</option>
+                        </select>
+                        <input id="height-to" type="text" class="input-type-2" placeholder="To">
+                        <select id="txt-height-to" class="select-type-4">
+                            <option value="0">cm</option>
+                            <option value="1">m</option>
+                        </select>
+                    </li>
+                    <li>
+                    	<label>Body:</label>
+                         <select id="txt-body" class="select-type-5">
+                         	<option value="0">abc</option>
+                            <option value="1">xyz</option>
+                         </select>
+                    </li>
+                    <li>
+                    	<label>Safe sex:</label>
+                         <select id="txt-safe-sex" class="select-type-5">
+                         	<option value="0">abc</option>
+                            <option value="1">xyz</option>
+                         </select>
+                    </li>
+                    <li>
+                    	<label>Ethnics:</label>
+                         <select id="txt-ethnics" class="select-type-5">
+                         	<option value="0">abc</option>
+                            <option value="1">xyz</option>
+                         </select>
+                    </li>
+                    <li>
+                    	<label>Hobbies:</label>
+                        <div class="input-type-4">
+                        	<a href="#" title="">Travel<span>X</span></a>
+                            <a href="#" title="">Swimming<span>X</span></a>
+                            <a href="#" title="">Reading<span>X</span></a>
+                        </div>
+                    </li>
+                </ul>
+                <button class="btn btn-white">Find</button>
+             </form>
+        </div>
+    </div><!--end pop-cont-->
+</div>
+<!-- Pop up : Find Him -->
+</body>
+</html>

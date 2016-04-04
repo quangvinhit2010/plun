@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<title>Plun Asia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<link href="css/plugins.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/style-plus.css" rel="stylesheet" type="text/css" />
+<link href="css/style-plus-more.css" rel="stylesheet" type="text/css" />
+<link href="css/bg_html.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/demoStyleSheet.css" />
+
+<!--[if lt IE 9]>
+<link href="css/ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print"/>
+<script type="text/javascript" src="js/jquery.js"></script>	
+
+
+<script type="text/javascript" src="js/fadeSlideShow.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>	
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxSlider.min.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="js/inview.js"></script>
+<script type="text/javascript" src="js/popup.js"></script>
+
+
+<link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/supersized.shutter.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+<script type="text/javascript" src="js/supersized.shutter.min.js"></script>
+<script type="text/javascript">
+    
+    jQuery(function($){
+		
+		//$("#supersized").css('width',$(window).width() - 400);
+		//$("#supersized li").css('width',$(window).width() - 400);
+		//$(".col-right-hotnew .pint-style").css("position","absolute");
+        
+        $.supersized({
+        
+            // Functionality
+            slideshow               :   1,			// Slideshow on/off
+            autoplay				:	0,			// Slideshow starts playing automatically
+            start_slide             :   1,			// Start slide (0 is random)
+            stop_loop				:	0,			// Pauses slideshow on last slide
+            random					: 	0,			// Randomize slide order (Ignores start slide)
+            slide_interval          :   3000,		// Length between transitions
+            transition              :   6, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+            transition_speed		:	1000,		// Speed of transition
+            new_window				:	1,			// Image links open in new window/tab
+            pause_hover             :   0,			// Pause slideshow on hover
+            keyboard_nav            :   1,			// Keyboard navigation on/off
+            performance				:	1,			// 0-Normal, 1-Hybrid speed/quality, 2-Optimizes image quality, 3-Optimizes transition speed // (Only works for Firefox/IE, not Webkit)
+            image_protect			:	0,			// Disables image dragging and right click with Javascript
+                                                       
+            // Size & Position						   
+            min_width		        :   0,			// Min width allowed (in pixels)
+            min_height		        :   0,			// Min height allowed (in pixels)
+            vertical_center         :   1,			// Vertically center background
+            horizontal_center       :   1,			// Horizontally center background
+            fit_always				:	0,			// Image will never exceed browser width or height (Ignores min. dimensions)
+            fit_portrait         	:   1,			// Portrait images will not exceed browser height
+            fit_landscape			:   0,			// Landscape images will not exceed browser width
+                                                       
+            // Components							
+            slide_links				:	'blank',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
+            thumb_links				:	0,			// Individual thumb links for each slide
+            thumbnail_navigation    :   0,			// Thumbnail navigation
+            slides 					:  	[			// Slideshow Images
+											{image : 'images/home-photo.png', title : 'Image Credit: Maria Kazvan', thumb : 'images/home-photo.png'},
+											 {image : 'http://plun.asia/uploads/hotbox/2013/11/15/origin/behind-the-lens-kam.jpg', title : 'Image Credit: Maria Kazvan', thumb : 'http://plun.asia/uploads/hotbox/2013/11/15/origin/behind-the-lens-kam.jpg'},
+											{image : 'images/11_sdbw.jpg', title : 'Image Credit: Maria Kazvan', thumb : 'images/11_sdbw.jpg'},
+											{image : 'images/pics_799.jpg', title : 'Image Credit: Maria Kazvan', thumb : 'images/pics_799.jpg'},
+											 {image : 'http://plun.asia/uploads/hotbox/2013/11/15/origin/behind-the-lens-kam.jpg', title : 'Image Credit: Maria Kazvan', thumb : 'http://plun.asia/uploads/hotbox/2013/11/15/origin/behind-the-lens-kam.jpg'},
+											{image : 'images/home-photo.png', title : 'Image Credit: Maria Kazvan', thumb : 'images/home-photo.png'},
+											 {image : 'http://plun.asia/uploads/hotbox/2013/11/15/origin/behind-the-lens-kam.jpg', title : 'Image Credit: Maria Kazvan', thumb : 'http://plun.asia/uploads/hotbox/2013/11/15/origin/behind-the-lens-kam.jpg'},
+											{image : 'http://plun.asia/uploads/hotbox/2013/11/15/origin/gtanriover-682x1024.jpg', title : 'Image Credit: Maria Kazvan', thumb : 'http://plun.asia/uploads/hotbox/2013/11/15/origin/gtanriover-682x1024.jpg'},											
+											{image : 'images/attitude-01-final-27_ayyu.jpg', title : 'Image Credit: Maria Kazvan', thumb : 'images/attitude-01-final-27_ayyu.jpg'}
+											
+                                        ],
+                                        
+            // Theme Options			   
+            progress_bar			:	1,			// Timer for each slide							
+            mouse_scrub				:	0
+            
+        });
+    });
+    
+</script>
+
+<script type="text/javascript" src="js/common.js"></script>
+
+
+
+</head>
+<body>
+	<div class="plun">
+		<div class="wrapper">
+			<div class="header">
+				<div class="logo">
+					<a href="#" title=""></a>
+				</div>
+				<!-- logo -->
+				<div class="navigation">
+					<ul>
+						<li class="current">
+							<a href="#" title="">Who's Here</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="#" title="">HOT BOX</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="#" title="">ISU</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="#" title="">Talk That Talk</a>
+							<span class="line"></span>
+						</li>
+					</ul>
+				</div>
+				<!-- page navigation -->
+				<div class="navigation-sec">
+					<div class="navblock nav-country">
+						<span class="line"></span>
+						<a href="#" class="btn-country" data-toggle="dropdown"><i class="imed flag-fr"></i><span class="text">France</span><i class="imed imed-arrow-wd"></i></a>
+						<div class="spr-submenu">
+							<ul>
+								<li><a href="#"><i class="imed flag-fr"></i><span class="text">France</span></a></li>
+								<li><a href="#"><i class="imed flag-eng"></i><span class="text">English</span></a></li>
+								<li><a href="#"><i class="imed flag-vn"></i><span class="text">VN</span></a></li>
+							</ul>
+						</div>
+						<!-- submenu -->
+					</div>
+					<!-- sub nav -->
+					<div class="navblock nav-username">
+						<span class="line"></span>
+						<a href="#"><img src="css/images/img-ava-32.jpg" alt="" border=""/><span class="username">Ryan.vo</span></a>
+					</div>
+					<!-- sub nav: username -->
+					<div class="navblock nav-setting">
+						<span class="line"></span>
+						<a href="#" data-toggle="dropdown" data-target="#"><i class="i18 i18-setting"></i></a>
+						<div class="setting-bot">
+							<span class="arrow"><i></i></span>
+							<div class="setting-bot-board">
+								<ul>
+									<li>
+										<a href="#">
+											<i class="i18 i18-message"></i>
+											<span class="inline-text">Message</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="i18 i18-friend"></i>
+											<span class="inline-text">Friends</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="i18 i18-alert"></i>
+											<span class="inline-text">Alerts</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="i18 i18-account"></i>
+											<span class="inline-text">Account Settings</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="i18 i18-help"></i>
+											<span class="inline-text">Help</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="i18 i18-logout"></i>
+											<span class="inline-text">Log Out</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- sub nav: setting -->
+				</div>
+				<!-- second navigation -->
+			</div>
+			<!-- header but display at bottom -->
+			<div class="col-nav">
+				<div class="user">
+					<div href="#" title="" class="photo">
+						<div class="photo-wrap">
+							<img src="css/images/img-photo-150.jpg" alt="" border=""/>
+							<a href="#" class="btn-edit">Edit Photo</a>
+						</div>
+					</div>
+					<!-- user photo -->
+					<div class="info">
+						<h2 class="name">Ryan.vo</h2>
+						<div class="buttons">
+							<button class="btn btn-violet btn-navpost"><i class="imed imed-pencil"></i><span class="inline-text">Post Status</span></button>
+							<div class="pop-status">
+								<div class="border">
+									<div class="wrap">
+										<span class="arrow"></span>
+										<a href="#" class="btn-close"></a>
+										<form method="">
+											<div class="input-wrap">
+												<textarea rows="6" cols="43" placeholder="Write something....."></textarea>
+											</div>
+											<div class="input-foot">
+												<span class="chars">
+													0/500
+												</span>
+												<div class="btn-wrap">
+													<button class="btn">Post</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+							<!-- Status post -->
+						</div>
+						<div class="menu">
+							<ul>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="" class="active">
+										<i class="imed imed-message" title=""></i>
+										<span class="text">Message</span>
+										<span class="count">25</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-alert" title=""></i>
+										<span class="text">Alerts</span>
+									</a>
+								</li>
+                                <li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-bookmark" title=""></i>
+										<span class="text">Bookmark</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-friend" title=""></i>
+										<span class="text">Friends</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-candy" title=""></i>
+										<span class="text">Candy</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-setting" title=""></i>
+										<span class="text">Setting</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-signout" title=""></i>
+										<span class="text">Sign Out</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- user menu -->
+					</div>
+				</div>
+				<!-- user -->
+			</div>
+            
+            
+			<!-- navigation column -->
+			<div class="main clearfix">
+				<div class="col-feed col-left">
+					<div class="block news-feed hotbox_detail">
+                    	<a href="#" class="btn-del-hotbox"></a>
+						<div class="detail_hotbox">
+							<h2>Bang New Jersey chính thức công nhận hôn nhân đồng giới</h2>
+                            <div class="date_location"><b>Location:</b> Hanoi, Vietnam  I  <b>Date:</b> 20/9/2013  </div>
+                            <div class="public_hotbox">Bài viết của bạn sẽ hiển thị sau khi được BQT duyệt</div>
+                            <div class="post_by">
+                            	<a class="avatar_post" href="#"><img align="absmiddle" src="images/avatar.jpg"></a> By: <b>Ryan.Vo</b> <span>| 15 minutes ago</span>
+                                <div class="pos_reply_forward">
+                                    <ul>
+                                        <li class="edit"><a href="#">Edit</a></li>
+                                        <li class="delete"><a href="#">Delete</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="content">
+                            	<p>Bang New Jersey đã chính thức trở thành bang thứ 14 của nước Mỹ chấp nhận hôn đồng giới vào ngày 21.10 vừa qua.</p>
+                                <div class="zoom_pics">
+                                	<a href="#"><img src="images/Hotbox_detail_600.jpg" align="absmiddle"></a>
+                                    <div class="mask_pics">
+                                    	<span>
+                                        	<a href="#"><label>View gallery</label></a>                                            
+                                        </span>                                    	
+                                    </div>
+                                </div>
+
+                                <p>GayNewJerseyAbstr</p>
+                                
+                               <p>new-jersey-sealToà án Tối cao New Jersey đã ra phán quyết hôm thứ sáu tuần trước rằng: hôn nhân đồng giới có thể được chấp thuận tại tiểu bang từ thứ 2 (21.10), bác bỏ yêu cầu của Thống đốc bang Chris Christie. Theo đó ông đề nghị hoãn hợp pháp hoá hôn nhân đồng tính trong khi chờ kháng nghị từ phía trên. Với quyết định này, New Jersey đã chính thức trở thành bang thứ 14 tại Mỹ cho phép hôn nhân đồng giới!</p>
+                                
+                                <p>Đây là một chiến thắng lớn cho các nhóm hoạt động vì cộng đồng người đồng tính, nơi mà chỉ mới tháng trước vừa ăn mừng quyết định của thẩm phán quận Mercer thông qua việc các cặp đồng tính nhất định phải được hưởng các quyền bình đẳng như các cặp hôn nhân khác, trong quyết định của Toà án Tối cao Hoa Kỳ nhằm chấm dứt Bộ luật bảo vệ Hôn nhân (Defense of Marriage Act – viết tắt là DOMA)</p>
+                                
+                                <p>Thống đốc Christie đã yêu cầu Toà án Tối cao New Jersey “đóng băng” các phán quyết của Quận Mercer cho đến khi Toà nhận được kháng nghị từ Nhà nước vào tháng Một để đưa ra quyết định cuối cùng. Tuy nhiên Toà cho biết Nhà nước đã “không thể hiện một xác suất thành công hợp lý cho trường hợp này”.</p>
+                                
+                                <p>“Sự quan tâm của công chúng trong trường hợp này là gì?” Toà án Tối cao đọc. “Cũng giống như Thẩm phán Jacobson (ở Quận Mercer), chúng ta có thể không tìm thấy bất kỳ lợi ích cộng đồng nào qua việc lấy đi quyền bình đẳng của một nhóm cư dân New Jersey khi các quá trình kháng nghị bắt đầu.”</p>
+                                
+                                <p>NJ-Same-sex-Marriage</p>
+                                
+                                <p>Tất cả 7 thẩm phán đã tham gia cho ý kiến, mạnh mẽ đề nghị rằng họ đã chuẩn bị để chấp nhận hôn nhân đồng giới vĩnh viễn từ tháng Một. Các cuộc thăm dò gần đây cho thấy khoảng 60% cư dân New Jersey tin rằng hôn nhân đồng giới cần được hợp pháp hoá trong tiểu bang. Tuy nhiên, Christie, một thành viên Cộng Hoà, đã nói rằng ông ấy ủng hộ ý tưởng kết hợp dân sự, thêm rằng bất kỳ việc hôn nhân (đồng tính) nào cũng nên được quyết định thông qua trưng cầu dân ý, thay vì ở các toà án. Ý tưởng về cuộc trưng cầu này thu hút sự quan tâm trong năm rồi, với 55% dân chúng New Jersey ủng hộ.</p>
+                                
+                                <p>Sự kết thúc của DOMA tạo một lợi thế pháp lý, theo Hayley Gorenberg, một luật sư làm việc với Hãng luật Lambda, nơi đại diện cho các nguyên đơn (các cặp đôi đồng tính) trong các trường hợp gần đây ở Toà án Tối cao: “Nó không phải tới khi Toà án Tối cao Hoa Kỳ chấm dứt (DOMA) để kéo sập các rào cản lợi ích bình đẳng cho các cặp đồng tính, mà bởi vì New Jersey đang không cho phép những con người này cưới nhau, những cặp (đồng tính) này không có sự công bằng”.</p>
+                                                                
+                                <p>Văn phòng của Thống đốc Christie cho biết thống đốc không đồng ý với phán quyết của Tòa án Tối cao nhưng sẽ tuân thủ nó.</p>
+                            </div>
+                            
+                            <div class="share_box">
+                            	Share <input name="" type="text" value="http://www.plun.asia/hotbox/load/17">
+                            </div>
+                            
+                            <div class="comment_hb_detail">
+                            	<div class="title_cm">
+                                	<div class="nav_left">							
+                                        <ul>
+                                            <li>
+                                                <a><i class="ismall ismall-like"></i><span class="inline-text">365</span></a>
+                                            </li>
+                                            <li>
+                                                <a><i class="ismall ismall-comment"></i><span class="inline-text">12</span></a>
+                                            </li>
+                                            <li>
+                                                <a rel="" href="javascript:void(0);" class="like_comment"><span class="inline-text">Unlike</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:void(0);" class="btn-comment"><span class="inline-text">Comment</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="nav_right">
+                                    	<a href="#">View previous comments</a>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                	<ul>
+                                    	<li>
+                                        	<a href="#" title="Delete" class="del_comment"></a>
+                                            <a class="avatar" href="#"><img src="css/images/img-ava-small.jpg" align="absmiddle"></a>
+                                            <div class="list_comment_hb">
+                                            	<p class="user"><a href="#">Ryan.nguyen</a></p>                                                
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                                <p class="time">
+                                                	11 hours ago
+                                                    <a class="like_comment" rel=""><i class="ismall ismall-like"></i>12</a>
+                                                    <a class="like_comment" href="javascript:void(0);" rel=""><span>Unlike</span></a>
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                        	<a href="#" title="Delete" class="del_comment"></a>
+                                        	<a class="avatar" href="#"><img src="css/images/img-ava-small.jpg" align="absmiddle"></a>
+                                            <div class="list_comment_hb">
+                                            	<p class="user"><a href="#">Ryan.nguyen</a></p>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                                <p class="time">
+                                                	11 hours ago
+                                                    <a class="like_comment" href="javascript:void(0);" rel=""><i class="ismall ismall-like"></i><span class="inline-text">Like (0)</span></a>
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                        	<a href="#" title="Delete" class="del_comment"></a>
+                                        	<a class="avatar" href="#"><img src="css/images/img-ava-small.jpg" align="absmiddle"></a>
+                                            <div class="list_comment_hb">
+                                            	<p class="user"><a href="#">Ryan.nguyen</a></p>
+                                                <p>Lorem :)</p>
+                                                <p class="time">
+                                                	2 days ago
+                                                    <a class="like_comment" href="javascript:void(0);" rel=""><i class="ismall ismall-like"></i><span class="inline-text">Like (10,348)</span></a>
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="message-input">
+                                        <form method="post" action="" id="replymsg-form">
+                                          <div class="textarea-wrap">
+                                            <textarea placeholder="Write a reply..." class="replyMsg" name="body"></textarea>
+                                          </div>
+                                        </form>
+                                    </div>
+                                </div>                                
+                            </div>
+						</div>						
+					</div>
+                    
+                    <div class="popup_hotbox">
+            		<div class="gallery_hotbox left">
+                	<a class="gallery_close" href="javascript:void(0);"><i></i></a>
+                    
+                    <!--<div id="slideshowWrapper">
+                        <ul id="slideshow">
+                        	<li style="text-align:center;"><img src="images/pics_799.jpg" align="absmiddle"></li>
+                        	<li style="text-align:center;"><img src="images/home-photo.png" align="absmiddle"></li>
+                            <li style="text-align:center;"><img src="images/Photo_200_2.jpg" align="absmiddle"></li>
+                        </ul>
+                    </div>-->
+                    
+                    
+                    <a id="prevslide" class="load-item"></a>
+                    <a id="nextslide" class="load-item"></a>
+                    
+                    <div id="thumb-tray" class="load-item">
+                        <div id="thumb-back"></div>
+                        <div id="thumb-forward"></div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="w400 detail_hotbox_400 right">
+                	<div class="wrap_detail">
+                		<h2>Bang New Jersey chính thức công nhận hôn nhân đồng giới</h2>
+                    	<div class="date_location"><b>Location:</b> Hanoi, Vietnam  I  <b>Date:</b> 20/9/2013  </div>
+                    	<div class="content">
+                        <p>Bang New Jersey đã chính thức trở thành bang thứ 14 của nước Mỹ chấp nhận hôn đồng giới vào ngày 21.10 vừa qua.</p>
+                        <p>GayNewJerseyAbstr</p>
+                        
+                        <p>new-jersey-sealToà án Tối cao New Jersey đã ra phán quyết hôm thứ sáu tuần trước rằng: hôn nhân đồng giới có thể được chấp thuận tại tiểu bang từ thứ 2 (21.10), bác bỏ yêu cầu của Thống đốc bang Chris Christie. Theo đó ông đề nghị hoãn hợp pháp hoá hôn nhân đồng tính trong khi chờ kháng nghị từ phía trên. Với quyết định này, New Jersey đã chính thức trở thành bang thứ 14 tại Mỹ cho phép hôn nhân đồng giới!</p>
+                        
+                        <p>Đây là một chiến thắng lớn cho các nhóm hoạt động vì cộng đồng người đồng tính, nơi mà chỉ mới tháng trước vừa ăn mừng quyết định của thẩm phán quận Mercer thông qua việc các cặp đồng tính nhất định phải được hưởng các quyền bình đẳng như các cặp hôn nhân khác, trong quyết định của Toà án Tối cao Hoa Kỳ nhằm chấm dứt Bộ luật bảo vệ Hôn nhân (Defense of Marriage Act – viết tắt là DOMA)</p>
+                        
+                        <p>Thống đốc Christie đã yêu cầu Toà án Tối cao New Jersey “đóng băng” các phán quyết của Quận Mercer cho đến khi Toà nhận được kháng nghị từ Nhà nước vào tháng Một để đưa ra quyết định cuối cùng. Tuy nhiên Toà cho biết Nhà nước đã “không thể hiện một xác suất thành công hợp lý cho trường hợp này”.</p>
+                        
+                        <p>“Sự quan tâm của công chúng trong trường hợp này là gì?” Toà án Tối cao đọc. “Cũng giống như Thẩm phán Jacobson (ở Quận Mercer), chúng ta có thể không tìm thấy bất kỳ lợi ích cộng đồng nào qua việc lấy đi quyền bình đẳng của một nhóm cư dân New Jersey khi các quá trình kháng nghị bắt đầu.”</p>
+                        
+                        <p>NJ-Same-sex-Marriage</p>
+                        
+                        <p>Tất cả 7 thẩm phán đã tham gia cho ý kiến, mạnh mẽ đề nghị rằng họ đã chuẩn bị để chấp nhận hôn nhân đồng giới vĩnh viễn từ tháng Một. Các cuộc thăm dò gần đây cho thấy khoảng 60% cư dân New Jersey tin rằng hôn nhân đồng giới cần được hợp pháp hoá trong tiểu bang. Tuy nhiên, Christie, một thành viên Cộng Hoà, đã nói rằng ông ấy ủng hộ ý tưởng kết hợp dân sự, thêm rằng bất kỳ việc hôn nhân (đồng tính) nào cũng nên được quyết định thông qua trưng cầu dân ý, thay vì ở các toà án. Ý tưởng về cuộc trưng cầu này thu hút sự quan tâm trong năm rồi, với 55% dân chúng New Jersey ủng hộ.</p>
+                        
+                        <p>Sự kết thúc của DOMA tạo một lợi thế pháp lý, theo Hayley Gorenberg, một luật sư làm việc với Hãng luật Lambda, nơi đại diện cho các nguyên đơn (các cặp đôi đồng tính) trong các trường hợp gần đây ở Toà án Tối cao: “Nó không phải tới khi Toà án Tối cao Hoa Kỳ chấm dứt (DOMA) để kéo sập các rào cản lợi ích bình đẳng cho các cặp đồng tính, mà bởi vì New Jersey đang không cho phép những con người này cưới nhau, những cặp (đồng tính) này không có sự công bằng”.</p>
+                        
+                        <p>Văn phòng của Thống đốc Christie cho biết thống đốc không đồng ý với phán quyết của Tòa án Tối cao nhưng sẽ tuân thủ nó.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+					<!-- news feed -->
+				</div>
+				<!-- left column -->
+				<div class="col-right col-right-hotnew">
+					<div class="pint-style hotbox-new">
+						<ul class="list">
+                        	<li class="item">
+								<span class="hotbox-ico"><i class="i36 i36-event"></i></span>
+								<div class="photo clearfix">
+									<ul>
+										<li><a href="#" title=""><img src="images/Hotbox_1.jpg" alt="" border=""/></a></li>
+									</ul>
+								</div>
+								<div class="headtitle">
+									<a href="#">Lorem ipsum dolor sit amet, consec te tuer adipiscing elit</a>
+								</div>
+								<div class="cont">
+									<div class="social">
+										<ul>
+											<li>
+												<a href="#"><i class="ismall ismall-like"></i><span class="inline-text">Like <b>(0)</b></span></a>
+											</li>
+											<li>
+												<a href="#"><i class="ismall ismall-comment"></i><span class="inline-text">Comment <b>(0)</b></span></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="author">
+									<a href="#" title="" class="ava"><img src="css/images/img-ava-small.jpg" alt="" border=""/></a>
+									<div class="info">
+										<p class="name">By: <span>Ryan.vo</span></p>
+										<span class="date">30/12/2013</span>
+									</div>
+								</div>
+							</li>
+                            <li class="item">
+								<span class="hotbox-ico"><i class="i36 i36-photo"></i></span>
+								<div class="photo clearfix">
+									<ul>
+										<li><a href="#" title=""><img src="images/Hotbox_2.jpg" alt="" border=""/></a></li>
+									</ul>
+								</div>
+								<div class="headtitle">
+									<a href="#">Lorem ipsum dolor sit amet, consec te tuer adipiscing elit</a>
+								</div>
+								<div class="cont">
+									<div class="social">
+										<ul>
+											<li>
+												<a href="#"><i class="ismall ismall-like"></i><span class="inline-text">Like <b>(0)</b></span></a>
+											</li>
+											<li>
+												<a href="#"><i class="ismall ismall-share"></i><span class="inline-text">Share <b>(0)</b></span></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="author">
+									<a href="#" title="" class="ava"><img src="css/images/img-ava-small.jpg" alt="" border=""/></a>
+									<div class="info">
+										<p class="name">By: <span>Ryan.vo</span></p>
+										<span class="date">30/12/2013</span>
+									</div>
+								</div>
+							</li>
+                            <li class="item">
+								<span class="hotbox-ico"><i class="i36 i36-photo"></i></span>
+								<div class="photo clearfix">
+									<ul>
+										<li><a href="#" title=""><img src="images/Hotbox_3.jpg" alt="" border=""/></a></li>
+									</ul>
+								</div>
+								<div class="headtitle">
+									<a href="#">Lorem ipsum dolor sit amet, consec te tuer adipiscing elit</a>
+								</div>
+								<div class="cont">
+									<div class="social">
+										<ul>
+											<li>
+												<a href="#"><i class="ismall ismall-like"></i><span class="inline-text">Like <b>(0)</b></span></a>
+											</li>
+											<li>
+												<a href="#"><i class="ismall ismall-share"></i><span class="inline-text">Share <b>(0)</b></span></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="author">
+									<a href="#" title="" class="ava"><img src="css/images/img-ava-small.jpg" alt="" border=""/></a>
+									<div class="info">
+										<p class="name">By: <span>Ryan.vo</span></p>
+										<span class="date">30/12/2013</span>
+									</div>
+								</div>
+							</li>
+                            <li class="item">
+								<span class="hotbox-ico"><i class="i36 i36-event"></i></span>
+								<div class="photo clearfix">
+									<ul>
+										<li><a href="#" title=""><img src="images/Hotbox_1.jpg" alt="" border=""/></a></li>
+									</ul>
+								</div>
+								<div class="headtitle">
+									<a href="#">Lorem ipsum dolor sit amet, consec te tuer adipiscing elit</a>
+								</div>
+								<div class="cont">
+									<div class="social">
+										<ul>
+											<li>
+												<a href="#"><i class="ismall ismall-like"></i><span class="inline-text">Like <b>(0)</b></span></a>
+											</li>
+											<li>
+												<a href="#"><i class="ismall ismall-comment"></i><span class="inline-text">Comment <b>(0)</b></span></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="author">
+									<a href="#" title="" class="ava"><img src="css/images/img-ava-small.jpg" alt="" border=""/></a>
+									<div class="info">
+										<p class="name">By: <span>Ryan.vo</span></p>
+										<span class="date">30/12/2013</span>
+									</div>
+								</div>
+							</li>
+                            <li class="item">
+								<span class="hotbox-ico"><i class="i36 i36-event"></i></span>
+								<div class="photo clearfix">
+									<ul>
+										<li><a href="#" title=""><img src="images/Hotbox_1.jpg" alt="" border=""/></a></li>
+									</ul>
+								</div>
+								<div class="headtitle">
+									<a href="#">Lorem ipsum dolor sit amet, consec te tuer adipiscing elit</a>
+								</div>
+								<div class="cont">
+									<div class="social">
+										<ul>
+											<li>
+												<a href="#"><i class="ismall ismall-like"></i><span class="inline-text">Like <b>(0)</b></span></a>
+											</li>
+											<li>
+												<a href="#"><i class="ismall ismall-comment"></i><span class="inline-text">Comment <b>(0)</b></span></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="author">
+									<a href="#" title="" class="ava"><img src="css/images/img-ava-small.jpg" alt="" border=""/></a>
+									<div class="info">
+										<p class="name">By: <span>Ryan.vo</span></p>
+										<span class="date">30/12/2013</span>
+									</div>
+								</div>
+							</li>
+                            <li class="item">
+								<span class="hotbox-ico"><i class="i36 i36-photo"></i></span>
+								<div class="photo clearfix">
+									<ul>
+										<li><a href="#" title=""><img src="images/Hotbox_2.jpg" alt="" border=""/></a></li>
+									</ul>
+								</div>
+								<div class="headtitle">
+									<a href="#">Lorem ipsum dolor sit amet, consec te tuer adipiscing elit</a>
+								</div>
+								<div class="cont">
+									<div class="social">
+										<ul>
+											<li>
+												<a href="#"><i class="ismall ismall-like"></i><span class="inline-text">Like <b>(0)</b></span></a>
+											</li>
+											<li>
+												<a href="#"><i class="ismall ismall-share"></i><span class="inline-text">Share <b>(0)</b></span></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="author">
+									<a href="#" title="" class="ava"><img src="css/images/img-ava-small.jpg" alt="" border=""/></a>
+									<div class="info">
+										<p class="name">By: <span>Ryan.vo</span></p>
+										<span class="date">30/12/2013</span>
+									</div>
+								</div>
+							</li>
+                            <li class="item">
+								<span class="hotbox-ico"><i class="i36 i36-photo"></i></span>
+								<div class="photo clearfix">
+									<ul>
+										<li><a href="#" title=""><img src="images/Hotbox_3.jpg" alt="" border=""/></a></li>
+									</ul>
+								</div>
+								<div class="headtitle">
+									<a href="#">Lorem ipsum dolor sit amet, consec te tuer adipiscing elit</a>
+								</div>
+								<div class="cont">
+									<div class="social">
+										<ul>
+											<li>
+												<a href="#"><i class="ismall ismall-like"></i><span class="inline-text">Like <b>(0)</b></span></a>
+											</li>
+											<li>
+												<a href="#"><i class="ismall ismall-share"></i><span class="inline-text">Share <b>(0)</b></span></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="author">
+									<a href="#" title="" class="ava"><img src="css/images/img-ava-small.jpg" alt="" border=""/></a>
+									<div class="info">
+										<p class="name">By: <span>Ryan.vo</span></p>
+										<span class="date">30/12/2013</span>
+									</div>
+								</div>
+							</li>
+                            <li class="item">
+								<span class="hotbox-ico"><i class="i36 i36-event"></i></span>
+								<div class="photo clearfix">
+									<ul>
+										<li><a href="#" title=""><img src="images/Hotbox_1.jpg" alt="" border=""/></a></li>
+									</ul>
+								</div>
+								<div class="headtitle">
+									<a href="#">Lorem ipsum dolor sit amet, consec te tuer adipiscing elit</a>
+								</div>
+								<div class="cont">
+									<div class="social">
+										<ul>
+											<li>
+												<a href="#"><i class="ismall ismall-like"></i><span class="inline-text">Like <b>(0)</b></span></a>
+											</li>
+											<li>
+												<a href="#"><i class="ismall ismall-comment"></i><span class="inline-text">Comment <b>(0)</b></span></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="author">
+									<a href="#" title="" class="ava"><img src="css/images/img-ava-small.jpg" alt="" border=""/></a>
+									<div class="info">
+										<p class="name">By: <span>Ryan.vo</span></p>
+										<span class="date">30/12/2013</span>
+									</div>
+								</div>
+							</li>
+                            <li class="item">
+								<span class="hotbox-ico"><i class="i36 i36-photo"></i></span>
+								<div class="photo clearfix">
+									<ul>
+										<li><a href="#" title=""><img src="images/Hotbox_2.jpg" alt="" border=""/></a></li>
+									</ul>
+								</div>
+								<div class="headtitle">
+									<a href="#">Lorem ipsum dolor sit amet, consec te tuer adipiscing elit</a>
+								</div>
+								<div class="cont">
+									<div class="social">
+										<ul>
+											<li>
+												<a href="#"><i class="ismall ismall-like"></i><span class="inline-text">Like <b>(0)</b></span></a>
+											</li>
+											<li>
+												<a href="#"><i class="ismall ismall-share"></i><span class="inline-text">Share <b>(0)</b></span></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="author">
+									<a href="#" title="" class="ava"><img src="css/images/img-ava-small.jpg" alt="" border=""/></a>
+									<div class="info">
+										<p class="name">By: <span>Ryan.vo</span></p>
+										<span class="date">30/12/2013</span>
+									</div>
+								</div>
+							</li>
+                            <li class="item">
+								<span class="hotbox-ico"><i class="i36 i36-photo"></i></span>
+								<div class="photo clearfix">
+									<ul>
+										<li><a href="#" title=""><img src="images/Hotbox_3.jpg" alt="" border=""/></a></li>
+									</ul>
+								</div>
+								<div class="headtitle">
+									<a href="#">Lorem ipsum dolor sit amet, consec te tuer adipiscing elit</a>
+								</div>
+								<div class="cont">
+									<div class="social">
+										<ul>
+											<li>
+												<a href="#"><i class="ismall ismall-like"></i><span class="inline-text">Like <b>(0)</b></span></a>
+											</li>
+											<li>
+												<a href="#"><i class="ismall ismall-share"></i><span class="inline-text">Share <b>(0)</b></span></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="author">
+									<a href="#" title="" class="ava"><img src="css/images/img-ava-small.jpg" alt="" border=""/></a>
+									<div class="info">
+										<p class="name">By: <span>Ryan.vo</span></p>
+										<span class="date">30/12/2013</span>
+									</div>
+								</div>
+							</li>
+                            <li class="item">
+								<span class="hotbox-ico"><i class="i36 i36-photo"></i></span>
+								<div class="photo clearfix">
+									<ul>
+										<li><a href="#" title=""><img src="images/Hotbox_2.jpg" alt="" border=""/></a></li>
+									</ul>
+								</div>
+								<div class="headtitle">
+									<a href="#">Lorem ipsum dolor sit amet, consec te tuer adipiscing elit</a>
+								</div>
+								<div class="cont">
+									<div class="social">
+										<ul>
+											<li>
+												<a href="#"><i class="ismall ismall-like"></i><span class="inline-text">Like <b>(0)</b></span></a>
+											</li>
+											<li>
+												<a href="#"><i class="ismall ismall-share"></i><span class="inline-text">Share <b>(0)</b></span></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="author">
+									<a href="#" title="" class="ava"><img src="css/images/img-ava-small.jpg" alt="" border=""/></a>
+									<div class="info">
+										<p class="name">By: <span>Ryan.vo</span></p>
+										<span class="date">30/12/2013</span>
+									</div>
+								</div>
+							</li>
+                            <li class="item">
+								<span class="hotbox-ico"><i class="i36 i36-photo"></i></span>
+								<div class="photo clearfix">
+									<ul>
+										<li><a href="#" title=""><img src="images/Hotbox_3.jpg" alt="" border=""/></a></li>
+									</ul>
+								</div>
+								<div class="headtitle">
+									<a href="#">Lorem ipsum dolor sit amet, consec te tuer adipiscing elit</a>
+								</div>
+								<div class="cont">
+									<div class="social">
+										<ul>
+											<li>
+												<a href="#"><i class="ismall ismall-like"></i><span class="inline-text">Like <b>(0)</b></span></a>
+											</li>
+											<li>
+												<a href="#"><i class="ismall ismall-share"></i><span class="inline-text">Share <b>(0)</b></span></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="author">
+									<a href="#" title="" class="ava"><img src="css/images/img-ava-small.jpg" alt="" border=""/></a>
+									<div class="info">
+										<p class="name">By: <span>Ryan.vo</span></p>
+										<span class="date">30/12/2013</span>
+									</div>
+								</div>
+							</li>
+                        </ul>
+					</div>
+				</div>
+				<!-- right column -->
+                
+			</div>
+            
+            
+			<!-- main -->
+		</div>
+		<!-- wrapper -->
+		<div class="footer">
+			<div class="ft-wrap">
+				<ul>
+					<li>
+						<a href="#" title="">About</a>
+					</li>
+					<li>
+						<a href="#" title="">Privacy</a>
+					</li>
+					<li>
+						<a href="#" title="">Terms</a>
+					</li>
+					<li>
+						<a href="#" title="">Community Guidelines</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- footer -->
+	</div>
+	<!-- body -->
+</body>
+</html>

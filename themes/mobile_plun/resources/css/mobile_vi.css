@@ -1,0 +1,209 @@
+
+.set_main a.share_photo{ width:100px;}
+
+/* Iphone 240 ---------------------------------------------------------------------------------------- */
+@media screen and (width: 240px){
+	.hotbox ul li a{ padding:11px 14px;}
+} /* End 240 */
+
+
+/* Iphone 320 ---------------------------------------------------------------------------------------- */
+@media screen and (width: 320px){	
+	
+	/*#menu_footer ul li {
+		padding: 4px 10px !important;
+	}*/
+	.hotbox ul li a{ padding:11px 34px;}
+	.feed_explore {
+		float: left;
+		width: 302px;
+	}
+	.feed_explore ul li {
+		padding: 4px 43px 4px 42px;
+	}
+	.friend_request {
+		width: 298px;
+	}
+	.friend_request ul li {
+		padding: 4px 46px 4px 46px !important;
+	}
+	.temp_fr ul li{ padding: 4px 45px 4px 45px !important;}
+	
+	.profile_tab ul li {
+		padding: 4px 46px;
+	}	
+	#menu_footer ul li {
+		padding: 4px 14px !important;
+	}	
+	#menu_footer ul li.logo_footer {
+		padding: 0 !important;
+	}
+} /* End 320 */
+
+
+/* SS note 2 360 ---------------------------------------------------------------------------------------- */
+@media screen and (width: 360px){	
+	.hotbox ul li a{ padding:11px 43px;}
+	#menu_footer ul li{ padding:4px 20px;}
+	.feed_explore {
+		width: 341px;
+	}
+	.feed_explore ul li {
+		padding: 4px 52px 4px 53px;
+	}
+	.friend_request ul li{ padding:4px 57px 4px 57px;}
+	.temp_fr ul li{ padding:4px 56px 4px 56px;} 
+} /* End 360 */
+
+
+/* Android (Nexus 4) 384 ---------------------------------------------------------------------------------------- */
+@media screen and (width: 384px){
+	.hotbox ul li a{ padding:11px 92px;}
+	#menu_footer ul li{ padding:4px 24px;}
+} /* End 384 */
+
+
+/* Iphone 480 - quay ngang ---------------------------------------------------------------------------- */
+@media screen and (width: 480px){
+	.hotbox ul li a{ padding:11px 72px;}
+	#menu_footer ul li{ padding:4px 40px;}
+	.feed_explore ul li {
+		padding: 4px 82px;
+	}
+	.profile_tab ul li {
+		padding: 4px 84px 4px 84px;
+	}
+} /* End 480 */
+
+
+/*  HTC quay ngang ---------------------------------------------------------------------------- */
+@media screen and (width: 534px){
+	.hotbox ul li a{ padding:11px 86px;}
+	#menu_footer ul li{ padding:4px 48px;}
+	.feed_explore{ width:510px;}
+	.feed_explore ul li {
+		padding: 4px 94px 4px 95px;
+	}
+} /* End 534 */
+
+
+/* Iphone 568 - quay ngang ------------------------------------------------------------------------ */
+@media screen and (width: 568px){
+	.hotbox ul li a{ padding:11px 96px;}
+	#menu_footer ul li{ padding:4px 56px;}
+	
+	.feed_explore {
+		width: 550px;
+	}
+	.feed_explore ul li {
+		padding: 4px 104px 4px 105px;
+	}
+	.tab_myphoto ul li {
+		padding: 4px 168px;
+	}
+	.friend_request ul li {
+		padding: 4px 107px 4px 108px;
+	}
+} /* End 568 */
+
+
+/* Sony quay ngang ------------------------------------------------------------------------ */
+@media screenand (width: 598px){
+	#menu_footer ul li{ padding:4px 56px;}
+} /* End 598 */
+
+
+/* Android (Nexus 4) 600 - quay ngang ---------------------------------------------------------------------------------------- */
+/* Kindle 600 ---------------------------------------------------------------------------------------- */
+@media screen and (width: 600px){
+	.hotbox ul li a{ padding:11px 102px;}
+	#menu_footer ul li{ padding:4px 56px;}
+} /* End 600 */
+
+/* SS Note 2 640 ---------------------------------------------------------------------------------------- */
+@media screen and (width: 640px){
+	.hotbox ul li a{ padding:11px 112px;}
+	#menu_footer ul li{ padding:4px 66px;}
+	.feed_explore ul li {
+		padding: 4px 122px;
+	}
+	
+	.profile_tab {
+		width: 620px;
+	}
+	.profile_tab ul li{ padding:4px 127px 4px 126px;}
+	.friend_request {
+		width: 618px;
+	}
+	.friend_request ul li{
+		padding:4px 126px 4px 126px !important;
+	}
+} /* End 640 */
+
+
+
+/* Ipad 768 ---------------------------------------------------------------------------------------- */
+@media screen and (width: 768px){
+	
+	.hotbox ul li a{ padding:11px 145px;}
+	#menu_footer ul li{ padding:10px 76px;}
+	.feed_explore ul li {
+		padding: 4px 153px;
+	}	
+	.friend_request ul li {
+		padding: 4px 158px 4px 158px;
+	}
+	.temp_fr ul li {
+		padding: 4px 157px 4px 157px;
+	}
+	/*.feed_explore {
+		width: 1001px;
+	}
+	.feed_explore ul li {
+		padding: 4px 217px 4px 218px;
+	}*/
+} /* End 768 */
+
+
+
+/* Ipad 1024 - quay ngang ---------------------------------------------------------------------------------------- */
+/* Kindle 1024 - quay ngang ---------------------------------------------------------------------------------------- */
+@media screen and (width: 1024px){
+	.hotbox ul li a{ padding:11px 208px;}
+	#menu_footer ul li{ padding:10px 110px;}
+	.feed_explore {
+		width: 1001px;
+	}
+	.feed_explore ul li {
+		padding: 4px 217px 4px 218px;
+	}
+	.profile_tab ul li {
+		padding: 4px 221px 4px 222px;
+	}
+	.friend_request ul li {
+		padding: 4px 220px 4px 221px;
+	}
+		
+} /* End 1024 */
+
+.signin_page .sign_in_up ul li .login-remember{
+	/* border:1px solid red; */
+	margin-left:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+.qq-uploader 
+{ 
+	position:relative; 
+	width: 100%;
+}
+
+.qq-upload-button {
+    display:block; /* or inline-block */
+    width: 105px; padding: 7px 0; text-align:center;    
+    background:gray; border-bottom:1px solid #ddd;color:#fff;
+}
+.qq-upload-button-hover {background:#ccc;border-bottom:1px solid #000;}
+.qq-upload-button-focus {outline:1px dotted black;}
+
+.qq-upload-drop-area {
+    position:absolute; top:0; left:0; width:100%; height:100%; min-height: 70px; z-index:2;
+    background:#FF9797; text-align:center; 
+}
+.qq-upload-drop-area span {
+    display:block; position:absolute; top: 50%; width:100%; margin-top:-8px; font-size:16px;
+}
+.qq-upload-drop-area-active {background:#FF7171;}
+
+.qq-upload-list {margin:15px 0px; padding:0; list-style:none;}
+
+.qq-upload-list li 
+{ 
+	border: 1px solid gray;
+    float: left;
+    font-size: 12px;
+    height: 343px;
+    line-height: 15px;
+    margin: 0 25px 22px 0;
+    overflow: hidden;
+    padding: 10px;
+    width: 265px;
+}
+
+.qq-upload-file, .qq-upload-spinner, .qq-upload-size, .qq-upload-cancel, .qq-upload-failed-text {
+    margin-right: 7px;
+}
+
+.qq-upload-file {
+	font-weight: bold;
+	font-size: 13px;
+}
+.qq-upload-spinner 
+{
+	background-color: #A6DBF1;
+    height: 15px;
+}
+.qq-upload-size,.qq-upload-cancel {font-size:11px;}
+
+.qq-upload-failed-text, .qq-upload-cancel {display:none;}
+.qq-upload-fail .qq-upload-failed-text {display:inline;}
+
+.div-upload
+{
+	width:98%; 
+	margin: 0 auto;
+}
+
+.qq-upload-fileupload
+{
+	width: 245px;
+	height: 150px;
+	margin: 12px auto;
+	border: 1px solid #C4CDE0;
+	padding: 2px;
+}
+
+.qq-upload-size
+{
+	background-color: #dcdcdc;
+    height: 11px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 252px;
+}
+
+.qq-upload-form
+{
+	clear: both;
+	margin: 7px 0;
+}
+
+.qq-upload-form div
+{
+	margin: 4px 0;
+}
+
+.qq-upload-input input, .qq-upload-input select
+{
+	width:98%;
+	border: solid 1px #C4CDE0;
+	font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size:11px;
+}

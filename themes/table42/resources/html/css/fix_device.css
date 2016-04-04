@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+	
+	.banner_home{ display:none; width:0 !important;}
+	.bookmark_page .banner_home{ display:none;}
+	/*.list_explore .list_user ul li{ width:123px;}
+	.list_explore .list_user ul li .info a p, .list_explore .list_user ul li .info a .map{ font-size:10px;}
+	.list_explore .list_user ul li .info a .map ins{ display:none;}
+	
+	
+
+	.bookmark_page .list_explore .list_user{ width:auto !important;}
+	.bookmark_page .list_explore .list_user ul li{ width:123px;}
+	
+
+	.list_explore .list_user ul li .info a{ width:103px !important; height:103px !important; padding:10px;}
+	.list_explore .online_num{ font-size:16px;}
+	.find_him_pop{ left:-292px;}
+	.arrow_tab{ left:525px;}	
+	.home_hot_pics{ width:65%;}
+	
+	.friend_request_search .friend_request .content ul li .info .name{ width:260px !important;}
+	.friend_request_search .friend_request .content ul li .right a{ margin-top:0px;}
+	*/
+}
+@media screen and (min-width:769px) and (max-width: 800px){
+	.banner_home{ display:none; width:0 !important;}
+	.bookmark_page .banner_home{ display:block;}
+}
+
+@media screen and (min-width: 801px) and (max-width: 980px){
+	/*.home_hot_pics{ width:72%;}*/
+	.banner_home{ display:none; width:0 !important;}
+}
+
+@media screen and (max-width:1024px) {
+	
+}

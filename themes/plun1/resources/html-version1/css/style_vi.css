@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.update_profile_step3 table tr td.title{ width:105px;}
+.update_profile_step3 table.table_small{ width:510px;}
+.update_profile_step3 table.table_small tr td{ padding-left:0 !important;}
+
+.update_profile_step4 table tr td.title{ width:120px;}
+
+.update_profile_step4 .squaredCheck{ width:95px;}
+
+.setting_basic_info table tr td table{ width:320px !important;}

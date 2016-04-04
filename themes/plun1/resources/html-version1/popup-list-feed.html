@@ -1,0 +1,202 @@
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxSlider.min.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="js/inview.js"></script>
+<script type="text/javascript" src="js/popup.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<link href="css/plugins.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.ui.button.js"></script>
+<script>
+	$(function() {
+		$( ".popup-alert" ).dialog({
+			width: 400,
+		});
+	});
+</script>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<style>
+.ui-dialog-titlebar-close {
+	right: 2px;
+	top: 28px;
+}
+.ui-button .ui-button-text {
+	background:url(css/images/sprites3.png) 0 -2088px no-repeat;
+	font-size:0;
+	width:13px;
+	height:13px;
+	display:block;
+	padding:0 !important;
+}
+.ui-state-hover {
+	background:url(css/images/sprites3.png) 0 -2088px no-repeat;
+	font-size:0;
+	width:13px;
+	height:13px;
+	display:block;
+	padding:0 !important;
+}
+</style>
+
+<div class="popup-alert">
+  <div class="form-contain">
+    <div class="form-contain-wrap">
+      <div class="title"> Status detail </div>
+      <div class="content">
+      	<div class="scroll_status_detail">     
+            <div class="list_status_detail list_status_detail_active">
+              <div class="feed clearfix"> <a class="ava" title="" href="/my/view?alias=ngohai"><img border="" alt="" src="css/images/avatar_32.jpg"></a> <span class="time">5 days ago</span>
+                <div class="info">
+                  <h4><a href="/my/view?alias=ngohai">You</a></h4>
+                  <p class="text"> Hello </p>
+                  <div class="nav clearfix">
+                    <div class="nav-left"> </div>
+                    <div class="nav-right">
+                      <ol>
+                        <li> <a rel="/newsFeed/like?alias=ngohai&amp;oid=VHeZ&amp;type=ACTIVITY" href="javascript:void(0);" class="like_comment"><i class="ismall ismall-like"></i><span class="inline-text">Unlike (1)</span></a>
+                          <div data-url="/newsFeed/getUserLiked?alias=ngohai&amp;oid=VHeZ&amp;type=ACTIVITY" class="list_like list_like_down have_data" style="display: none;">
+                            <ol>
+                              <li><a href="/my/view?alias=ngohai">ngohai</a></li>
+                            </ol>
+                          </div>
+                        </li>
+                        <li> <a href="javascript:void(0);" class="btn-comment"><i class="ismall ismall-comment"></i><span class="inline-text">Comment (1)</span></a> </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment"> <span class="arrow"><i></i></span>
+                  <div class="area">
+                    <div class="comment-list">
+                      <ol>
+                        <li class="sub-item">
+                          <div class="wrap clearfix"> <a class="sub-ava" title="" href="javascript:void(0);"><img border="" alt="" src="css/images/avatar_32.jpg"></a> <span class="time">5 days ago</span>
+                            <div class="sub-info">
+                              <h5><a href="/my/view?alias=ngohai" class="username">ngohai</a></h5>
+                              <p class="text">Hole</p>
+                            </div>
+                          </div>
+                        </li>
+                      </ol>
+                    </div>
+                    <!-- -->
+                    <div class="comment-input"> <a class="ava" href="javascript:void(0);"> <img border="" alt="" src="css/images/avatar_32.jpg"> </a>
+                      <form method="post" action="/newsFeed/commentActivity?alias=ngohai" id="yw0" class="comment-form">
+                        <div class="input-wrap">
+                          <input type="hidden" id="Comment_item" name="Comment[item]" value="{&amp;quot;object_id&amp;quot;:&amp;quot;VHeZ&amp;quot;,&amp;quot;action&amp;quot;:&amp;quot;VA&amp;quot;}">
+                          <textarea id="Comment_content" name="Comment[content]" placeholder="Write a comment..." class="cmt-post-text expand"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- write comment --> 
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="list_status_detail list_status_detail_active">
+              <div class="feed clearfix"> <a class="ava" title="" href="/my/view?alias=ngohai"><img border="" alt="" src="css/images/avatar_32.jpg"></a> <span class="time">5 days ago</span>
+                <div class="info">
+                  <h4><a href="/my/view?alias=ngohai">You</a></h4>
+                  <p class="text"> Hello </p>
+                  <div class="nav clearfix">
+                    <div class="nav-left"> </div>
+                    <div class="nav-right">
+                      <ol>
+                        <li> <a rel="/newsFeed/like?alias=ngohai&amp;oid=VHeZ&amp;type=ACTIVITY" href="javascript:void(0);" class="like_comment"><i class="ismall ismall-like"></i><span class="inline-text">Unlike (1)</span></a>
+                          <div data-url="/newsFeed/getUserLiked?alias=ngohai&amp;oid=VHeZ&amp;type=ACTIVITY" class="list_like list_like_down have_data" style="display: none;">
+                            <ol>
+                              <li><a href="/my/view?alias=ngohai">ngohai</a></li>
+                            </ol>
+                          </div>
+                        </li>
+                        <li> <a href="javascript:void(0);" class="btn-comment"><i class="ismall ismall-comment"></i><span class="inline-text">Comment (1)</span></a> </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment"> <span class="arrow"><i></i></span>
+                  <div class="area">
+                    <div class="comment-list">
+                      <ol>
+                        <li class="sub-item">
+                          <div class="wrap clearfix"> <a class="sub-ava" title="" href="javascript:void(0);"><img border="" alt="" src="css/images/avatar_32.jpg"></a> <span class="time">5 days ago</span>
+                            <div class="sub-info">
+                              <h5><a href="/my/view?alias=ngohai" class="username">ngohai</a></h5>
+                              <p class="text">Hole</p>
+                            </div>
+                          </div>
+                        </li>
+                      </ol>
+                    </div>
+                    <!-- -->
+                    <div class="comment-input"> <a class="ava" href="javascript:void(0);"> <img border="" alt="" src="css/images/avatar_32.jpg"> </a>
+                      <form method="post" action="/newsFeed/commentActivity?alias=ngohai" id="yw0" class="comment-form">
+                        <div class="input-wrap">
+                          <input type="hidden" id="Comment_item" name="Comment[item]" value="{&amp;quot;object_id&amp;quot;:&amp;quot;VHeZ&amp;quot;,&amp;quot;action&amp;quot;:&amp;quot;VA&amp;quot;}">
+                          <textarea id="Comment_content" name="Comment[content]" placeholder="Write a comment..." class="cmt-post-text expand"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- write comment --> 
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="list_status_detail list_status_detail_active">
+              <div class="feed clearfix"> <a class="ava" title="" href="/my/view?alias=ngohai"><img border="" alt="" src="css/images/avatar_32.jpg"></a> <span class="time">5 days ago</span>
+                <div class="info">
+                  <h4><a href="/my/view?alias=ngohai">You</a></h4>
+                  <p class="text"> Hello </p>
+                  <div class="nav clearfix">
+                    <div class="nav-left"> </div>
+                    <div class="nav-right">
+                      <ol>
+                        <li> <a rel="/newsFeed/like?alias=ngohai&amp;oid=VHeZ&amp;type=ACTIVITY" href="javascript:void(0);" class="like_comment"><i class="ismall ismall-like"></i><span class="inline-text">Unlike (1)</span></a>
+                          <div data-url="/newsFeed/getUserLiked?alias=ngohai&amp;oid=VHeZ&amp;type=ACTIVITY" class="list_like list_like_down have_data" style="display: none;">
+                            <ol>
+                              <li><a href="/my/view?alias=ngohai">ngohai</a></li>
+                            </ol>
+                          </div>
+                        </li>
+                        <li> <a href="javascript:void(0);" class="btn-comment"><i class="ismall ismall-comment"></i><span class="inline-text">Comment (1)</span></a> </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment"> <span class="arrow"><i></i></span>
+                  <div class="area">
+                    <div class="comment-list">
+                      <ol>
+                        <li class="sub-item">
+                          <div class="wrap clearfix"> <a class="sub-ava" title="" href="javascript:void(0);"><img border="" alt="" src="css/images/avatar_32.jpg"></a> <span class="time">5 days ago</span>
+                            <div class="sub-info">
+                              <h5><a href="/my/view?alias=ngohai" class="username">ngohai</a></h5>
+                              <p class="text">Hole</p>
+                            </div>
+                          </div>
+                        </li>
+                      </ol>
+                    </div>
+                    <!-- -->
+                    <div class="comment-input"> <a class="ava" href="javascript:void(0);"> <img border="" alt="" src="css/images/avatar_32.jpg"> </a>
+                      <form method="post" action="/newsFeed/commentActivity?alias=ngohai" id="yw0" class="comment-form">
+                        <div class="input-wrap">
+                          <input type="hidden" id="Comment_item" name="Comment[item]" value="{&amp;quot;object_id&amp;quot;:&amp;quot;VHeZ&amp;quot;,&amp;quot;action&amp;quot;:&amp;quot;VA&amp;quot;}">
+                          <textarea id="Comment_content" name="Comment[content]" placeholder="Write a comment..." class="cmt-post-text expand"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <!-- write comment --> 
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

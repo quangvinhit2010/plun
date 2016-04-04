@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Find him */
+.reference-cont label.relationship {
+    width: 116px !important;
+}
+.find-him-pop{ width:558px !important;}
+.photo_video .content ul li .share_del ol li .tooltip{ left:-4px;}
+
+#feedback_frm #form-wrap .feedback-tab{
+    top: 25px;
+    left: -53px;
+}

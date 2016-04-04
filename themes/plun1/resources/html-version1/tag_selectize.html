@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+	<title>Plun Asia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<link href="css/plugins.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]>
+<link href="css/ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print"/>
+<script type="text/javascript" src="js/jquery.js"></script>	
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxSlider.min.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="js/inview.js"></script>
+<script type="text/javascript" src="js/popup.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+
+
+<!-- Tag Selectize-->
+<link href="css/selectize.default.css" rel="stylesheet" type="text/css" />
+<!--[if IE 8]><script src="js/es5.js"></script><![endif]-->
+<script src="js/jqueryui.js"></script>
+<script src="js/selectize.js"></script>
+<script src="js/index.js"></script>
+    
+
+<!-- Loading icon-->
+<script type="text/javascript">
+	var cSpeed=4;
+	var cWidth=80;
+	var cHeight=80;
+	var cTotalFrames=18;
+	var cFrameWidth=80;
+	var cImageSrc='css/images/sprites_2.png';
+	
+	var cImageTimeout=false;
+	var cIndex=0;
+	var cXpos=0;
+	var cPreloaderTimeout=false;
+	var SECONDS_BETWEEN_FRAMES=0;
+	
+	function startAnimation(){
+		
+		document.getElementById('loaderImage').style.backgroundImage='url('+cImageSrc+')';
+		document.getElementById('loaderImage').style.width=cWidth+'px';
+		document.getElementById('loaderImage').style.height=cHeight+'px';
+		
+		//FPS = Math.round(100/(maxSpeed+2-speed));
+		FPS = Math.round(100/cSpeed);
+		SECONDS_BETWEEN_FRAMES = 1 / FPS;
+		
+		cPreloaderTimeout=setTimeout('continueAnimation()', SECONDS_BETWEEN_FRAMES/1000);
+		
+	}
+	
+	function continueAnimation(){
+		
+		cXpos += cFrameWidth;
+		//increase the index so we know which frame of our animation we are currently on
+		cIndex += 1;
+		 
+		//if our cIndex is higher than our total number of frames, we're at the end and should restart
+		if (cIndex >= cTotalFrames) {
+			cXpos =0;
+			cIndex=0;
+		}
+		
+		if(document.getElementById('loaderImage'))
+			document.getElementById('loaderImage').style.backgroundPosition=(-cXpos)+'px 0';
+		
+		cPreloaderTimeout=setTimeout('continueAnimation()', SECONDS_BETWEEN_FRAMES*1000);
+	}
+	
+	function stopAnimation(){//stops animation
+		clearTimeout(cPreloaderTimeout);
+		cPreloaderTimeout=false;
+	}
+	
+	function imageLoader(s, fun)//Pre-loads the sprites image
+	{
+		clearTimeout(cImageTimeout);
+		cImageTimeout=0;
+		genImage = new Image();
+		genImage.onload=function (){cImageTimeout=setTimeout(fun, 0)};
+		genImage.onerror=new Function('alert(\'Could not load the image\')');
+		genImage.src=s;
+	}
+	
+	//The following code starts the animation
+	new imageLoader(cImageSrc, 'startAnimation()');
+</script>
+
+        
+</head>
+<body>
+	<div class="plun">
+		<div class="wrapper">
+			<div class="header">
+				<div class="logo">
+					<a href="#" title=""></a>
+				</div>
+				<!-- logo -->
+				<div class="navigation">
+					<ul>
+						<li class="current">
+							<a href="#" title="">Who's Here</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="#" title="">HOT BOX</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="#" title="">ISU</a>
+							<span class="line"></span>
+						</li>
+						<li>
+							<a href="#" title="">Talk That Talk</a>
+							<span class="line"></span>
+						</li>
+					</ul>
+				</div>
+				<!-- page navigation -->
+				<div class="navigation-sec">
+                	<div class="navblock left w400 search_form">
+                        <label class="search_icon"></label><input class="" value="Search" onblur="if(this.value=='') this.value=this.defaultValue" onfocus="if(this.value==this.defaultValue) this.value=''" type="text">
+                        <div class="list_search_user_bot">
+                        	<ul>
+                            	<li>                                	
+                                    <a class="left" href="#"><img border="" alt="" src="css/images/img-ava-small.jpg"></a>
+                                    <p><a href="#">Le Quang Vinh</a></p>
+                                </li>
+                                <li>                                	
+                                    <a class="left" href="#"><img border="" alt="" src="css/images/img-ava-small.jpg"></a>
+                                    <p><a href="#">Le Quang Vinh</a></p>
+                                </li>
+                                <li>                                	
+                                    <a class="left" href="#"><img border="" alt="" src="css/images/img-ava-small.jpg"></a>
+                                    <p><a href="#">Le Quang Vinh</a></p>
+                                </li>
+                                <li>                                	
+                                    <a class="left" href="#"><img border="" alt="" src="css/images/img-ava-small.jpg"></a>
+                                    <p><a href="#">Le Quang Vinh</a></p>
+                                </li>
+                                <li>                                	
+                                    <a class="left" href="#"><img border="" alt="" src="css/images/img-ava-small.jpg"></a>
+                                    <p><a href="#">Le Quang Vinh</a></p>
+                                </li>
+                                <li class="bg_search_user">                                	
+                                    <a class="left" href="#">See more results for “Vinh”</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+					<div class="navblock nav-country">
+						<span class="line"></span>
+						<a href="#" class="btn-country" data-toggle="dropdown"><i class="imed flag-fr"></i><span class="text">France</span><i class="imed imed-arrow-wd"></i></a>
+						<div class="spr-submenu">
+							<ul>
+								<li><a href="#"><i class="imed flag-fr"></i><span class="text">France</span></a></li>
+								<li><a href="#"><i class="imed flag-eng"></i><span class="text">English</span></a></li>
+								<li><a href="#"><i class="imed flag-vn"></i><span class="text">VN</span></a></li>
+							</ul>
+						</div>
+						<!-- submenu -->
+					</div>
+					<!-- sub nav -->
+					<div class="navblock nav-username">
+						<span class="line"></span>
+						<a href="#"><img src="css/images/img-ava-32.jpg" alt="" border=""/><span class="username">Ryan.vo</span></a>
+					</div>
+					<!-- sub nav: username -->
+					<div class="navblock nav-setting">
+						<span class="line"></span>
+						<a href="#" data-toggle="dropdown" data-target="#"><i class="i18 i18-setting"></i></a>
+						<div class="setting-bot">
+							<span class="arrow"><i></i></span>
+							<div class="setting-bot-board">
+								<ul>
+									<li>
+										<a href="#">
+											<i class="i18 i18-message"></i>
+											<span class="inline-text">Message</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="i18 i18-friend"></i>
+											<span class="inline-text">Friends</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="i18 i18-alert"></i>
+											<span class="inline-text">Alerts</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="i18 i18-account"></i>
+											<span class="inline-text">Account Settings</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="i18 i18-help"></i>
+											<span class="inline-text">Help</span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="i18 i18-logout"></i>
+											<span class="inline-text">Log Out</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- sub nav: setting -->
+				</div>
+				<!-- second navigation -->
+			</div>
+			<!-- header but display at bottom -->
+			<div class="col-nav">
+				<div class="user">
+					<div href="#" title="" class="photo">
+						<div class="photo-wrap">
+							<img src="css/images/img-photo-150.jpg" alt="" border=""/>
+							<a href="#" class="btn-edit">Edit Photo</a>
+						</div>
+					</div>
+					<!-- user photo -->
+					<div class="info">
+						<h2 class="name">Ryan.vo</h2>
+						<div class="buttons">
+							<button class="btn btn-violet btn-navpost"><i class="imed imed-pencil"></i><span class="inline-text">Post Status</span></button>
+							<div class="pop-status">
+								<div class="border">
+									<div class="wrap">
+										<span class="arrow"></span>
+										<a href="#" class="btn-close"></a>
+										<form method="">
+											<div class="input-wrap">
+												<textarea rows="6" cols="43" placeholder="Write something....."></textarea>
+											</div>
+											<div class="input-foot">
+												<span class="chars">
+													0/500
+												</span>
+												<div class="btn-wrap">
+													<button class="btn">Post</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+							<!-- Status post -->
+						</div>
+						<div class="menu">
+							<ul>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-message" title=""></i>
+										<span class="text">Message</span>
+										<span class="count">25</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-alert" title=""></i>
+										<span class="text">Alerts</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-friend" title=""></i>
+										<span class="text">Friends</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-candy" title=""></i>
+										<span class="text">Candy</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-setting" title=""></i>
+										<span class="text">Setting</span>
+									</a>
+								</li>
+								<li>
+									<span class="line"></span>
+									<a href="#" title="">
+										<i class="imed imed-signout" title=""></i>
+										<span class="text">Sign Out</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- user menu -->
+					</div>
+				</div>
+				<!-- user -->
+			</div>
+			<!-- navigation column -->
+			<div class="main clearfix">
+            	
+                <div id="panel">
+                    <span id="loading2" class="loading">
+                        <div id="loaderImage"></div>
+                    </span>
+                    
+            	</div>
+                
+				<div class="col-feed col-left">
+					<div class="block news-feed">
+						<div class="title">
+							<h2>Add Tag Selectize</h2>							
+						</div>
+						<div class="cont">
+							<div class="demo">
+                            <div class="control-group">
+                                <input type="text" id="input-tags" class="input-tags demo-default" value="awesome,neat">
+                            </div>
+				
+							<script>
+                            $('.input-tags').selectize({
+                                plugins: ['remove_button'],
+                                delimiter: ',',
+                                persist: false,
+                                create: function(input) {
+                                    return {
+                                        value: input,
+                                        text: input
+                                    }
+                                },
+                                render: {
+                                    item: function(data, escape) {
+                                        return '<div>"' + escape(data.text) + '"</div>';
+                                    }
+                                },
+                                onDelete: function(values) {
+                                    return confirm(values.length > 1 ? 'Are you sure you want to remove these ' + values.length + ' items?' : 'Are you sure you want to remove "' + values[0] + '"?');
+                                }
+                            });
+                            </script>
+			</div>
+						</div>
+						
+					</div>
+					<!-- news feed -->
+				</div>
+				<!-- left column -->
+				<div class="col-right">
+					<div class="members">
+						<h3><a href="#" class="btn-open-feed"><span class="text">News Feed</span><i class="imed imed-arrow-right"></i></a><p>2,526 member are online in <a href="#" class="area" title="">your area</a> now</p></h3>
+						<div class="list clearfix">
+							<ul>
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-001.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Student, Model at London MGT </p>
+												<p class="contact">Y!M: spirit_igame</p>
+                                             </div>
+										</div>
+									</a>
+                                    <div class="un_function">
+                                    	<a class="unbookmark" title="Unbookmark" href="#"></a>
+                                    	<a class="unfriend" title="Unfriend" href="#"></a> 
+                                    </div>
+								</li>
+								<!-- single member photo -->
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-002.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Trong nay height nho hon o ngoai home, de dai qua va cach xa top qua khong du cho dau</p>
+												<p class="contact">Y!M: spirit_igame</p>
+											</div>
+										</div>
+									</a>
+                                    <div class="un_function">
+                                    	<a class="unbookmark" title="Unbookmark" href="#"></a>
+                                    </div>
+								</li>
+								<!-- single member photo -->
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-003.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Student, Model at London MGT </p>
+												<p class="contact">Y!M: spirit_igame</p>
+											</div>
+										</div>
+									</a>
+                                    <div class="un_function">
+                                    	<a class="unfriend" title="Unfriend" href="#"></a> 
+                                    </div>
+								</li>
+								<!-- single member photo -->
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-004.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Trong nay height nho hon o ngoai home, de dai qua va cach xa top qua khong du cho dau</p>
+												<p class="contact">Y!M: spirit_igame</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<!-- single member photo -->
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-005.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Student, Model at London MGT </p>
+												<p class="contact">Y!M: spirit_igame</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<!-- single member photo -->
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-006.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Trong nay height nho hon o ngoai home, de dai qua va cach xa top qua khong du cho dau</p>
+												<p class="contact">Y!M: spirit_igame</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<!-- single member photo -->
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-007.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Student, Model at London MGT </p>
+												<p class="contact">Y!M: spirit_igame</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<!-- single member photo -->
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-008.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Trong nay height nho hon o ngoai home, de dai qua va cach xa top qua khong du cho dau</p>
+												<p class="contact">Y!M: spirit_igame</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<!-- single member photo -->
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-001.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Student, Model at London MGT </p>
+												<p class="contact">Y!M: spirit_igame</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<!-- single member photo -->
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-002.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Trong nay height nho hon o ngoai home, de dai qua va cach xa top qua khong du cho dau</p>
+												<p class="contact">Y!M: spirit_igame</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<!-- single member photo -->
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-003.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Student, Model at London MGT </p>
+												<p class="contact">Y!M: spirit_igame</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<!-- single member photo -->
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-004.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Trong nay height nho hon o ngoai home, de dai qua va cach xa top qua khong du cho dau</p>
+												<p class="contact">Y!M: spirit_igame</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<!-- single member photo -->
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-005.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Student, Model at London MGT </p>
+												<p class="contact">Y!M: spirit_igame</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<!-- single member photo -->
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-006.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Trong nay height nho hon o ngoai home, de dai qua va cach xa top qua khong du cho dau</p>
+												<p class="contact">Y!M: spirit_igame</p>
+											</div>
+										</div>
+									</a>
+								</li>
+								<!-- single member photo -->
+								<li>
+									<a href="#" title="" class="ava">
+										<img src="css/images/img-home-ava-007.jpg" alt="" border=""/>
+										<span class="ava-bg"></span>
+										<div class="name">
+											<span class="fname">Wanderlust</span>
+											<div class="more">
+												<p class="location">
+													<i class="imed imed-loc"></i>
+													<span class="text">District 5, HCM</span>
+												</p>
+												<p class="intro">Student, Model at London MGT </p>
+												<p class="contact">Y!M: spirit_igame</p>
+											</div>
+										</div>
+									</a>
+								</li>
+                                <li>
+                                    <a title="See more" href="#" class="seemore"><span></span></a>
+                                </li>
+                                
+								<!-- single member photo -->
+							</ul>
+                            
+                            <!--<div class="more-wrap">
+							<button class="btn btn-white">Show More</button>
+                            </div>-->
+                            <!--<div class="more-wrap show-more-searchresult">
+                               <button onclick="showmore_searchresult();" class="btn btn-white">Show More</button>
+                            </div>-->
+                            <div class="more-wrap">
+                               <a href="#" class="showmore">Show more</a>
+                            </div>
+						</div>
+						<!-- members list -->
+						
+						<!-- more wrap -->
+					</div>
+					<!-- members area -->
+				</div>
+				<!-- right column -->
+			</div>
+			<!-- main -->
+		</div>
+		<!-- wrapper -->
+		<div class="footer">
+			<div class="ft-wrap">
+				<ul>
+					<li>
+						<a href="#" title="">About</a>
+					</li>
+					<li>
+						<a href="#" title="">Privacy</a>
+					</li>
+					<li>
+						<a href="#" title="">Terms</a>
+					</li>
+					<li>
+						<a href="#" title="">Community Guidelines</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- footer -->
+	</div>
+	<!-- body -->
+<div id="find-him-pop" class="popup find-him-pop">
+	<div class="pop-header">
+    	<h2>Find Him</h2>
+        <a class="btn-close" href="#" title="Close">X</a>
+    </div><!--end pop-header-->
+    <div class="pop-cont">
+    	<ul class="pop-tab">
+        	<li class="active"><a class="location-tab" href="#" title=""><span>By location</span></a></li>
+            <li><a class="reference-tab" href="#" title=""><span>By reference</span></a></li>
+        </ul>
+        <div class="tab-cont location-cont">
+        	<form action="#" id="location" class="frm-location" method="post">
+                <ul>
+                    <li>
+                        <label for="txt-country">Country:</label>
+                        <select id="txt-country" class="select-type-1">
+                            <option value="0">Viet Nam</option>
+                            <option value="1">Lao</option>
+                            <option value="2">Thai Lan</option>
+                            <option value="3">Viet Nam</option>
+                            <option value="4">Campuchia</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="txt-city">City:</label>
+                        <select id="txt-city" class="select-type-1">
+                            <option value="0">Ho Chi Minh</option>
+                            <option value="1">Ho Chi Minh</option>
+                            <option value="2">Ho Chi Minh</option>
+                            <option value="3">Ho Chi Minh</option>
+                            <option value="4">Ho Chi Minh</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="txt-district">District:</label>
+                        <select id="txt-district" class="select-type-2" multiple="multiple">
+                            <option value="0">Binh Chanh</option>
+                            <option value="1">Binh Tan</option>
+                            <option value="2">District 1</option>
+                            <option value="3">District 10</option>
+                            <option value="4">District 5</option>
+                            <option value="4">District 3</option>
+                            <option value="4">District 4</option>
+                            <option value="4">District 11</option>
+                            <option value="4">District 6</option>
+                            <option value="4">District 7</option>
+                            <option value="4">District 8</option>
+                            <option value="4">District 9</option>
+                            <option value="4">Can Gio</option>
+                            <option value="4">Cu Chi</option>
+                            <option value="4">Tan Phu</option>
+                            <option value="4">Binh Thanh</option>
+                            <option value="4">Go Vap</option>
+                            <option value="4">Binh Thanh</option>
+                            <option value="4">Can Gio</option>
+                        </select>
+                    </li>
+                </ul>
+                <button class="btn btn-white">Find</button>
+            </form>
+        </div>
+    	<div class="tab-cont reference-cont" style="display:none;">
+        	<form action="#" id="location" class="frm-location" method="post">
+                <ul>
+                    <li>
+                        <label for="txt-name">Email/Name:</label>
+                        <input id="txt-name" type="text" class="input-type-1" placeholder="Enter text...">
+                    </li>
+                    <li>
+                        <label>Age:</label>
+                        <input id="txt-age-from" type="text" class="input-type-2" placeholder="From">
+                        <input id="txt-age-to" type="text" class="input-type-2" placeholder="To">
+                    </li>
+                    <li>
+                        <label>Position:</label>
+                        <input type="checkbox" name="position-top" id="position-top" class="input-type-3">
+                        <span>Top</span>
+                        <input type="checkbox" name="position-bottom" id="position-bottom" class="input-type-3">
+                        <span>Bottom</span>
+                        <input type="checkbox" name="position-center" id="position-center" class="input-type-3">
+                        <span>Center</span>
+                    </li>
+                    <li>
+                        <label>Smoke:</label>
+                        <input type="checkbox" name="smoke-no" id="smoke-no" class="input-type-3">
+                        <span>No</span>
+                        <input type="checkbox" name="smoke-yes" id="smoke-yes" class="input-type-3">
+                        <span>Yes</span>
+                    </li>
+                    <li>
+                        <label>Dick size:</label>
+                        <input type="checkbox" name="sizeL" id="sizeL" class="input-type-3">
+                        <span>L</span>
+                        <input type="checkbox" name="sizeM" id="sizeM" class="input-type-3">
+                        <span>M</span>
+                        <input type="checkbox" name="sizeS" id="sizeS" class="input-type-3">
+                        <span>S</span>
+                    </li>
+                    <li>
+                        <label>Weight:</label>
+                        <input id="weight-from" type="text" class="input-type-2" placeholder="From">
+                        <select id="txt-weight-from" class="select-type-3">
+                            <option value="0">kg</option>
+                            <option value="1">pound</option>
+                        </select>
+                        <input id="weight-to" type="text" class="input-type-2" placeholder="To">
+                        <select id="txt-weight-to" class="select-type-4">
+                            <option value="0">kg</option>
+                            <option value="1">pound</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label>Height:</label>
+                        <input id="height-from" type="text" class="input-type-2" placeholder="From">
+                        <select id="txt-height-from" class="select-type-3">
+                            <option value="0">cm</option>
+                            <option value="1">m</option>
+                        </select>
+                        <input id="height-to" type="text" class="input-type-2" placeholder="To">
+                        <select id="txt-height-to" class="select-type-4">
+                            <option value="0">cm</option>
+                            <option value="1">m</option>
+                        </select>
+                    </li>
+                    <li>
+                    	<label>Body:</label>
+                         <select id="txt-body" class="select-type-5">
+                         	<option value="0">abc</option>
+                            <option value="1">xyz</option>
+                         </select>
+                    </li>
+                    <li>
+                    	<label>Safe sex:</label>
+                         <select id="txt-safe-sex" class="select-type-5">
+                         	<option value="0">abc</option>
+                            <option value="1">xyz</option>
+                         </select>
+                    </li>
+                    <li>
+                    	<label>Ethnics:</label>
+                         <select id="txt-ethnics" class="select-type-5">
+                         	<option value="0">abc</option>
+                            <option value="1">xyz</option>
+                         </select>
+                    </li>
+                    <li>
+                    	<label>Hobbies:</label>
+                        <div class="input-type-4">
+                        	<a href="#" title="">Travel<span>X</span></a>
+                            <a href="#" title="">Swimming<span>X</span></a>
+                            <a href="#" title="">Reading<span>X</span></a>
+                        </div>
+                    </li>
+                </ul>
+                <button class="btn btn-white">Find</button>
+             </form>
+        </div>
+    </div><!--end pop-cont-->
+</div>
+</body>
+</html>

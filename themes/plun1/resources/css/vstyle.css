@@ -1,0 +1,6 @@
+.slideImg{float: left; width: 100%;}
+.slideImg ul{list-style-image:none;list-style-position:outside;list-style-type:none;margin: 0;padding: 0;}
+.slideImg ul li{float: left;padding-left: 15px;}
+.slideImg ul li a.viewImg{border: 1px solid #DDDDDD;display: block;width: 120px;height: 120px;margin-bottom: 10px;overflow: hidden;padding: 5px;position: relative;text-align: center;vertical-align: middle;display: table-cell;}
+.slideImg ul li img {max-width: 120px;max-height: 120px;}
+.addMoreUrl{padding: 10px;}

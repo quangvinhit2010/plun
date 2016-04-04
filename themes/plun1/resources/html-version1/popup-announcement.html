@@ -1,0 +1,40 @@
+<script type="text/javascript" src="js/jquery.js"></script>	
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="js/jquery.ui.button.js"></script>
+
+<script>
+$(function() {
+	$( "#popup-alert" ).dialog({
+		resizable: false,
+		modal: true,
+		width: 480,
+		buttons: {
+		"Delete all items": function() {
+			$(this).dialog( "X" );
+		},
+		Cancel: function() {
+			$(this).dialog( "X" );
+		}
+		}
+	});
+});
+</script>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<div id="popup-alert">
+	<div class="form-contain form-message form_alert">
+    		<div class="title">Your Alert</div>
+			<div class="form-contain-wrap ">
+				<form method="">
+					<ul>
+						<li>
+							<p>Pay <b><label class="txt-violet">15 candies</label></b> to view his Vault Photo?</p>
+                            <p>Pay to view his Vault Photo?</p>
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+</div>

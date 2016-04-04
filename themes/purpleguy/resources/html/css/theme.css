@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.isu .wrapper, .hotbox .wrapper {
+	background:#000;
+}
+.bg_black, .bg_white{ background:#000 !important;}
+.home-right .wrap{ background:url(images/bg_trans_black_1.png) left bottom repeat; border:1px solid #0e0e0e;}
+.home-right .wrap ul li{ border:1px solid #0e0e0e;}
+.home-right .wrap h3{ color:#FFF;}
+.home-left .content-wrap {    
+    left: 130px;
+    padding: 10px 20px;
+    bottom: 100px;
+	top:auto;
+}
+.home-left .content-wrap h2{ color:#662d91; background:url(images/bg_trans_black_1.png) left bottom repeat; margin-bottom:0; padding:10px; text-align:center;}
+.home-left .content-wrap p img{ background:url(images/bg_trans_black_1.png) left bottom repeat; padding:10px 20px;}
+#triquiback{ width:56%;}
+.home-left .content-wrap p{ text-align:center;}

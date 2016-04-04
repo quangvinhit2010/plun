@@ -1,0 +1,380 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+	/* Xu ly set width trinh duyet show chat box */
+	.pos_chat_boxed_1{ display:none;}
+	.pos_chat_boxed_2{ display:none;}
+	.pos_chat_boxed_3{ display:none;}
+	.pos_chat_boxed_4{ display:none;}
+	.pos_chat_boxed_5{ display:none;}
+	.pos_chat_boxed_end{ display:none;}
+	.form-login .title p.signin {
+		font-size:30px;
+		line-height:30px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width: 799px){
+	/* Xu ly set width trinh duyet show chat box */
+	.pos_chat_boxed_3{ display:none;}
+	.pos_chat_boxed_4{ display:none;}
+	.pos_chat_boxed_5{ display:none;}
+	.pos_chat_boxed_end{ display:none;}
+	.form-login .title p.signin {
+		font-size:50px;
+		line-height:50px;
+	}
+	.main .col-right .members .list{ top:40px;}
+	.find-him-pop{ left:-4px !important; top:43px !important;}
+	.arrow_tab{ left:240px;}
+	
+	.home-left .content-wrap h2{ font-size:1rem;}
+ 	.home-left .content-wrap h3{ font-size:2rem;}
+ 	#triquiback{ width:17%;}
+}
+
+@media screen and (min-width:800px) and (max-width: 979px){
+	/* Xu ly set width trinh duyet show chat box */
+	.pos_chat_boxed_3{ display:none;}
+	.pos_chat_boxed_4{ display:none;}
+	.pos_chat_boxed_5{ display:none;}
+	.pos_chat_boxed_end{ display:none;}
+	.form-login .title p.signin {
+		font-size:50px;
+		line-height:50px;
+	}
+	.main .col-right .members .list{ top:40px;}
+	.find-him-pop{ left:-5px !important; top:43px !important;}
+	.arrow_tab{ left:240px;}
+
+}
+@media screen and (max-width:980px){
+	.home-left .content-wrap h2{ font-size:3rem;}
+	.home-left .content-wrap h3{ font-size:4rem;}
+	#triquiback{ width:37%;}
+	
+}
+@media screen and (min-width:1020px) and (max-width: 1024px){
+	.header .navigation-sec{ margin-left:375px;} 
+	#triquiback{ width:30.5% !important;}
+	.home-left .content-wrap h3{ font-size:3rem;}
+	.home-left .content-wrap h2{ font-size:5rem;}
+	.home-left .content-wrap .sign_in_up ul li{ width:280px;}
+	.home-left .content-wrap .sign_in_up ul li input#LoginForm_rememberMe{ margin-left:20px;}
+	.home-left .buttons .signin, .home-left .buttons button{ width:120px;}
+}
+
+@media screen and (min-width:980px) and (max-width: 1280px){
+	/* Xu ly set width trinh duyet show chat box */
+	.pos_chat_boxed_4{ display:none;}
+	.pos_chat_boxed_5{ display:none;}
+	.pos_chat_boxed_end{ display:none;}
+	.form-login .title p.signin {
+		font-size:50px;
+		line-height:50px;
+	}
+	.main .col-right .members .list{ top:40px;}
+	.find-him-pop{ left:-5px !important; top:43px !important;}
+	.arrow_tab{ left:240px;}
+	.photos-list .item-list .item .ava img{ width:130px; height:130px;}
+	.photos-list .item-list .item .btn-more{ width:128px; height:128px;}
+	.main .col-right .profile-photo ul li .ava img{ width:130px; height:130px;}
+	.main .col-right .profile-photo ul li .btn-more { width:128px; height:128px;}
+	.main .col-right .profile-photo ul li .ulti.active{
+		height: 75px;
+		padding-top: 55px;
+		width: 130px;
+	}
+	/*.main .col-right .profile-photo ul li .ava .bg-private{ left:40px;}*/
+	.main .col-right .profile-photo ul li .ava .bg-private i{ left:38px; top:40px;}
+	.main .col-right .profile-photo ul li .ulti.active{ /*display:none;*/}
+	.main .col-right .profile-photo ul li .btn-more .text{ top:-7px;}
+	.photos-list .item-list .item .btn-more .text{ top:-7px !important;}
+	.photos-list .item-list .item a.btn-more-load, .list_photo_user a.btn-more-load{ 
+		width:130px;
+		height:130px;
+	}
+	.photos-list .item-list .item a.btn-more-load label, .list_photo_user a.btn-more-load label{ 	
+		width: 130px;
+		background:url("images/sprites3.png") no-repeat scroll 40px -2171px;
+		margin-top:60px;
+	}
+	.photos-list .item-list .item a.btn-more-load:hover label, .list_photo_user a.btn-more-load:hover label{ 	
+		background:url("images/sprites3.png") no-repeat scroll 40px -2204px rgba(0, 0, 0, 0);
+	}
+	/*.home-right .wrap ul li{ width:32.8%;}*/
+	.chiase_hinhanh a{ width:110px;}
+}
+@media screen and (min-width:1281px) and (max-width: 1366px){
+	.photos-list .item-list .item .ava img{ width:140px; height:140px;}
+	.photos-list .item-list .item .btn-more{ width:138px; height:138px;}
+	.main .col-right .profile-photo ul li .ava img{ width:140px; height:140px;}
+	.main .col-right .profile-photo ul li .btn-more { width:138px; height:138px;}
+	.main .col-right .profile-photo ul li .ulti.active{ 
+		height: 75px;
+		padding-top: 60px;
+		width: 140px;
+	}
+	/*.main .col-right .profile-photo ul li .ava .bg-private{ left:45px;}*/
+	.main .col-right .profile-photo ul li .ava .bg-private i{ left:44px; top:48px;}
+	.main .col-right .profile-photo ul li .ulti.active{ /*display:none;*/}
+	.main .col-right .profile-photo ul li .btn-more .text{ top:-5px;}
+	.photos-list .item-list .item a.btn-more-load, .list_photo_user a.btn-more-load{ 
+		width:140px;
+		height:140px;
+	}
+	.photos-list .item-list .item a.btn-more-load label, .list_photo_user a.btn-more-load label{ 	
+		width: 140px;
+		background:url("images/sprites3.png") no-repeat scroll 45px -2171px;
+		margin-top:65px;
+	}
+	.photos-list .item-list .item a.btn-more-load:hover label, .list_photo_user a.btn-more-load:hover label{ 	
+		background:url("images/sprites3.png") no-repeat scroll 45px -2204px rgba(0, 0, 0, 0);
+	}
+	.find-him-pop{ left:100px !important; top:43px !important;}
+	.chiase_hinhanh a{ width:120px;}
+	.profile_setting_page{ width:99%;}
+}
+@media screen and (min-width:1280px) and (max-width: 1366px){
+	.main .col-right .profile-photo ul li .ulti.active{ 
+		padding-top: 60px;
+		width: 140px;
+	}
+	.find-him-pop{ left:100px !important; top:43px !important;}
+	.profile_setting_page{ width:99%;}
+}
+
+@media screen and (min-width:1367px) and (max-width: 1991px){
+	.main .col-right .profile-photo ul li .ulti.active{ 
+		padding-top: 65px;
+		width: 160px;
+	}
+	.find-him-pop{ left:100px !important; top:43px !important;}
+}
+@media screen and (min-width:1280px) and (max-width: 1919px){
+	/* Xu ly set width trinh duyet show chat box */
+	.pos_chat_boxed_5{ display:none;}
+	.pos_chat_boxed_end{ display:none;}
+	.form-login .title p.signin {
+		font-size:60px;
+		line-height:70px;
+	}
+	/*.find-him-pop{ left:240px;}*/
+	.arrow_tab{ left:90px;}
+}
+@media screen and (max-width: 1920px){
+	/* Xu ly set width trinh duyet show chat box */
+	.find-him-pop{ left:240px;}
+}
+
+
+@media screen and (max-width:1600px) {
+	.pint-style .list .item {
+		/*margin-left: 5px;
+		margin-right: 7px;
+		width: 246px;*/
+	}
+	.pint-style .list .item .photo li.first-item img {
+		width: 226px;
+	}
+	.pint-style .list .item .photo li.photo-2child img {
+		width: 111px;
+	}
+	.pint-style .list .item .photo li.photo-3child {
+		margin-right: 2px;
+	}
+	.pint-style .list .item .photo li.photo-3child img {
+		width: 74px;
+	}
+	.pint-style .list .item-0 {
+		width: 504px;
+	}
+	.pint-style .list .item-0 .photo li.first-item img {
+		width: 484px;
+	}
+	.pint-style .list .item-detail {
+		width: 800px;
+	}
+	.find-him-pop{ left:240px; top:43px;}
+}
+@media screen and (max-width:1440px) {
+	.pint-style .list .item {
+		/*margin-left: 5px;
+		margin-right: 7px;
+		width: 216px;*/
+	}
+	.pint-style .list .item .photo li.first-item img {
+		width: 196px;
+	}
+	.pint-style .list .item .photo li.photo-2child img {
+		width: 96px;
+	}
+	.pint-style .list .item .photo li.photo-3child {
+		margin-right: 2px;
+	}
+	.pint-style .list .item .photo li.photo-3child img {
+		width: 64px;
+	}
+	.pint-style .list .item-0 {
+		width: 448px;
+	}
+	.pint-style .list .item-0 .photo li.first-item img {
+		width: 428px;
+	}
+	.pint-style .list .item .cont .image img {
+		width: 196px;
+	}
+	.pint-style .list .item-detail {
+		width: 800px;
+	}
+	.home-img img {
+		height: 640px;
+	}
+}
+
+@media screen and (width: 800px){	
+	#triquiback {
+		width: 41.5%;
+	}		
+}
+@media screen and (max-width: 800px){	
+	.home-right{
+		left:47.4999999999%;
+	}
+	.home-right .wrap ul li {
+		width: 138px;
+	}
+	#triquiback {
+		width: 41.5%;
+	}		
+	.home-right .wrap ul li .name .fname {
+		font-size: 15px;
+	}
+	.imed-loc{ display:none;}
+	.home-right ul li .ava .name .more p{ font-size:10px;}
+	/*.home{ width:800px;}*/
+	/* Trang home */
+	/*.scroll_avatar_home{ overflow-y:scroll; overflow-x:hidden;}*/	
+
+}
+@media screen and (min-width: 801px) and (max-width: 980px){
+	.home-right .wrap ul li {
+		width: 24.6%;
+	}
+	#triquiback {
+		width: 43%;
+	}	
+	.home-right .wrap ul li .name .fname {
+		font-size: 15px;
+	}
+	.imed-loc{ display:none;}
+	.home-right ul li .ava .name .more p{ font-size:11px !important;}
+	/* Trang home */
+	/*.scroll_avatar_home{ overflow-y:scroll; overflow-x:hidden;}*/	
+
+}
+@media screen and (min-width: 981px) and (max-width:1280px) {
+	.home-left {
+		/*right: 50.8%;*/
+	}
+	.home-right {
+		/*left:47.8%;*/
+	}
+	.home-right .wrap ul li {
+		width: 19.6666666666%;
+	}
+	#triquiback{ width:48.5%;}
+	.home-right .ava:hover .name .more .location .text{ line-height:12px; font-size:12px;}
+	.imed-loc{ /*display:block;*/}
+	.home-right ul li .ava .name .more p{ font-size:11px !important;}
+	
+	.home-right ul li .ava .name {
+		padding: 6px;
+	}
+	.home-right .wrap ul li .name .fname {
+		font-size: 15px;
+		/*font-weight:bold;*/
+		line-height: 16px;
+	}
+	.imed-loc{ display:none;}
+	/* Trang home */
+	/*.scroll_avatar_home{ overflow-y:scroll; overflow-x:hidden;}*/
+}
+@media screen and (min-width: 1281px) and (max-width:1360px) {
+	.home-left {
+		/*right: 52.5%;*/
+	}
+	.home-right {
+		/*left:47.4%;*/
+	}
+	.home-right .wrap ul li {
+		width: 19.6666666666%;
+	}
+	.home-right .wrap ul li .name .fname {
+		font-size: 15px;
+		/*font-weight:bold;*/
+		line-height: 16px;
+	}
+	.home-right .ava:hover .name .more .location .text{ line-height:12px; font-size:12px;}
+	.imed-loc{ display:none;}
+	.home-right ul li .ava .name .more p{ font-size:11px !important;}
+	
+	/* Trang home */
+	/*.scroll_avatar_home{ overflow-y:scroll; overflow-x:hidden;}*/
+}
+@media screen and (width: 1366px){
+	/*.home-right .wrap ul li .name .fname{ font-size:1.6rem; line-height:17px;}
+	.home-right{ left:47.6%;}
+	.home-right .wrap ul li{ width:141px;}*/
+}
+@media screen and (width: 1360px){	
+	.home-right ul li .ava .name {
+		padding: 6px;
+	}
+	#triquiback {
+		width: 50%;
+	}
+}
+@media screen and (width: 1600px){	
+	#triquiback {
+		width: 55%;
+	}		
+}
+@media screen and (min-width: 1361px) and (max-width:1724px) {
+	.home-left {
+		/*right: 57.6%;*/
+	}
+	.home-right {
+		/*left:42.4%;*/
+	}
+	.home-right .wrap ul li {
+		width: 19.7%;
+	}
+	.home-right .wrap ul li .name .fname {
+		font-size: 16px;
+	}
+	.home-right .ava:hover .name .more .location .text{ line-height:12px; font-size:12px;}
+	.home-right ul li .ava .name .more p{ font-size:12px !important;}
+	.imed-loc{ display:none;}
+	/* Trang home */
+	/*.scroll_avatar_home{ overflow-y:scroll; overflow-x:hidden;}*/
+}
+@media screen and (min-width: 1725px) and (max-width:1920px) {
+	.home-left {
+		/*right: 57.6%;*/
+	}
+	.home-right {
+		/*left:42.4%;*/
+	}
+	.home-right .wrap ul li {
+		width: 19.7999999999%;
+	}
+	.imed-loc{ display:none;}
+	/* Trang home */
+	/*.scroll_avatar_home{ overflow-y:scroll; overflow-x:hidden;}	*/
+	.home-right .wrap .imed + .text, .home-right .wrap .imed + .inline-text, .home-right .wrap .ismall + .inline-text, .home-right .wrap .i18 + .inline-text, .inline-text {
+		padding:10px 0 5px 0;
+	}
+}
+

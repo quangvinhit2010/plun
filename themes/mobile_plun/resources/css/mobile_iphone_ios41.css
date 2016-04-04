@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---------Edit by DienTruong---------*/
+#wrapper_header{
+    position: relative;
+}
+#menu_footer{
+    position: relative;
+    float:left;
+	width:100%;
+}
+.function{
+	float:left;
+}
+.function ul{
+	float:left;
+}
+.scroll_info{
+	margin-top:0px;
+}
+#block_data_center{
+	margin-top:0px;
+}
+#menu_footer ul{
+	float:left;
+	width:100%;
+	background:#242424;
+}
+.other_info input.input-type-2,
+input[type="text"], input[type="password"],
+textarea, select{
+  font-size: 16px !important;
+}
+ul.list_user li a{
+	display:block;
+}
+#box_col_left{
+	position:absolute;
+}
+#box_col_left .main_sub{
+	position:static;
+}
+.friend_request ul li:last-child{
+	float:right;
+}
+.friend_request ul li:first-child{
+	margin-right:0px;
+}
+.signin_page .sign_in_up ul li input#LoginForm_rememberMe,
+.other_info input.input-type-3,
+.setting_basic_info input.input-type-3{
+	visibility: visible;
+	appearance: 1px;
+	-webkit-appearance:1px;
+	border:1px solid #555;
+	border-radius:0px;
+	background: #fff;
+	width: auto;
+	float: left;
+}
+.squaredCheck label{
+	display:none;
+}
+.squaredCheck label.mar_left_24{
+	display:block;
+	margin: 0px;
+	line-height: 10px;	
+}
+
+/*---------End Edit by DienTruong---------*/

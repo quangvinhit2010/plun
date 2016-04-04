@@ -1,0 +1,25 @@
+/* Radio & Checkbox Style */
+.input-fake input[type="checkbox"],
+.input-fake input[type="radio"] {
+	position: static;
+	width: auto;
+	height: auto;
+	margin: 0;
+}
+.input-fake label i {
+	display: none;
+}
+.input-fake .inline-text {
+	vertical-align: baseline;
+}
+.form-signup .input {
+	width: 318px;
+}
+.form-signup .input-short {
+	width: 144px;
+}
+.signup-privacy input[type="checkbox"] {
+	float: left;
+	margin-top: 2px;
+	margin-right: 4px;
+}

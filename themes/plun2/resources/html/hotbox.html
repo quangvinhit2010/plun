@@ -1,0 +1,987 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template_3.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PLUN - Version 2.0</title>
+<link rel="Shortcut Icon" href="css/images/icon_plun.png" type="image/x-icon" />
+<link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/dth_import.css" rel="stylesheet" type="text/css" />
+<link href="css/fix_device.css" rel="stylesheet" type="text/css" />
+<link href="css/style_vi.css" rel="stylesheet" type="text/css" />
+<link href="css/style_en.css" rel="stylesheet" type="text/css" />
+<link href="css/style_ipad.css" rel="stylesheet" type="text/css" />
+<link href="css/scrollbar.css" rel="stylesheet" type="text/css" />
+<link href="css/demo_device.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="wrapper_body">
+    	<div class="wrapper_main_menu left">
+        	<div  class="main_menu">
+                <ul>
+                    <li class="main_menu_avatar"><a href="#" title="nickname"><img src="images/avatar.jpg" align="absmiddle" /></a></li>
+                    <li class="main_menu_location">
+                    	<a href="#"><ins></ins></a>
+                        <div class="check_in" style="display:none;">
+                        	<div class="wrap_check_in">
+                            	<span class="icon_common icon_arrow_checkIn"></span>
+                                <div class="frm_checkIn">
+                                    <a href="#" class="right"><span class="icon_common"></span>Reset</a>
+                                    <p><b>Check-in</b></p>
+                                    <div class="select_style">
+                                        <select class="virtual_form">
+                                        <option selected="selected">Việt nam</option>
+                                        <option>Việt nam</option>
+                                        </select>                            
+                                        <span class="txt_select"><span class="language_preference">Việt nam</span></span> <span class="btn_combo_down"></span>
+                                    </div>
+                                    <div class="select_style">
+                                        <select class="virtual_form">
+                                        <option selected="selected">Việt nam</option>
+                                        <option>Việt nam</option>
+                                        </select>                            
+                                        <span class="txt_select"><span class="language_preference">Việt nam</span></span> <span class="btn_combo_down"></span>
+                                    </div>
+                                    <div class="select_style">
+                                        <select class="virtual_form">
+                                        <option selected="selected">Việt nam</option>
+                                        <option>Việt nam</option>
+                                        </select>                            
+                                        <span class="txt_select"><span class="language_preference">Việt nam</span></span> <span class="btn_combo_down"></span>
+                                    </div>
+                                    <div class="select_style">
+                                        <input type="text" placeholder="Bạn đang ở đâu?" />
+                                    </div>
+                                </div>
+                                <div class="footer_checkIn">
+                            	<div class="right">
+                                	<a href="#" class="btn_small btn_gray">cancel</a>
+                                    <a href="#" class="btn_small btn_tim">save</a>
+                                </div>
+                            </div>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li class="main_menu_message"><a href="#"><ins></ins></a></li>
+                    <li class="main_menu_alert"><a href="#"><ins></ins><label>123</label></a></li>
+                    <li class="main_menu_friend"><a href="#"><ins></ins><label>5</label></a></li>
+                    <li class="main_menu_photo"><a href="#"><ins></ins><label>89</label></a></li>
+                    <li class="main_menu_candy"><a href="#"><ins></ins><span class="icon_new_fun icon_common"></span></a></li>
+                    <li class="main_menu_bookmark"><a href="#"><ins></ins></a></li>
+                    <li class="main_menu_visitor"><a href="#"><ins></ins><span class="icon_new_fun icon_common"></span></a></li>
+                    <li class="main_menu_setting"><a href="#"><ins></ins></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="header scroll_overlow">
+            	<div class="menu left">
+                    <ul>
+                        <li class="active"><a href="#">EXPLORE</a></li>
+                        <li><a href="#">Hot Box</a></li>
+                        <li><a href="#">ISU</a></li>
+                    </ul>
+                </div>
+                <div class="search_setting left">
+                	<ul>
+                    	<li class="setting_list">
+                        	<a title="Setting" class="down_list" href="#"><ins></ins></a>
+                            <div class="list_setting">
+                            	<ol>
+                                	<li class="pics"><a href="#"><ins></ins> Hình ảnh</a></li>
+                                    <li class="mess"><a href="#"><ins></ins> Tin nhắn</a></li>
+                                    <li class="bookmark"><a href="#"><ins></ins> Đánh dấu</a></li>
+                                    <li class="alert"><a href="#"><ins></ins> Thông báo</a></li>
+                                    <li class="friends"><a href="#"><ins></ins> Bạn bè</a></li>
+                                    <li class="candy"><a href="#"><ins></ins> Candy</a></li>
+                                    <li class="vote"><a href="#"><ins></ins> Bình chọn</a></li>
+                                    <li class="setting"><a href="#"><ins></ins> Cài đặt</a></li>
+                                    
+                                    <li class="help"><a href="#"><ins></ins> Help</a></li>
+                                    
+                                	<li class="language_vi"><a href="#"><ins></ins> Tiếng Việt</a></li>
+                                    <li class="language_en"><a href="#"><ins></ins> English</a></li>                                    
+                                    
+                                    <li class="logout"><a href="#"><ins></ins> Log out</a></li>
+                                </ol>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo">
+                	<a href="#" title="plun.asia"></a>
+                </div>
+            </div>
+        <div class="search_setting left frm_search_user">
+                	<ul>
+                    	<li class="search">
+                        	<div class="slideFalse">
+	                        	<input name="" type="text" placeholder="Tìm bạn bè" /> <!--<input name="" type="button" class="but_search" />-->
+                            </div>
+                         </li>
+                         <li>
+                            <a href="#">Về PLUN.ASIA</a>
+                        </li>
+                        <li class="">
+                            <a href="#">Liên Hệ</a>
+                        </li>
+                        <li class="candyNumberShow">
+                            <a href="#"><ins class="icon_common"></ins>320</a>
+                        </li>
+                    </ul>
+                </div>
+    	<div class="wrapper_container left">
+            	<!-- InstanceBeginEditable name="doctitle" -->
+    <div class="container pheader">
+      <div class="hotbox">
+        <div class="menu_hotbox">
+          <ul>
+            <li class="all"> <a href="#" class="active changeBg">All</a>
+              <ol class="sub_menu_hotbox">
+                <li><a href="#" class="changeBg">Photo</a></li>
+                <li><a href="#" class="changeBg">Events</a></li>
+              </ol>
+            </li>
+            <li><a href="#" class="changeBg showPopup_create_hotbox">Create New</a></li>
+            <li><a href="#" class="changeBg">My hotbox</a></li>
+            <li class="search_hotbox">
+              <div class="container_search slideFalse">
+                <div class="wrap_search">
+                  <input type="text" placeholder="Search" name="" class="txt_search_hotbox">
+                  <input type="button" name="" class="but_search_hotbox">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="list_hotbox">
+          <ul class="box_masonry" data-sort="hotbox" id="hotbox_block">
+            <li class="hot items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+              <span class="icon_pic"></span> </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+              <span class="icon_event"></span> </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+              <a href="#" class="icon_edit"></a> 
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_detail_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_detail_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_2.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_2.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_detail_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_detail_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_2.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_2.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_detail_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_detail_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_2.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_2.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_detail_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_detail_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_2.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_2.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_detail_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_detail_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_2.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_2.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_detail_1.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_detail_1.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_5_hot.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in. Duis autem vel eum iriuret dolor in.</a></p>
+                <ol class="left">
+                  <li><ins class="like"></ins> Like (44)</li>
+                  <li><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+            <li class="items_hot_box">
+              <p><a class="wrap-img-loading showPopup" data-srcimg="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_2.jpg" href="#"><img align="absmiddle" src="https://dl.dropboxusercontent.com/u/43486987/html_ver2.0/images/hotbox_2.jpg"></a></p>
+              <div class="info">
+                <p class="title"><a href="#" class="showPopup">Duis autem vel eum iriuret dolor in.</a></p>
+                <ol>
+                  <li class="active"><ins class="like"></ins> Like (44)</li>
+                  <li class="active"><ins class="comment"></ins> Comment (44)</li>
+                </ol>
+                <div class="poster left">
+                  <p class="nickname left"><img align="absmiddle" src="images/avatar_20x20.jpg"> <a href="#">Nguyen Trung Truc</a></p>
+                  <p class="time right">15/07/2014</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="pagging"> <a href="#"><ins></ins></a> </div>
+        </div>
+      </div>
+    </div>
+    <!-- InstanceEndEditable -->
+            <div class="clear"></div>
+            
+            <div class="footer">
+            	<ul>
+                    <li><a href="#">About PLUN.ASIA</a></li> <label>|</label>
+                    <li><a href="#">Privacy</a></li> <label>|</label>
+                    <li><a href="#">Users Agreement</a></li> <label>|</label>
+                    <li><a href="#">Community Guidelines</a></li> <label>|</label>
+                    <li><a href="#">Support</a></li> <label>|</label>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            
+        </div>
+        <div class="clear"></div>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+	<!-- InstanceBeginEditable name="jsIncluded" -->
+<div class="popup_general popup_detail_hotbox" title="Hotbox" style="display:none;"> </div>
+
+
+
+<div class="popup_create_hotbox">
+  <div class="title">Create Hotbox</div>
+  <div class="content">
+    <div class="create_step_1"> <a class="create_hb_photo showcreate_hotbox_photo" href="#">Photo</a> <a class="create_hb_event showcreate_hotbox_event" href="#">Event</a> </div>
+  </div>
+</div>
+
+
+
+<div class="popup_hotbox_photo">
+  <div class="title">Create Photo</div>
+  <div class="content">
+    <div class="hotbox-create isu-create">
+      <div class="table-row">
+        <label for="">Title</label>
+        <div class="table-cell-right">
+          <div class="input-wrap">
+            <input type="text" id="HotboxForm_title" placeholder="Enter title...">
+            <div style="display:block" id="HotboxForm_title_em_" class="errorMessage">Error</div>
+          </div>
+        </div>
+      </div>
+      <div class="table-row row-editor">
+        <label for="">Content</label>
+        <div class="table-cell-right">
+          <img src="images/fck.jpg" align="absmiddle" />
+        </div>
+      </div>
+      <!-- fake table row -->
+      <div class="table-row row-photo">
+        <label for="">Upload</label>
+        <div class="table-cell-right">
+          <button class="but_upload" type="button">Upload</button>          
+        </div>
+        <div class="list_upload">
+        	<ul>
+                <li>
+                	<img src="images/upload_hotbox.jpg" align="absmiddle" />
+                    <a class="del_upload" href="#" title="Delete photo"></a>
+                </li>
+                <li>
+                	<img src="images/upload_hotbox.jpg" align="absmiddle" />
+                    <a class="del_upload" href="#" title="Delete photo"></a>
+                </li>
+                <li>
+                	<img src="images/upload_hotbox.jpg" align="absmiddle" />
+                    <a class="del_upload" href="#" title="Delete photo"></a>
+                </li>
+                <li>
+                	<img src="images/upload_hotbox.jpg" align="absmiddle" />
+                    <a class="del_upload" href="#" title="Delete photo"></a>
+                </li>
+                <li>
+                	<img src="images/upload_hotbox.jpg" align="absmiddle" />
+                    <a class="del_upload" href="#" title="Delete photo"></a>
+                </li>
+                <li>
+                	<img src="images/upload_hotbox.jpg" align="absmiddle" />
+                    <a class="del_upload" href="#" title="Delete photo"></a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="popup_hotbox_event">
+  <div class="title">Create Event</div>
+  <div class="content">
+    <div class="hotbox-create isu-create">
+      <div class="table-row">
+        <label for="">Title</label>
+        <div class="table-cell-right">
+          <div class="input-wrap">
+            <input type="text" id="HotboxForm_title" placeholder="Enter title...">
+            <div style="display:block" id="HotboxForm_title_em_" class="errorMessage">Error</div>
+          </div>
+        </div>
+      </div>
+      <div class="table-row">
+        <label for="">Where</label>
+        <div class="table-cell-right">
+          <div class="input-wrap">
+            <select name=""><option>Viet Nam</option></select>
+            <select name=""><option>An Giang</option></select>
+            <select name=""><option>An pHU1</option></select>
+            <div style="display:block" id="HotboxForm_title_em_" class="errorMessage">Error</div>
+          </div>
+        </div>
+      </div>
+      <div class="table-row">
+        <label for="">When</label>
+        <div class="table-cell-right">
+          <div class="input-wrap">
+            <input class="from_time" type="text" id="" placeholder="03-09-2014 01:41">
+            <label class="goto" for="">to</label>
+            <input class="from_time" type="text" id="" placeholder="03-09-2014 01:41">
+            <div style="display:block" id="HotboxForm_title_em_" class="errorMessage">Error</div>
+          </div>
+        </div>
+      </div>
+      <div class="table-row row-editor">
+        <label for="">Content</label>
+        <div class="table-cell-right">
+          <img src="images/fck.jpg" align="absmiddle" />
+        </div>
+      </div>
+      <!-- fake table row -->
+      <div class="table-row row-photo">
+        <label for="">Upload</label>
+        <div class="table-cell-right">
+          <button class="but_upload" type="button">Upload</button>          
+        </div>
+        <div class="list_upload">
+        	<ul>
+            	<li>
+                	<img src="images/upload_hotbox.jpg" align="absmiddle" />
+                    <a class="del_upload" href="#" title="Delete photo"></a>
+                </li>
+                <li>
+                	<img src="images/upload_hotbox.jpg" align="absmiddle" />
+                    <a class="del_upload" href="#" title="Delete photo"></a>
+                </li>
+                <li>
+                	<img src="images/upload_hotbox.jpg" align="absmiddle" />
+                    <a class="del_upload" href="#" title="Delete photo"></a>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script> 
+<script type="text/javascript" src="js/masonry.pkgd.min.js"></script> 
+<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script> 
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script> 
+<script type="text/javascript">
+		$(document).ready(function(){
+			objCommon.rHotBox();
+			
+			$( ".popup_create_hotbox" ).exists(function(){
+				$( ".popup_create_hotbox" ).pdialog({
+					open: function(event, ui) {
+						$("body").css({ overflow: 'hidden' });
+						objCommon.no_title(); // config trong file jquery-ui.js
+						objCommon.outSiteDialogCommon(this);
+					},
+					resizable: false,
+					position: 'middle',
+					draggable: false,
+					autoOpen: false,
+					center: true,
+					width: 440,
+					height: 320,
+					modal: true			
+				});
+			});
+			$( ".showPopup_create_hotbox" ).on('click',function() {
+				$( ".popup_create_hotbox" ).dialog("open");
+			});
+			
+			
+			$( ".popup_hotbox_photo" ).exists(function(){
+				$( ".popup_hotbox_photo" ).pdialog({
+					open: function(event, ui) {
+						$("body").css({ overflow: 'hidden' });
+						objCommon.no_title(); // config trong file jquery-ui.js
+						objCommon.outSiteDialogCommon(this);
+					},
+					resizable: false,
+					position: 'middle',
+					draggable: false,
+					autoOpen: false,
+					center: true,
+					width: 550,
+					modal: true,
+					buttons: {				
+						"Cancel": function() {
+							$( this ).dialog( "close" );
+						},
+						"Submit": {
+							text: 'Submit',
+							class: 'active'
+						}
+					},			
+				});
+			});
+			$( ".showcreate_hotbox_photo" ).on('click',function() {
+				$( ".popup_hotbox_photo" ).dialog("open");
+			});
+			
+			
+			$( ".popup_hotbox_event" ).exists(function(){
+				$( ".popup_hotbox_event" ).pdialog({
+					open: function(event, ui) {
+						$("body").css({ overflow: 'hidden' });
+						objCommon.no_title(); // config trong file jquery-ui.js
+						objCommon.outSiteDialogCommon(this);
+					},
+					resizable: false,
+					position: 'middle',
+					draggable: false,
+					autoOpen: false,
+					center: true,
+					width: 550,
+					modal: true,
+					buttons: {				
+						"Cancel": function() {
+							$( this ).dialog( "close" );
+						},
+						"Submit": {
+							text: 'Submit',
+							class: 'active'
+						}
+					},			
+				});
+			});
+			$( ".showcreate_hotbox_event" ).on('click',function() {
+				$( ".popup_hotbox_event" ).dialog("open");
+			});
+			
+			
+			
+		});
+		$(window).resize(function(){
+			objCommon.rHotBox();
+		});
+	</script> 
+<!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd --></html>

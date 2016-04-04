@@ -1,0 +1,929 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 320px){ 
+	/*#menu_footer ul li{ padding:4px 17px;}*/
+	ul.list_user li{ width:97px; height:97px;}
+	.function{ margin-left:70px;}
+	.type_status textarea{ width:279px;}	
+	.feed_explore{ width:301px;}
+	.function_message p.title{ width:68%;}
+	.type_message input{ width:279px;}
+	.type_message textarea{ width:279px;}
+	.type_message_detail textarea{ width:230px;}
+	.friend_request{ width:299px;}
+	.tab_myphoto{ width:300px;}
+	.tab_myphoto ul li{ padding:4px 44px;}
+	.list_photo ul.list_photo_public li a img{ width:95px; height:95px;}
+}
+@media screen and (min-width: 321px) and (max-width: 360px){
+	ul.list_user li{ width:110px; height:110px;}
+	.feed_explore ul li {padding: 4px 62px;}
+}
+@media screen and (min-width: 361px) and (max-width: 480px){
+	ul.list_user li{ width:110px; height:110px;}	
+}
+@media screen and (min-width: 481px) and (max-width: 768px){	
+	ul.list_user li{ width:116px; height:116px; margin-right:10px; margin-bottom:10px;}
+	/*.function{ margin-left:170px;}
+	.function ul li{ margin-left:60px;}
+	.feed_explore{ width:746px}	
+	.feed_explore ul li {padding: 4px 153px;}*/
+	.type_status textarea{ width:724px;}
+	
+	.homepage .content-wrap h3 { font-size:50px;}
+	.homepage .content-wrap h2 {font-size:80px;}
+	.btn{ font-size:20px;}
+	.signin_page .buttons button { padding: 2px 31px 6px;}
+	.function_message p.title{ width:87%;}
+	.type_message_detail textarea{ width:663px;}
+	.friend_request{ width:747px;}
+	.list_friend_request ul .item .btn{ font-size:14px;}
+	.list_friend_request ul .item{ width:99%;}
+	.tab_myphoto{ width:748px;}
+	.tab_myphoto ul li{ padding:4px 268px;}
+	.list_photo ul.list_photo_public li{ margin-right:12px; margin-bottom:12px;} 
+	.list_photo ul.list_photo_public li.end{ margin-right:12px; margin-bottom:12px;} 
+	.list_photo ul.list_photo_public li a img{ width:110px; height:110px;}\	
+}
+/* Khong detech cho cac Ipad, chi ap dung cho cac thiet bi mobile co man hinh nho hon 768*/
+@media screen and (min-width: 769px) and (max-width: 1024px){
+	.bg_homepage{ background-image:none;}
+	.signin_page .buttons button { padding: 2px 39px 6px;}
+	
+}
+@media screen and (min-width: 1025px){
+	.bg_homepage{ background-image:none;}
+	.signin_page .buttons button { padding: 2px 39px 6px;}
+}
+
+
+/* Iphone 240 ---------------------------------------------------------------------------------------- */
+@media screen and (width: 240px){	
+	.feed_explore {
+		width: 206px;
+	}
+	ul.list_user li {
+		height: 92px;
+		width: 92px;
+	}
+	#menu_footer ul li {
+		padding: 4px 3px;		
+	}
+	#menu_footer ul li a{ font-size:14px;}
+	.feed_explore ul li{ padding:4px 26px;}	
+	.function {
+		margin-left: 46px;
+	}
+	.function ul li {
+		margin-left: 10px;
+	}
+	.type_message textarea, .type_message input{ width:182px;}	
+	.function_message p.title {
+		width: 53%;
+	}
+	.friend_request {
+		width: 204px;
+	}
+	.friend_request ul li {
+		padding: 4px 22px 4px 21px;
+	}
+	.tab_myphoto ul li.publicphoto, .tab_myphoto ul li.vaultphoto, .tab_myphoto ul li.privatephoto {
+		padding: 4px 5px;
+	}
+	.tab_myphoto ul li {
+		padding: 4px 10px;
+	}
+	.tab_myphoto {
+		width: 205px;
+	}
+	.list_photo ul.list_photo_public li.end {
+		margin-right: 7px;
+	}
+	.bg_homepage {
+		background: url("/uploads/background/size_240.jpg") no-repeat scroll 0 0 #E8E8E6;
+	}
+	.homepage .content-wrap h2 {
+		font-size: 27px;
+	}
+	.homepage .content-wrap h3 {
+		font-size: 17px;
+	}
+	.homepage .buttons button{ padding:2px 12px 6px;}
+	.type_message_detail textarea {
+		width: 136px;
+	}
+	.signin_page {
+		top: 15% !important;
+	}
+	.type_status textarea {
+		width: 184px;
+	}
+	.list_isu ul li .nick_time{ width:90%;}
+	.isu ul li a{ padding:11px 20px;}
+	.create_isu .select_style {
+		width: 94px;
+	}
+	.type_message input.w115{ width:47px !important;}
+	.create_isu .type_message .but .right{ margin-right:0px;}
+	
+	.userprofile .user_func ul li{ margin-bottom:10px;}
+
+	.all_accept_decline .right a{ margin-right: 5px; padding: 3px 2px;}
+	
+	.checkin ul li .select_style {width: 210px;}
+
+	.hotbox ul li a{ padding:11px 20px;}
+	.feed .comment .comment-list li:first-child{ width:230px;}
+} /* End 240 */
+
+/* Iphone 320 ---------------------------------------------------------------------------------------- */
+@media screen and (-webkit-min-device-pixel-ratio:0) and (width: 320px){
+	#menu_footer ul li {
+		padding: 4px 10px; /*Chrome*/
+	}
+}
+@media screen and (width: 320px){	
+	.feed_explore {
+		width: 302px;
+		float:left;
+	}
+	.feed_explore ul li{ padding:4px 50px;}
+	
+	ul.list_user li {
+		height: 92px;
+		width: 92px;
+	}
+	#menu_footer ul li {
+		padding: 4px 14px;
+	}		
+	.type_message textarea, .type_message input{ width:277px;}	
+	.function_message p.title {
+		width: 66%;
+	}
+	.friend_request {
+		width: 300px;
+	}
+	.friend_request ul li {
+		padding: 4px 49px !important;		
+	}
+	.temp_fr ul li {
+		padding: 4px 45px 4px 46px !important;
+	}
+	.profile_tab ul li {
+		padding: 4px 49px;
+	}
+	.tab_myphoto {
+		width: 299px;
+		float:left;
+	}
+	.tab_myphoto ul li {
+		padding: 4px 42px;
+	}
+	.list_photo ul.list_photo_public li a img {
+		height: 90px;
+		width: 90px;
+	}
+	.type_message_detail textarea {
+		width: 229px;
+	}
+	.type_status textarea {
+		width: 280px;
+	}
+	.list_isu ul li .nick_time{ width:93%;}
+	.isu ul li a{ padding:11px 41px;}
+	.create_isu .select_style {
+		width: 134px;
+	}
+	.type_message input.w115{ width:87px !important;}
+	.create_isu .type_message .but .right{ margin-right:0px;}
+	
+	.userprofile .user_info .user_info_right{ width:133px;}
+	.userprofile .user_func ul li{ margin-right:3px;}
+	
+	.userphoto .public_photo_user ul li{ margin-right:5px; margin-bottom:5px;}
+	.userphoto .vault_photo_user ul li{ margin-right:5px; margin-bottom:5px;}
+	
+	.all_photo_accept ul li{ margin-right:5px;}
+	
+	.country ul li .select_style {
+		width: 130px;
+	}
+	.w130 {
+		width: 110px !important;
+	}
+	.other_info input.input-type-2{ width:30px;}
+	.w288 {
+		width: 248px;
+	}
+	.other_info .btn-white{ margin-left:110px;}
+	.list_status .item .nav .nav-right{ /*width:100%;*/}
+	
+	.checkin ul li .select_style {
+		width: 290px;
+	}
+	.hotbox ul li a{ padding:11px 40px;}
+	.select2-container{ width:300px !important;}
+	.list_status .feed .info p {
+		width: 85%;
+	}
+	.feed .comment .comment-list li:first-child{ width:310px;}	
+	
+} /* End 320 */
+
+/* SS note 2 360 ---------------------------------------------------------------------------------------- */
+@media screen and (width: 360px){	
+	.feed_explore {
+		width: 342px;
+	}
+	.feed_explore ul li{ padding:4px 60px;}
+	
+	.tab_myphoto ul li{ padding:4px 63px;}
+	.bg_homepage{ /*background:url(images/graphics/Size360x640.jpg) no-repeat 0 top #e8e8e6;*/  background:url(/uploads/background/Size720x1196.jpg) no-repeat 0 0px #e8e8e6; background-size:360px 598px;}
+	.hotbox ul li a{ padding:11px 50px;}
+	.select2-container{ width:340px !important;}
+	
+	.friend_request ul li{ padding:4px 59px; /*4px 56px 4px 55px*/}
+	
+	.feed .comment .comment-list .sub-item{ width:92.5%;} 
+	ul.list_user li {
+		height: 105px;
+		width: 105px;
+	}
+	.profile_tab ul li{ padding:4px 59px 4px 59px;}
+	.feed .comment .comment-list li:first-child{ width:350px;}
+	.temp_fr ul li {
+		padding: 4px 56px;
+	}
+} /* End 360 */
+
+/* Android (Nexus 4) 384 ---------------------------------------------------------------------------------------- */
+@media screen and (width: 384px){
+	.feed_explore {
+		width: 342px;
+	}
+	ul.list_user li {
+		height: 108px;
+		width: 108px;
+	}
+	.feed_explore ul li{ padding:4px 60px;}
+	.type_message textarea, .type_message input{ width:342px;}	
+	.friend_request {
+		width: 348px;
+	}
+	.friend_request ul li {
+		padding: 4px 56px 4px 57px;
+	}
+	.tab_myphoto{ width:347px;}
+	.tab_myphoto ul li{ padding:4px 66px;}
+	.bg_homepage {
+		background: url("/uploads/background/Size768x1024.jpg") no-repeat scroll 0 0 #E8E8E6;
+		background-size:384px 512px;
+	}
+	.type_message_detail textarea{ width:292px;}
+	.create_isu .select_style {
+		width: 174px;
+	}
+	.type_message input.w115{ width:127px !important;}
+	.create_isu .type_message .but .right{ margin-right:0px;}
+	
+	.userphoto .public_photo_user ul li{ margin-right:20px; margin-bottom:20px;}
+	.userphoto .vault_photo_user ul li{ margin-right:20px; margin-bottom:20px;}
+	
+	.select2-container{ width:364px !important;}
+	.feed .comment .comment-list li:first-child{ width:374px;}
+} /* End 384 */
+
+
+/* Iphone 480 - quay ngang ---------------------------------------------------------------------------- */
+@media screen and (width: 480px){
+	#menu_footer ul li{ padding:4px 40px;}
+	.feed_explore {
+		width: 460px;
+	}
+	.feed_explore ul li{ padding:4px 89px 4px 90px;}
+	ul.list_user li {
+		height: 108px;
+		width: 108px;
+	}	
+	.type_message textarea, .type_message input{ width:438px;}
+	.friend_request {
+		width: 450px;
+	}
+	.friend_request ul li {
+		padding: 4px 83px 4px 83px;
+	}
+	.tab_myphoto {
+		width: 460px;
+	}
+	.tab_myphoto ul li {
+		padding: 4px 122px 4px 123px;
+	}
+	.list_photo ul.list_photo_public li a img {
+		height: 102px;
+		width: 102px;
+	}	
+	.list_photo ul.list_photo_public li.end {
+		margin-right: 7px;
+	}
+	.bg_homepage {
+		background: url("/uploads/background/Size960x640.jpg") no-repeat scroll 0 0 #E8E8E6;
+		background-size:480px 320px;
+	}
+	.type_message_detail textarea {
+		width: 384px;
+	}
+	.signin_page {
+		top: 10% !important;
+	}
+	.type_status textarea{ width:417px;}
+	.list_isu ul li .nick_time{ width:95.5%;}
+	.isu ul li a{ padding:11px 78px;}
+	.create_isu .select_style {
+		width: 214px;
+	}
+	.type_message input.w115{ width:167px !important;}
+	.create_isu .type_message .but .right{ margin-right:0px;}
+	
+	.userprofile .user_info .user_info_right{ width:290px;}
+	
+	.hotbox ul li a{ padding:11px 80px;}
+	.select2-container{ width:460px !important;}
+	.function ul li{ margin-left:44px;}
+	.profile_tab ul li {
+		padding: 4px 87px;
+	}
+	.feed .comment .comment-list li:first-child{ width:470px;}	
+} /* End 480 */
+
+
+
+/*  HTC quay ngang ---------------------------------------------------------------------------- */
+@media screen and (width: 534px){
+	.feed_explore{ width:510px;}
+	.feed_explore ul li {
+		padding: 4px 102px;
+	}
+	.function ul li{ margin-left:52px;}
+	.type_status textarea{ 
+		width: 487px;
+	}
+	.friend_request{ width:510px;}
+	.friend_request ul li{ padding:4px 98px; }
+	.tab_myphoto {
+		width: 507px;
+	}
+	.tab_myphoto ul li {
+		padding: 4px 145px;
+	}
+	.hotbox ul li a{ padding:11px 92px;}
+	.select2-container{ width:514px !important;}
+	.type_message textarea{ width:492px;}
+	.feed .comment .comment-list li:first-child{ width:524px;}
+	.feed .comment .comment-list .sub-item{ width:95%;}
+	.bg_homepage {
+		background: url("/uploads/background/Size1068x640.jpg") no-repeat scroll 0 0 #E8E8E6;
+		background-size:534px 320px;
+	}
+} /* End 534 */ 
+
+/* Iphone 568 - quay ngang ------------------------------------------------------------------------ */
+@media screen and (width: 568px){	
+	.feed_explore {
+		width: 550px;
+	}
+	.feed_explore ul li {
+		padding: 4px 112px;
+	}
+	ul.list_user li {
+		height: 125px;
+		width: 125px;
+	}	
+	.function ul li {
+		margin-left: 50px;
+	}
+	
+	.function_message p.title {
+		width: 81%;
+	}
+	.type_message textarea, .type_message input{ width:525px;}
+	.friend_request {
+		width: 548px;
+	}
+	.friend_request ul li {
+		padding: 4px 107px 4px 108px;
+	}
+	.tab_myphoto {
+		width: 550px;
+	}	
+	.tab_myphoto ul li {
+		padding: 4px 167px;
+	}
+	.list_photo ul.list_photo_public li, .list_photo ul.list_photo_public li.end{
+		margin-bottom: 5px;
+		margin-right: 5px;
+	}
+	.list_photo ul.list_photo_public li a img {
+		height: 99px;
+		width: 99px;
+	}
+	.bg_homepage {
+		background: url("/uploads/background/Size1068x640.jpg") no-repeat scroll 0 0 #E8E8E6;
+		background-size:568px 320px;
+	}
+	.homepage .content-wrap h2 {
+		font-size: 45px;
+	}
+	.homepage .content-wrap h3 {
+		font-size: 27px;
+	}
+	.type_message_detail textarea {
+		width: 453px;
+	}
+	.signin_page {
+		top: 5% !important;
+	}
+	.type_status textarea {
+		width: 503px;
+	}
+	.list_isu ul li .nick_time{ width:96.2%;}
+	.isu ul li a{ padding:11px 100px;}
+	.create_isu .select_style {
+		width: 258px;
+	}
+	.type_message input.w115{ width:211px !important;}
+	.create_isu .type_message .but .right{ margin-right:0px;}
+	
+	.userprofile .user_info .user_info_right{ width:380px;}
+	.hotbox ul li a{ padding:11px 100px;}
+	.select2-container{ width:548px !important;}
+	.feed .comment .comment-list li:first-child{ width:558px;}
+	.feed .comment .comment-list .sub-item{ width:95%;}
+} /* End 568 */
+
+
+/* Sony quay ngang ------------------------------------------------------------------------ */
+@media screen and (width: 598px){
+	.feed_explore{ width:570px;}
+	.feed_explore ul li{ padding:4px 119px;}
+	.type_status textarea{ width:548px;}
+	.tab_myphoto {
+		width: 571px;
+	}
+	.tab_myphoto ul li {
+		padding: 4px 178px;
+	}
+	.feed_explore {
+		width: 572px;
+	}
+	.tab_myphoto ul li {
+		padding: 4px 178px;
+	}
+	.friend_request {
+		width: 571px;
+	}
+	.friend_request ul li{ padding:4px 113px;}
+	
+	.select2-container{ width:578px !important;}
+	.feed .comment .comment-list li:first-child{ width:588px;}
+	.feed .comment .comment-list .sub-item{ width:96%;}
+} /* End 598 */
+
+
+
+/* Android (Nexus 4) 600 - quay ngang ---------------------------------------------------------------------------------------- */
+/* Kindle 600 ---------------------------------------------------------------------------------------- */
+@media screen and (width: 600px){
+	#menu_footer ul li{ padding:4px 56px;}
+	ul.list_user li {
+		height: 104px;
+		width: 104px;
+	}	
+	.feed_explore {
+		width: 562px;
+	} 
+	.feed_explore ul li {
+		padding: 4px 115px;
+	}
+	.function ul li {
+		margin-left: 33px;
+	}
+	.function_message p.title {
+		width: 83%;
+	}
+	.type_message textarea, .type_message input{ width:544px;}
+	.friend_request {
+		width: 568px;
+	}
+	.friend_request ul li {
+		padding: 4px 112px 4px 111px;
+	}
+	.tab_myphoto {
+		width: 565px;
+	}
+	.tab_myphoto ul li {
+		padding: 4px 175px;
+	}
+	.list_photo ul.list_photo_public li,.list_photo ul.list_photo_public li.end {
+		margin-bottom: 5px;
+		margin-right: 5px;
+	}
+	.list_photo ul.list_photo_public li a img {
+		height: 106px;
+		width: 106px;
+	}
+	.tab_myphoto {
+		width: 565px;
+	}
+	.tab_myphoto ul li {
+		padding: 4px 175px;
+	}
+	.bg_homepage {
+		background: url("/uploads/background/Size1536x2048.jpg") no-repeat scroll 0 0 #E8E8E6;
+		background-size:600px 820px;
+	}
+	.type_message_detail textarea {
+		width: 501px;
+	}
+	.signin_page {
+		top: 22% !important;
+	}
+	.type_status textarea {
+		width: 535px;
+	}
+	.list_isu ul li .nick_time{ width:96.5%;}
+	.isu ul li a{ padding:11px 104px;}
+	.create_isu .select_style {
+		width: 274px;
+	}
+	.type_message input.w115{ width:227px !important;}
+	.create_isu .type_message .but .right{ margin-right:0px;}
+	
+	.userprofile .user_info .user_info_right{ width:410px;}
+	.hotbox ul li a{ padding:11px 108px;}
+	
+	.select2-container{ width:580px !important;}
+	.feed .comment .comment-list li:first-child{ width:590px;}
+} /* End 600 */
+
+/* SS Note 2 640 ---------------------------------------------------------------------------------------- */
+@media screen and (width: 640px){
+	.feed_explore {
+		width: 620px;
+	} 
+	.feed_explore ul li {
+		padding: 4px 129px 4px 130px;
+	}
+	.tab_myphoto {
+		width: 612px;
+	}	
+	.tab_myphoto ul li {
+		padding: 3px 198px;
+	}
+	.type_status textarea {
+		width: 590px;
+	}
+	.type_message_detail textarea {
+		width: 540px;
+	}	
+	.bg_homepage{ background:url(/uploads/background/Size1280x720.jpg) no-repeat 0 top #e8e8e6; background-size:640px 360px;}
+	.homepage .content-wrap h2 {
+		font-size: 55px;
+	}
+	.homepage .content-wrap h3 {
+		font-size: 35px;
+	}
+	.hotbox ul li a{ padding:11px 112px;}
+	
+	.select2-container{ width:620px !important;}
+	.type_message textarea, .type_message input{ width:598px;}
+	.function ul li{ margin-left:65px;}
+	.profile_tab {
+		width: 620px;
+	}
+	
+	.feed .comment .comment-list li:first-child{ width:630px;}
+	.feed .comment .comment-list .sub-item{ width:96%;}
+	.friend_request {
+		width: 620px;
+	}
+	.friend_request ul li{
+		padding:4px 129px 4px 129px;
+	}
+	.profile_tab ul li{ padding:4px 129px 4px 129px !important;}
+} /* End 640 */
+
+/* Ipad 768 ---------------------------------------------------------------------------------------- */
+@media screen and (width: 768px){
+	
+	/* Chinh icon size lon ------------------------------------------------ */
+	/* Menu top*/
+	#wrapper_header{ height:46px;}
+	.logoplun{ height:46px;}
+	.function ul li{ margin-top:8px;}
+	.icon_function{ width:35px; height:35px;}
+	.function ul li .count{ top:35%;}
+	
+	.iconmenu_message{ background:url(images/graphics/Icon_ipad.png) 0 -24px;}
+	.iconmenu_alert{ background:url(images/graphics/Icon_ipad.png) 70px -25px;}
+	.iconmenu_friend{ background:url(images/graphics/Icon_ipad.png) -2px -105px;}
+	.iconmenu_photo{ background:url(images/graphics/Icon_ipad.png) 70px -103px;}
+	.iconmenu_checkin{ background:url(images/graphics/Icon_ipad.png) 70px -583px;}
+	.function ul li a.iconmenu_checkin{ width:27px;}
+	#block_data_center {
+		margin-top: 47px;
+	}
+	.btn_control_col_left{ width:64px; height:46px; background:url(../images/graphics/img_left_panel_ipad.gif) 0 0 repeat-y;}
+	.btn_control_col_left img{ display:none;}
+	
+	/*Menu trai*/
+
+	.list_item_panel li.avatar a img{ width:44px !important; height:44px !important;}
+	.list_item_panel li.avatar a { line-height:64px !important; font-size:16px !important;}
+	.list_item_panel li a{ font-size:14px; line-height:48px;}
+	.icon_menu_plun{ width:34px; height:34px; margin-right:10px;}
+	
+	.block_search .btn_search{ background:url(images/graphics/Icon_ipad.png) 70px -336px #353535; width:34px; height:34px;}	
+	.block_search .input_search{ width:178px !important; height:26px; font-size:14px;}
+	.ico_menu_candy{ background:url(images/graphics/Icon_ipad.png) 0px -194px;}
+	.ico_menu_bookmark{ background:url(images/graphics/Icon_ipad.png) 70px -192px;}
+	.ico_menu_setting{ background:url(images/graphics/Icon_ipad.png) 0px -266px;}
+	.ico_menu_help{ background:url(images/graphics/Icon_ipad.png) 70px -266px;}
+	.ico_menu_english{ background:url(images/graphics/Icon_ipad.png) 0px -409px; width:42px; height:28px;}
+	.ico_menu_tiengviet{ background:url(images/graphics/Icon_ipad.png) 0px -447px; width:42px; height:28px;}	
+	.ico_menu_logout{ background:url(images/graphics/Icon_ipad.png) 0px -336px;}
+	
+	/*Menu footer*/
+	#menu_footer ul li:first-child{ width:158px; height:46px; background:url(../images/graphics/logo_ipad.gif) no-repeat;}
+	#menu_footer ul li:first-child a img{ display:none;}
+	#menu_footer ul li {
+		padding:10px 80px;
+		background:url(images/graphics/Icon_ipad.png) 0px -2184px no-repeat;
+	}
+	#menu_footer ul li a{ font-size:18px;}
+	
+	/*icon Profile*/
+	.userprofile .user_func ul li{ width:95px; height:95px;} 
+	.userprofile .user_func ul li.message a{ background:url(images/graphics/Icon_ipad.png) 0px -1368px; width:66px; height:66px;}
+	.userprofile .user_func ul li.fancy a{ background:url(images/graphics/Icon_ipad.png) 5px -2092px ; width:66px; height:66px;}
+	.userprofile .user_func ul li.rate a{ background:url(images/graphics/Icon_ipad.png) 5px -1744px; width:66px; height:66px;}
+	.userprofile .user_func ul li.add a.add{ background:url(images/graphics/Icon_ipad.png) 5px -1464px; width:66px; height:66px;}
+	.userprofile .user_func ul li.add a.friend{ background:url(images/graphics/Icon_ipad.png) 5px -1564px; width:66px; height:66px;}
+	.userprofile .user_func ul li.add a.waiting{ background:url(images/graphics/Icon_ipad.png) 5px -1667px; width:66px; height:66px;}
+	.userprofile .user_func ul li.bookmark a.bookmark{ background:url(images/graphics/Icon_ipad.png) 0px -1917px; width:66px; height:66px;}
+	.userprofile .user_func ul li.bookmark a.unbookmark{ background:url(images/graphics/Icon_ipad.png) 0px -2004px; width:66px; height:66px;}
+	
+	/* Trang message*/
+	.message_page .title{ padding:5px 0;}
+	.loading_status{ top:7px;}
+	.compose_but{ top:8px; padding:4px 10px;}
+	.function_message .btn {
+		font-size: 14px;
+		padding: 5px 12px;	
+	}
+	.list_photo .title_function .right a{ font-size:16px;}
+	/* End - Chinh icon size lon ------------------------------------------------ */
+	
+	.function {
+		margin-left: 150px;
+	}
+	.function ul li{ margin-left:60px;}
+	
+	.feed_explore {
+		width: 744px;
+		overflow:hidden;
+	}
+	.feed_explore ul li {
+		padding: 4px 160px 4px 161px;
+	}
+	.type_message textarea, .type_message input{ width:724px;}
+	.friend_request {
+		width: 746px;
+	}
+	.friend_request ul li {
+		padding: 4px 161px 4px 161px;
+	}
+	.temp_fr ul li {
+		padding: 4px 157px 4px 157px;
+	}
+	.profile_tab ul li {
+		padding: 4px 161px; 
+	}
+	.tab_myphoto {
+		width: 747px;
+	}
+	.tab_myphoto ul li {
+		padding: 4px 266px;
+	}
+	.bg_homepage {
+		background: url("/uploads/background/Size1536x2048.jpg") no-repeat scroll 0 0 #E8E8E6;
+		background-size:768px 1024px;
+	}
+	.type_status textarea {
+		width: 715px;
+	}
+	.list_isu ul li .nick_time{ background:#eeeeee; padding:5px 10px; width:97.3%;}
+	.isu ul li a{ padding:11px 152px;}	
+	.create_isu .select_style{ width:365px !important;}
+	.w115 {
+		width: 319px !important;
+	}
+	.userprofile .user_info .user_info_right{ width:590px;}
+	.userprofile .user_func ul li{ margin-right:20px;}
+	.other_info .with_profile_pic{ margin-left:320px;}
+	.other_info .btn-white{ margin-left:350px;}
+	.other_info .squaredCheck{ width:135px; margin-bottom:0;}
+	.other_info .with_profile_pic{ width:235px;}
+	
+	.checkin ul li .select_style {width: 290px;}
+	.checkin ul li {width: 100%;}
+	.checkin .save_cancel_checkin .btn{ font-size:16px;}
+	.hotbox ul li a{ padding:11px 150px;}
+	
+	.select2-container{ width:748px !important;}
+	
+	.list_status .item .nav .nav-right ul{ margin-right:0;}
+	.feed .comment .comment-list .sub-item{ width:96.5%;} 
+
+	.feed .comment .comment-list li:first-child{ width:709px;}
+	.feed .comment .comment-input{ width:99%;}
+	
+	.list_photo ul.list_photo_public li .confirm{ padding-top:26px;}
+	ul.list_user li{ width:110px; height:100px;}
+	.list_status .feed .info p {
+		width: 100%;
+	}
+	.alert_link_page .feed .comment .comment-input .input-wrap{ margin-right:10px;}
+	.list_mobile_request ul .item{ width:100%;}
+	.list_mobile_request, .other_info{ margin-bottom:50px;}
+	#menu_footer ul li.logo_footer a{ width:158px; height:46px; display:inline-block;}
+	/*.logo_plun a img{ width:276px; height:80px;}*/
+	.term_plun { width:700px;}
+	.term_plun .content_term { width:680px;}
+} /* End 768 */
+
+
+/* Ipad 1024 - quay ngang ---------------------------------------------------------------------------------------- */
+/* Kindle 1024 - quay ngang ---------------------------------------------------------------------------------------- */
+@media screen and (width: 1024px){
+	
+	/* Chinh icon size lon ------------------------------------------------ */
+	/* Menu top*/
+	#wrapper_header{ height:46px;}
+	.logoplun{ height:46px;}
+	.function ul li{ margin-top:8px;}
+	.icon_function{ width:35px; height:35px;}
+	.function ul li .count{ top:35%;}
+	
+	.iconmenu_message{ background:url(images/graphics/Icon_ipad.png) 0 -24px;}
+	.iconmenu_alert{ background:url(images/graphics/Icon_ipad.png) 70px -25px;}
+	.iconmenu_friend{ background:url(images/graphics/Icon_ipad.png) -2px -105px;}
+	.iconmenu_photo{ background:url(images/graphics/Icon_ipad.png) 70px -103px;}
+	.iconmenu_checkin{ background:url(images/graphics/Icon_ipad.png) 70px -583px;}
+	.function ul li a.iconmenu_checkin{ width:27px;}
+	#block_data_center {
+		margin-top: 47px ;
+	}
+	.btn_control_col_left{ width:64px; height:46px; background:url(../images/graphics/img_left_panel_ipad.gif) 0 0 repeat-y;}
+	.btn_control_col_left img{ display:none;}
+	
+	/*Menu trai*/
+
+	.list_item_panel li.avatar a img{ width:44px !important; height:44px !important;}
+	.list_item_panel li.avatar a { line-height:64px !important; font-size:16px !important;}
+	.list_item_panel li a{ font-size:14px; line-height:48px;}
+	.icon_menu_plun{ width:34px; height:34px; margin-right:10px;}
+	
+	.block_search .btn_search{ background:url(images/graphics/Icon_ipad.png) 70px -336px #353535; width:34px; height:34px;}	
+	.block_search .input_search{ width:178px !important; height:26px; font-size:14px;}
+	.ico_menu_candy{ background:url(images/graphics/Icon_ipad.png) 0px -194px;}
+	.ico_menu_bookmark{ background:url(images/graphics/Icon_ipad.png) 70px -192px;}
+	.ico_menu_setting{ background:url(images/graphics/Icon_ipad.png) 0px -266px;}
+	.ico_menu_help{ background:url(images/graphics/Icon_ipad.png) 70px -266px;}
+	.ico_menu_english{ background:url(images/graphics/Icon_ipad.png) 0px -409px; width:42px; height:28px;}
+	.ico_menu_tiengviet{ background:url(images/graphics/Icon_ipad.png) 0px -447px; width:42px; height:28px;}	
+	.ico_menu_logout{ background:url(images/graphics/Icon_ipad.png) 0px -336px;}
+	
+	/*Menu footer*/
+	#menu_footer ul li:first-child{ width:158px; height:46px; background:url(../images/graphics/logo_ipad.gif) no-repeat;}
+	#menu_footer ul li:first-child a img{ display:none;}
+	#menu_footer ul li {
+		padding:10px 120px;
+		background:url(images/graphics/Icon_ipad.png) 0px -2184px no-repeat;
+	}
+	#menu_footer ul li a{ font-size:18px;}
+	
+	/*icon Profile*/
+	.userprofile .user_func ul li{ width:95px; height:95px;} 
+	.userprofile .user_func ul li.message a{ background:url(images/graphics/Icon_ipad.png) 0px -1368px; width:66px; height:66px;}
+	.userprofile .user_func ul li.fancy a{ background:url(images/graphics/Icon_ipad.png) 5px -2092px ; width:66px; height:66px;}
+	.userprofile .user_func ul li.rate a{ background:url(images/graphics/Icon_ipad.png) 5px -1744px; width:66px; height:66px;}
+	.userprofile .user_func ul li.add a.add{ background:url(images/graphics/Icon_ipad.png) 5px -1464px; width:66px; height:66px;}
+	.userprofile .user_func ul li.add a.friend{ background:url(images/graphics/Icon_ipad.png) 5px -1564px; width:66px; height:66px;}
+	.userprofile .user_func ul li.add a.waiting{ background:url(images/graphics/Icon_ipad.png) 5px -1667px; width:66px; height:66px;}
+	.userprofile .user_func ul li.bookmark a.bookmark{ background:url(images/graphics/Icon_ipad.png) 0px -1917px; width:66px; height:66px;}
+	.userprofile .user_func ul li.bookmark a.unbookmark{ background:url(images/graphics/Icon_ipad.png) 0px -2004px; width:66px; height:66px;}
+	
+	/* Trang message*/
+	.message_page .title{ padding:5px 0;}
+	.loading_status{ top:7px;}
+	.compose_but{ top:8px; padding:4px 10px;}
+	.function_message .btn {
+		font-size: 14px;
+		padding: 5px 12px;	
+	}
+	.list_photo .title_function .right a{ font-size:16px;}
+
+	/* End - Chinh icon size lon ------------------------------------------------ */
+	
+	/*#menu_footer ul li{ padding:4px 120px;}*/
+	.feed_explore {
+		width: 1002px;
+	}
+	.feed_explore ul li {
+		padding: 4px 225px;
+	}
+	ul.list_user li {
+		height: 115px;
+		width: 115px;
+	}
+	.function ul li {
+		margin-left: 120px;
+	}
+	.type_message textarea, .type_message input{ width:980px;}
+	.friend_request {
+		width: 1000px;
+	}
+	.friend_request ul li {
+		padding:4px 224px 4px 225px;
+	}
+	.temp_fr ul li {
+		padding:4px 220px 4px 221px;
+	}
+	.tab_myphoto {
+		width: 1003px;
+	}
+	.tab_myphoto ul li {
+		padding: 4px 394px;
+	}
+	.list_photo ul.list_photo_public li.end{ margin-right:14px;}
+	.list_photo ul.list_photo_public li {
+		margin-bottom: 12px;
+		margin-right: 12px;
+	}
+	.bg_homepage {
+		background: url("/uploads/background/Size2048x1536.jpg") no-repeat scroll 0 0 #E8E8E6;
+		background-size:1024px 768px;
+	}
+	.homepage .content-wrap h2 {
+		font-size: 85px;
+	}
+	.homepage .content-wrap h3 {
+		font-size: 47px;
+	}
+	.homepage .buttons button{
+		padding:2px 40px 6px;
+	}
+	.btn{ font-size:18px;}
+	.type_message_detail textarea{ width:905px;}
+	.type_status textarea {
+		width: 965px;
+	}
+	.isu ul li a {
+		padding: 11px 210px;
+	}
+	.list_isu ul li .nick_time {
+		width: 98%;
+	}
+	.create_isu .select_style {
+		width: 493px;
+	}
+	.type_message input.w115{ width:446px !important;}
+	.create_isu .type_message .but .right{ margin-right:0px;}
+	.hotbox ul li a{ padding:11px 214px;}
+	
+	.select2-container{ width:1004px !important;}
+	.list_photo ul.list_photo_public li .confirm{ padding-top:26px;}
+	.list_status .feed .info p {
+		width: 100%;
+	}
+	.profile_tab ul li {
+		padding: 4px 224px 4px 225px;
+	}
+	
+	.feed .comment .comment-list .sub-item{ width:97.7%;}
+	.feed .comment .comment-list li:first-child{ width:959px;}
+	.feed .comment .comment-input{ width:99%;}
+	.alert_link_page .feed .comment .comment-input .input-wrap{ margin-right:10px;}
+	.list_status .feed .info{ width:97%;}
+	.list_mobile_request ul .item{ width:100%;}
+	.list_mobile_request, .other_info{ margin-bottom:50px;}
+	#menu_footer ul li.logo_footer a{ width:158px; height:46px; display:inline-block;}
+	/*.logo_plun a img{ width:276px; height:80px;}*/
+	.term_plun { width:900px;}
+	.term_plun .content_term { width:880px;}
+} /* End 1024 */
+
+@media screen and (orientation:landscape) and (max-height: 320px){
+ 	
+}

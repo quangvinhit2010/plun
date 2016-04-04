@@ -1,0 +1,23 @@
+.profile_setting_new{ background:#FFF !important;}
+.profile_setting_new .cont, .extra-userlocation{
+	position:static !important;
+	top:auto !important;
+}
+.profile_setting_new .info-wrap .info{ height:auto !important;}
+.profile_setting_new .info-wrap{ background:#FFF !important;}
+.profile_setting_new .info-wrap{ padding-bottom:0 !important;}
+.profile_setting_new .info-wrap .info{ padding-top:0 !important;}
+
+.profile_setting_new .cont ul .item{ border-top:none !important; margin-top:0 !important; border-bottom:1px solid #dfdfdf !important;}
+
+.profile_setting_new .accordion-heading{ width:330px !important; margin:10px !important;}
+
+.profile_setting_new .setting-title a{ color:#333 !important; font-size:18px !important; padding:3px 7px 7px 7px !important;}
+.profile_setting_new .setting-title a .arrow{top:4px !important;}
+
+.i18-setting-profile-new {
+	background:url(images/sprites3.png) 0 -2955px no-repeat !important;
+}
+.i18-setting-status-new {
+	background:url(images/sprites3.png) -48px -2954px no-repeat !important;
+}

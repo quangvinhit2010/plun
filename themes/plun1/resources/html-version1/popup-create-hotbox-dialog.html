@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+<title>Plun Asia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<link href="css/plugins.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,400italic,300italic,700,300' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]>
+<link href="css/ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print"/>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxSlider.min.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="js/inview.js"></script>
+<script type="text/javascript" src="js/popup.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+
+<script type="text/javascript" src="js/jquery.poshytip.js"></script>
+
+<link href="css/plugins.css" rel="stylesheet" type="text/css" />
+
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.ui.button.js"></script>
+<script>
+	$(function() {
+		$( ".popup-alert" ).dialog({
+			title: 'Create HOTBOX',
+			width: 788,
+		});
+	});
+</script>
+
+<link href="css/jquery-plun.css" rel="stylesheet" type="text/css"/>
+
+
+</head>
+<body>
+
+<!--<div class="box-detail">
+  <div class="page-createisu">
+    <form method="post" action="/isu/create" id="isu-form">
+      <div class="form-contain form-isu">
+        <div class="pop-title">
+          <h2><i class="i28 i28-isu"></i><span class="inline-text">Create HOTBOX</span></h2>
+        </div>
+        ...
+      </div>
+      <div class="position"></div>
+    </form>
+  </div>
+</div>-->
+
+<div class="popup-alert">
+  <div class="form-contain">
+  	<div id="isu-form">
+    	<div class="form-contain-wrap">
+          <div class="isu-create hotbox-create">
+            <div class="table-row">
+              <label for="">Title</label>
+              <div class="table-cell-right">
+                <div class="input-wrap">
+                  <input type="text" id="Notes_title" title="Enter title...">
+                  <div style="display:none" id="Notes_title_em_" class="errorMessage"></div>
+                </div>
+              </div>
+            </div>
+            <!-- fake table row -->
+            <div class="table-row">
+              <label for="">Description</label>
+              <div class="table-cell-right">
+                <div class="input-wrap">
+                  <textarea name="" cols="" id="Notes_desc"  title="Enter description..."></textarea>
+                </div>
+              </div>
+            </div>
+            
+            <!-- fake table row -->
+            <div class="table-row row-editor">
+              <label for="">Content</label>
+              <div class="table-cell-right">
+                <div class="editor"> <img src="css/images/editor.jpg" /> </div>
+              </div>
+            </div>
+            <!-- fake table row -->
+            <div class="table-row row-photo">
+              <label for="">Photo</label>
+              <div class="table-cell-right">
+                <div class="input-wrap input-semi">
+                  <button class="btn btn-white">Chọn nhiều file</button>
+                </div>
+                <div class="hotbox_thumbnail">
+					<ul>
+                    	<li>
+                        	<a href="#"><img src="images/Photo_200.jpg" align="absmiddle"></a>
+                            <ol>
+                            	<li><a href="#" class="icon_del_thumb_active"></a></li>
+                                <li><a href="#" class="icon_check_thumb_active"></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                        	<a href="#"><img src="images/Photo_200.jpg" align="absmiddle"></a>
+                            <ol>
+                            	<li><a href="#" class="icon_del_thumb"></a></li>
+                                <li><a href="#" class="icon_check_thumb"></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                        	<a href="#"><img src="images/Photo_200.jpg" align="absmiddle"></a>
+                            <ol>
+                            	<li><a href="#" class="icon_del_thumb"></a></li>
+                                <li><a href="#" class="icon_check_thumb"></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                        	<a href="#"><img src="images/Photo_200.jpg" align="absmiddle"></a>
+                            <ol>
+                            	<li><a href="#" class="icon_del_thumb"></a></li>
+                                <li><a href="#" class="icon_check_thumb"></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                        	<a href="#"><img src="images/Photo_200.jpg" align="absmiddle"></a>
+                            <ol>
+                            	<li><a href="#" class="icon_del_thumb"></a></li>
+                                <li><a href="#" class="icon_check_thumb"></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                        	<a href="#"><img src="images/Photo_200.jpg" align="absmiddle"></a>
+                            <ol>
+                            	<li><a href="#" class="icon_del_thumb"></a></li>
+                                <li><a href="#" class="icon_check_thumb"></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                        	<a href="#"><img src="images/Photo_200.jpg" align="absmiddle"></a>
+                            <ol>
+                            	<li><a href="#" class="icon_del_thumb"></a></li>
+                                <li><a href="#" class="icon_check_thumb"></a></li>
+                            </ol>
+                        </li>
+                        <li>
+                        	<a href="#"><img src="images/Photo_200.jpg" align="absmiddle"></a>
+                            <ol>
+                            	<li><a href="#" class="icon_del_thumb"></a></li>
+                                <li><a href="#" class="icon_check_thumb"></a></li>
+                            </ol>
+                        </li>
+                    </ul>                    
+                </div>
+                <div class="notify_create_hb">
+                	<p><label class="check_thumb"></label> <label>Check để chọn hình thumbnail</label> <label class="del_thumb"></label>  <label>Xoá hình Hotbox</label></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="table-row">
+              <label for="">Sections</label>
+              <div class="table-cell-right">
+                <div class="input-wrap">
+                  <select>
+                    <option>Select Sections</option>
+                    <option>Sections 1</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            
+            <!-- fake table row -->
+            <div class="table-row">
+              <label for=""></label>
+              <div class="table-cell-right">
+                <div class="buttons">
+                  <button class="btn btn-violet" id="isu-submit">Create</button>
+                  <button class="btn btn-white" id="isu-cancel">Cancel</button>
+                </div>
+              </div>
+            </div>
+            <!-- fake table row --> 
+          </div>
+          <!-- create ISU form --> 
+        </div>
+    </div>    
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>

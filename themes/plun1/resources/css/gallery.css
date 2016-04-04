@@ -1,0 +1,186 @@
+ul, li
+{
+	padding: 0;
+	margin: 0;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.list_album
+{
+	margin: 10px 0;
+	/*clear: both;*/
+}
+
+.list_album ul
+{
+	list-style: none;
+}
+
+.list_album ul li
+{
+	float: left;
+	margin-bottom: 10px;
+}
+
+.list_album .title
+{
+	margin-bottom: 5px;
+}
+
+.list_album .img
+{
+	border: 1px solid gray;
+    height: 156px;
+    margin-right: 14px;
+    padding: 1px;
+    width: 228px;
+	clear: both;
+}
+
+.list_album .img img
+{
+	float: left;
+	margin: 2px;
+}
+
+.photos
+{
+	
+}
+
+.photos ul
+{
+	list-style: none;
+}
+
+.photos ul li
+{
+	float: left;
+	margin-bottom: 8px;
+    margin-right: 8px;
+	position: relative;
+}
+
+.photos .photo
+{
+	border: 1px solid gray;
+    padding: 1px;
+}
+
+.photos .menu
+{
+	position: absolute;
+	clear: both;
+	width:100%;
+}
+
+.photos .menu a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.photos .menu .edit, .photos .menu .del, .photos .menu .view
+{
+	background-color: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	padding: 2px 4px;
+	cursor: pointer;
+	display: none;
+}
+
+.photos li:hover .edit, .photos li:hover .del, .photos li:hover .view
+{
+	display: block;
+}
+
+.photos .menu .edit, .photos .menu .view
+{
+	float: left;
+	margin-right:1px;
+}
+
+.photos .menu .del
+{
+	float: right;
+}
+
+.photo-edit
+{
+	clear: both;
+	font-family: tahoma,verdana,arial,sans-serif;
+	font-size:12px !important;
+}
+
+.photo-edit .label
+{
+	margin-bottom: 3px;
+}
+
+.photo-edit .photo
+{
+	
+}
+
+.photo-edit .item
+{
+	margin: 8px 0;
+}
+
+.photo-edit .input
+{
+	width: 92%;
+}
+
+.photo-edit .input input, .photo-edit .input select
+{
+	width:100%;
+	border: solid 1px #C4CDE0;
+}
+
+.photo-edit .func
+{
+	width:250px;
+}
+
+.photo-edit table tr, .photo-edit table td
+{
+	vertical-align:top !important;
+}
+
+.photo-edit .images
+{
+	text-align: center;
+}
+
+.photo-edit .images div, .photo-edit .preview
+{
+	border: 1px solid gray;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 2px;
+    text-align: center;
+}
+
+#album-form .chk
+{
+	list-style: none;
+}
+
+#album-form .chk li
+{
+	padding: 2px 5px;
+}
+
+#album-form .chk label
+{
+	display: inline;
+}
+
+.drapin_file{
+	
+}

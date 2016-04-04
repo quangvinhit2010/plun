@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+<title>Plun Asia</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<meta name="robots" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+<link href="css/plugins.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<!--[if lt IE 9]>
+<link href="css/ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print"/>
+<script type="text/javascript" src="js/jquery.js"></script>	
+<script type="text/javascript" src="js/jquery.isotope.min.js"></script>	
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxSlider.min.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="js/inview.js"></script>
+
+<script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+
+<!-- Pop up : Sign up -->
+
+<div class="wrapper">
+  <div class="header">
+    <div class="logo"> <a title="" href="/"></a> </div>
+    <!-- logo -->
+    <div class="navigation">
+      <ul>
+        <li><a title="" href="/">Khám Phá</a> <spanclass="line"></spanclass="line"></li>
+        <li><a title="" href="/hotbox">Hot box</a> <span class="line"></span></li>
+        <!-- 
+			 <li><a href="#" title="" class="coming-soon">Hot box</a> <span class="line"></span>
+			 -->
+        <li class="current"><a title="" href="/isu">Isu</a> <span class="line"></span></li>
+        <li><a class="coming-soon" title="" href="#">Tán Gẫu</a> <span class="line"></span> </li>
+      </ul>
+    </div>
+    <!-- page navigation -->
+    <div class="navigation-sec">
+      <form action="/my/quicksearch" id="frm-quicksearch" class="frm-quicksearch" method="get">
+        <div class="navblock left w400 search_form">
+          <label class="search_icon"></label>
+          <div class="select2-container select2-container-multi quicksearch quicksearch_suggestuser" id="s2id_quicksearch_suggestuser" style="width: 235px;">
+            <ul class="select2-choices">
+              <li class="select2-search-field">
+                <input type="text" class="select2-input" autocomplete="off" style="width: 10px;">
+              </li>
+            </ul>
+            <div style="display:none;" class="select2-drop select2-drop-multi result_quicksearch_suggestuser">
+              <ul class="select2-results">
+              </ul>
+            </div>
+          </div>
+          <input type="text" class="quicksearch select2-offscreen" value="Search" onblur="if(this.value=='') this.value=this.defaultValue" onfocus="if(this.value==this.defaultValue) this.value=''" name="q" id="quicksearch_suggestuser" style="width: 235px;" autocomplete="On" tabindex="-1">
+        </div>
+        <input type="hidden" value="haikeo" name="alias">
+      </form>
+      <div class="navblock nav-country"> <span class="line"></span> <a data-toggle="dropdown" class="btn-country" href="#"><i class="imed flag-vn"></i><span class="text">Tiếng Việt</span><i class="imed imed-arrow-wd"></i></a>
+        <div class="spr-submenu">
+          <ul>
+            <li><a href="/site/lang?_lang=en"><i class="imed flag-eng"></i><span class="text">English</span></a></li>
+            <li><a href="/site/lang?_lang=vi"><i class="imed flag-vn"></i><span class="text">Tiếng Việt</span></a></li>
+          </ul>
+        </div>
+        <!-- submenu --> 
+      </div>
+      <script type="text/javascript">
+			$(function(){
+				$(".btn-country").click(function () {
+					var parent = $(this).parent();
+					$('.spr-submenu').css({width: parent.width() - 7});
+				});	
+			});
+		</script> 
+      <!-- sub nav -->
+      <div class="navblock nav-username"> <span class="line"></span> <a href="/u/haikeo"><img border="" src="/public/images/no-user.jpg?t=1395023983" alt=""><span class="username">haikeo</span></a> </div>
+      <!-- sub nav -->
+      <div class="navblock nav-setting"> <span class="line"></span> <a href="#" data-toggle="dropdown" data-target="#"><i class="i18 i18-setting"></i></a>
+        <div class="setting-bot"> <span class="arrow"><i></i></span>
+          <div class="setting-bot-board">
+            <ul>
+              <li> <a href="/u/haikeo/photo"> <i class="i18 i18-photo"></i> <span class="inline-text">Hình Ảnh</span> </a> </li>
+              <li> <a href="/u/haikeo/messages"> <i class="i18 i18-message"></i> <span class="inline-text">Tin Nhắn</span> </a> </li>
+              <li> <a href="/u/haikeo/bookmark"> <i class="i18 i18-bookmark"></i> <span class="inline-text">Đánh Dấu</span> </a> </li>
+              <li> <a href="/u/haikeo/alerts"> <i class="i18 i18-alert"></i> <span class="inline-text">Thông Báo</span> </a> </li>
+              <li> <a href="/u/haikeo/friends"> <i class="i18 i18-friend"></i> <span class="inline-text">Bạn Bè</span> </a> </li>
+              <li> <a href="/u/haikeo/settings"> <i class="i18 i18-account"></i> <span class="inline-text">Cài Đặt</span> </a> </li>
+              <li> <a href="http://support.plun.asia/" target="_blank"> <i class="i18 i18-help"></i> <span class="inline-text">Trợ giúp</span> </a> </li>
+              <li> <a href="/site/logout"> <i class="i18 i18-logout"></i> <span class="inline-text">Thoát</span> </a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- sub nav --> 
+    </div>
+    <!-- second navigation --> 
+  </div>
+  <!-- header but display at bottom --> 
+  <!-- navigation column -->
+  <div class="main clearfix">
+    <div style="width: 652px; margin:0 auto;" class="main-wrap isu mCustomScrollbar _mCS_1">
+      <div style="position:relative; height:100%; overflow:hidden; max-width:100%;" id="mCSB_1" class="mCustomScrollBox mCS-light">
+        <div style="position:relative; top:0;" class="mCSB_container mCS_touch mCS_no_scrollbar"> 
+          <!-- header but display at bottom --> 
+          <!-- page filter -->
+          <form method="post" action="/isu/create" id="isu-form">
+            <div class="form-contain form-isu">
+              <div class="pop-title">
+                <h2><i class="i28 i28-isu"></i> <span class="inline-text">Tạo ISU</span> </h2>
+              </div>
+              <div class="form-contain-wrap">
+                <div class="isu-create hotbox-create">
+                  <div class="table-row">
+                    <label for="">Tiêu đề</label>
+                    <div class="table-cell-right">
+                      <div class="input-wrap">
+                        <input type="text" id="Notes_title" name="Notes[title]" placeholder="Nhập tiêu đề ..." title="">
+                        <div style="display:none" id="Notes_title_em_" class="errorMessage"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fake table row --> 
+
+                  <div class="table-row">
+                    <label for="">Địa điểm</label>
+                    <div class="table-cell-right">
+                      <div class="input-wrap success">
+                        <div class="select_style">
+                            <select name="LoginForm[online_lookingfor]" id="LoginForm_online_lookingfor">
+                                <option value="">-- Chọn quốc gia --</option>
+                  <option value="1">Afghanistan</option>
+                  <option value="2">Albania</option>
+                  <option value="3">Algeria</option>
+                  <option value="4">American Samoa</option>
+                  <option value="5">Andorra</option>
+                  <option value="6">Angola</option>
+                  <option value="7">Anguilla</option>
+                  <option value="8">Antarctica</option>
+                  <option value="9">Antigua and Barbuda</option>
+                  <option value="10">Argentina</option>
+                  <option value="11">Armenia</option>
+                  <option value="12">Aruba</option>
+                  <option value="13">Australia</option>
+                  <option value="14">Austria</option>
+                  <option value="15">Azerbaijan</option>
+                  <option value="16">Bahamas</option>
+                  <option value="17">Bahrain</option>
+                  <option value="18">Bangladesh</option>
+                  <option value="19">Barbados</option>
+                  <option value="20">Belarus</option>
+                  <option value="21">Belgium</option>
+                  <option value="22">Belize</option>
+                  <option value="23">Benin</option>
+                  <option value="24">Bermuda</option>
+                  <option value="25">Bhutan</option>
+                  <option value="26">Bolivia</option>
+                  <option value="27">Bosnia and Herzegovina</option>
+                  <option value="28">Botswana</option>
+                  <option value="29">Bouvet Island</option>
+                  <option value="30">Brazil</option>
+                  <option value="31">British Indian Ocean Territory</option>
+                  <option value="32">Brunei Darussalam</option>
+                  <option value="33">Bulgaria</option>
+                  <option value="34">Burkina Faso</option>
+                  <option value="35">Burundi</option>
+                  <option value="36">Cambodia</option>
+                  <option value="37">Cameroon</option>
+                  <option value="38">Canada</option>
+                  <option value="39">Cape Verde</option>
+                  <option value="40">Cayman Islands</option>
+                  <option value="41">Central African Republic</option>
+                  <option value="42">Chad</option>
+                  <option value="43">Chile</option>
+                  <option value="44">China</option>
+                  <option value="45">Christmas Island</option>
+                  <option value="46">Cocos (Keeling) Islands</option>
+                  <option value="47">Colombia</option>
+                  <option value="48">Comoros</option>
+                  <option value="49">Congo</option>
+                  <option value="50">Cook Islands</option>
+                  <option value="51">Costa Rica</option>
+                  <option value="52">Cote D'Ivoire</option>
+                  <option value="53">Croatia</option>
+                  <option value="54">Cuba</option>
+                  <option value="55">Cyprus</option>
+                  <option value="56">Czech Republic</option>
+                  <option value="57">Denmark</option>
+                  <option value="58">Djibouti</option>
+                  <option value="59">Dominica</option>
+                  <option value="60">Dominican Republic</option>
+                  <option value="61">East Timor</option>
+                  <option value="62">Ecuador</option>
+                  <option value="63">Egypt</option>
+                  <option value="64">El Salvador</option>
+                  <option value="65">Equatorial Guinea</option>
+                  <option value="66">Eritrea</option>
+                  <option value="67">Estonia</option>
+                  <option value="68">Ethiopia</option>
+                  <option value="69">Falkland Islands (Malvinas)</option>
+                  <option value="70">Faroe Islands</option>
+                  <option value="71">Fiji</option>
+                  <option value="72">Finland</option>
+                  <option value="74">France, Metropolitan</option>
+                  <option value="75">French Guiana</option>
+                  <option value="76">French Polynesia</option>
+                  <option value="77">French Southern Territories</option>
+                  <option value="78">Gabon</option>
+                  <option value="79">Gambia</option>
+                  <option value="80">Georgia</option>
+                  <option value="81">Germany</option>
+                  <option value="82">Ghana</option>
+                  <option value="83">Gibraltar</option>
+                  <option value="84">Greece</option>
+                  <option value="85">Greenland</option>
+                  <option value="86">Grenada</option>
+                  <option value="87">Guadeloupe</option>
+                  <option value="88">Guam</option>
+                  <option value="89">Guatemala</option>
+                  <option value="90">Guinea</option>
+                  <option value="91">Guinea-Bissau</option>
+                  <option value="92">Guyana</option>
+                  <option value="93">Haiti</option>
+                  <option value="94">Heard and Mc Donald Islands</option>
+                  <option value="95">Honduras</option>
+                  <option value="96">Hong Kong</option>
+                  <option value="97">Hungary</option>
+                  <option value="98">Iceland</option>
+                  <option value="99">India</option>
+                  <option value="100">Indonesia</option>
+                  <option value="101">Iran (Islamic Republic of)</option>
+                  <option value="102">Iraq</option>
+                  <option value="103">Ireland</option>
+                  <option value="104">Israel</option>
+                  <option value="105">Italy</option>
+                  <option value="106">Jamaica</option>
+                  <option value="107">Japan</option>
+                  <option value="108">Jordan</option>
+                  <option value="109">Kazakhstan</option>
+                  <option value="110">Kenya</option>
+                  <option value="111">Kiribati</option>
+                  <option value="112">North Korea</option>
+                  <option value="113">Korea, Republic of</option>
+                  <option value="114">Kuwait</option>
+                  <option value="115">Kyrgyzstan</option>
+                  <option value="116">Lao People's Democratic Republic</option>
+                  <option value="117">Latvia</option>
+                  <option value="118">Lebanon</option>
+                  <option value="119">Lesotho</option>
+                  <option value="120">Liberia</option>
+                  <option value="121">Libyan Arab Jamahiriya</option>
+                  <option value="122">Liechtenstein</option>
+                  <option value="123">Lithuania</option>
+                  <option value="124">Luxembourg</option>
+                  <option value="125">Macau</option>
+                  <option value="126">FYROM</option>
+                  <option value="127">Madagascar</option>
+                  <option value="128">Malawi</option>
+                  <option value="129">Malaysia</option>
+                  <option value="130">Maldives</option>
+                  <option value="131">Mali</option>
+                  <option value="132">Malta</option>
+                  <option value="133">Marshall Islands</option>
+                  <option value="134">Martinique</option>
+                  <option value="135">Mauritania</option>
+                  <option value="136">Mauritius</option>
+                  <option value="137">Mayotte</option>
+                  <option value="138">Mexico</option>
+                  <option value="139">Micronesia, Federated States of</option>
+                  <option value="140">Moldova, Republic of</option>
+                  <option value="141">Monaco</option>
+                  <option value="142">Mongolia</option>
+                  <option value="143">Montserrat</option>
+                  <option value="144">Morocco</option>
+                  <option value="145">Mozambique</option>
+                  <option value="146">Myanmar</option>
+                  <option value="147">Namibia</option>
+                  <option value="148">Nauru</option>
+                  <option value="149">Nepal</option>
+                  <option value="150">Netherlands</option>
+                  <option value="151">Netherlands Antilles</option>
+                  <option value="152">New Caledonia</option>
+                  <option value="153">New Zealand</option>
+                  <option value="154">Nicaragua</option>
+                  <option value="155">Niger</option>
+                  <option value="156">Nigeria</option>
+                  <option value="157">Niue</option>
+                  <option value="158">Norfolk Island</option>
+                  <option value="159">Northern Mariana Islands</option>
+                  <option value="160">Norway</option>
+                  <option value="161">Oman</option>
+                  <option value="162">Pakistan</option>
+                  <option value="163">Palau</option>
+                  <option value="164">Panama</option>
+                  <option value="165">Papua New Guinea</option>
+                  <option value="166">Paraguay</option>
+                  <option value="167">Peru</option>
+                  <option value="168">Philippines</option>
+                  <option value="169">Pitcairn</option>
+                  <option value="170">Poland</option>
+                  <option value="171">Portugal</option>
+                  <option value="172">Puerto Rico</option>
+                  <option value="173">Qatar</option>
+                  <option value="174">Reunion</option>
+                  <option value="175">Romania</option>
+                  <option value="176">Russian Federation</option>
+                  <option value="177">Rwanda</option>
+                  <option value="178">Saint Kitts and Nevis</option>
+                  <option value="179">Saint Lucia</option>
+                  <option value="180">Saint Vincent and the Grenadines</option>
+                  <option value="181">Samoa</option>
+                  <option value="182">San Marino</option>
+                  <option value="183">Sao Tome and Principe</option>
+                  <option value="184">Saudi Arabia</option>
+                  <option value="185">Senegal</option>
+                  <option value="186">Seychelles</option>
+                  <option value="187">Sierra Leone</option>
+                  <option value="188">Singapore</option>
+                  <option value="189">Slovak Republic</option>
+                  <option value="190">Slovenia</option>
+                  <option value="191">Solomon Islands</option>
+                  <option value="192">Somalia</option>
+                  <option value="193">South Africa</option>
+                  <option value="194">South Georgia &amp;amp; South Sandwich Islands</option>
+                  <option value="195">Spain</option>
+                  <option value="196">Sri Lanka</option>
+                  <option value="197">St. Helena</option>
+                  <option value="198">St. Pierre and Miquelon</option>
+                  <option value="199">Sudan</option>
+                  <option value="200">Suriname</option>
+                  <option value="201">Svalbard and Jan Mayen Islands</option>
+                  <option value="202">Swaziland</option>
+                  <option value="203">Sweden</option>
+                  <option value="204">Switzerland</option>
+                  <option value="205">Syrian Arab Republic</option>
+                  <option value="206">Taiwan</option>
+                  <option value="207">Tajikistan</option>
+                  <option value="208">Tanzania, United Republic of</option>
+                  <option value="209">Thailand</option>
+                  <option value="210">Togo</option>
+                  <option value="211">Tokelau</option>
+                  <option value="212">Tonga</option>
+                  <option value="213">Trinidad and Tobago</option>
+                  <option value="214">Tunisia</option>
+                  <option value="215">Turkey</option>
+                  <option value="216">Turkmenistan</option>
+                  <option value="217">Turks and Caicos Islands</option>
+                  <option value="218">Tuvalu</option>
+                  <option value="219">Uganda</option>
+                  <option value="220">Ukraine</option>
+                  <option value="221">United Arab Emirates</option>
+                  <option value="222">United Kingdom</option>
+                  <option value="223">United States</option>
+                  <option value="224">United States Minor Outlying Islands</option>
+                  <option value="225">Uruguay</option>
+                  <option value="226">Uzbekistan</option>
+                  <option value="227">Vanuatu</option>
+                  <option value="228">Vatican City State (Holy See)</option>
+                  <option value="229">Venezuela</option>
+                  <option selected="selected" value="230">Viet Nam</option>
+                  <option value="231">Virgin Islands (British)</option>
+                  <option value="232">Virgin Islands (U.S.)</option>
+                  <option value="233">Wallis and Futuna Islands</option>
+                  <option value="234">Western Sahara</option>
+                  <option value="235">Yemen</option>
+                  <option value="237">Democratic Republic of Congo</option>
+                  <option value="238">Zambia</option>
+                  <option value="239">Zimbabwe</option>
+                  <option value="240">Jersey</option>
+                  <option value="241">Guernsey</option>
+                  <option value="242">Montenegro</option>
+                  <option value="243">Serbia</option>
+                  <option value="244">Aaland Islands</option>
+                  <option value="245">Bonaire, Sint Eustatius and Saba</option>
+                  <option value="246">Curacao</option>
+                  <option value="247">Palestinian Territory, Occupied</option>
+                  <option value="248">South Sudan</option>
+                  <option value="249">St. Barthelemy</option>
+                  <option value="250">St. Martin (French part)</option>
+                  <option value="251">Canary Islands</option>
+                                </select>      
+                            <span class="txt_select user_looking_textselect">
+                                <span> Western Sahara </span>
+                            </span> 
+                            <span class="btn_combo_down"></span> 
+                        </div>
+                        <div class="select_style">
+                            <select name="LoginForm[online_lookingfor]" id="LoginForm_online_lookingfor">
+                                <option value="">-- Chọn quốc gia --</option>
+                  <option value="1">Afghanistan</option>
+                  <option value="2">Albania</option>
+                  <option value="3">Algeria</option>
+                  <option value="4">American Samoa</option>
+                  <option value="5">Andorra</option>
+                  <option value="6">Angola</option>
+                  <option value="7">Anguilla</option>
+                  <option value="8">Antarctica</option>
+                  <option value="9">Antigua and Barbuda</option>
+                  <option value="10">Argentina</option>
+                  <option value="11">Armenia</option>
+                  <option value="12">Aruba</option>
+                  <option value="13">Australia</option>
+                  <option value="14">Austria</option>
+                  <option value="15">Azerbaijan</option>
+                  <option value="16">Bahamas</option>
+                  <option value="17">Bahrain</option>
+                  <option value="18">Bangladesh</option>
+                  <option value="19">Barbados</option>
+                  <option value="20">Belarus</option>
+                  <option value="21">Belgium</option>
+                  <option value="22">Belize</option>
+                  <option value="23">Benin</option>
+                  <option value="24">Bermuda</option>
+                  <option value="25">Bhutan</option>
+                  <option value="26">Bolivia</option>
+                  <option value="27">Bosnia and Herzegovina</option>
+                  <option value="28">Botswana</option>
+                  <option value="29">Bouvet Island</option>
+                  <option value="30">Brazil</option>
+                  <option value="31">British Indian Ocean Territory</option>
+                  <option value="32">Brunei Darussalam</option>
+                  <option value="33">Bulgaria</option>
+                  <option value="34">Burkina Faso</option>
+                  <option value="35">Burundi</option>
+                  <option value="36">Cambodia</option>
+                  <option value="37">Cameroon</option>
+                  <option value="38">Canada</option>
+                  <option value="39">Cape Verde</option>
+                  <option value="40">Cayman Islands</option>
+                  <option value="41">Central African Republic</option>
+                  <option value="42">Chad</option>
+                  <option value="43">Chile</option>
+                  <option value="44">China</option>
+                  <option value="45">Christmas Island</option>
+                  <option value="46">Cocos (Keeling) Islands</option>
+                  <option value="47">Colombia</option>
+                  <option value="48">Comoros</option>
+                  <option value="49">Congo</option>
+                  <option value="50">Cook Islands</option>
+                  <option value="51">Costa Rica</option>
+                  <option value="52">Cote D'Ivoire</option>
+                  <option value="53">Croatia</option>
+                  <option value="54">Cuba</option>
+                  <option value="55">Cyprus</option>
+                  <option value="56">Czech Republic</option>
+                  <option value="57">Denmark</option>
+                  <option value="58">Djibouti</option>
+                  <option value="59">Dominica</option>
+                  <option value="60">Dominican Republic</option>
+                  <option value="61">East Timor</option>
+                  <option value="62">Ecuador</option>
+                  <option value="63">Egypt</option>
+                  <option value="64">El Salvador</option>
+                  <option value="65">Equatorial Guinea</option>
+                  <option value="66">Eritrea</option>
+                  <option value="67">Estonia</option>
+                  <option value="68">Ethiopia</option>
+                  <option value="69">Falkland Islands (Malvinas)</option>
+                  <option value="70">Faroe Islands</option>
+                  <option value="71">Fiji</option>
+                  <option value="72">Finland</option>
+                  <option value="74">France, Metropolitan</option>
+                  <option value="75">French Guiana</option>
+                  <option value="76">French Polynesia</option>
+                  <option value="77">French Southern Territories</option>
+                  <option value="78">Gabon</option>
+                  <option value="79">Gambia</option>
+                  <option value="80">Georgia</option>
+                  <option value="81">Germany</option>
+                  <option value="82">Ghana</option>
+                  <option value="83">Gibraltar</option>
+                  <option value="84">Greece</option>
+                  <option value="85">Greenland</option>
+                  <option value="86">Grenada</option>
+                  <option value="87">Guadeloupe</option>
+                  <option value="88">Guam</option>
+                  <option value="89">Guatemala</option>
+                  <option value="90">Guinea</option>
+                  <option value="91">Guinea-Bissau</option>
+                  <option value="92">Guyana</option>
+                  <option value="93">Haiti</option>
+                  <option value="94">Heard and Mc Donald Islands</option>
+                  <option value="95">Honduras</option>
+                  <option value="96">Hong Kong</option>
+                  <option value="97">Hungary</option>
+                  <option value="98">Iceland</option>
+                  <option value="99">India</option>
+                  <option value="100">Indonesia</option>
+                  <option value="101">Iran (Islamic Republic of)</option>
+                  <option value="102">Iraq</option>
+                  <option value="103">Ireland</option>
+                  <option value="104">Israel</option>
+                  <option value="105">Italy</option>
+                  <option value="106">Jamaica</option>
+                  <option value="107">Japan</option>
+                  <option value="108">Jordan</option>
+                  <option value="109">Kazakhstan</option>
+                  <option value="110">Kenya</option>
+                  <option value="111">Kiribati</option>
+                  <option value="112">North Korea</option>
+                  <option value="113">Korea, Republic of</option>
+                  <option value="114">Kuwait</option>
+                  <option value="115">Kyrgyzstan</option>
+                  <option value="116">Lao People's Democratic Republic</option>
+                  <option value="117">Latvia</option>
+                  <option value="118">Lebanon</option>
+                  <option value="119">Lesotho</option>
+                  <option value="120">Liberia</option>
+                  <option value="121">Libyan Arab Jamahiriya</option>
+                  <option value="122">Liechtenstein</option>
+                  <option value="123">Lithuania</option>
+                  <option value="124">Luxembourg</option>
+                  <option value="125">Macau</option>
+                  <option value="126">FYROM</option>
+                  <option value="127">Madagascar</option>
+                  <option value="128">Malawi</option>
+                  <option value="129">Malaysia</option>
+                  <option value="130">Maldives</option>
+                  <option value="131">Mali</option>
+                  <option value="132">Malta</option>
+                  <option value="133">Marshall Islands</option>
+                  <option value="134">Martinique</option>
+                  <option value="135">Mauritania</option>
+                  <option value="136">Mauritius</option>
+                  <option value="137">Mayotte</option>
+                  <option value="138">Mexico</option>
+                  <option value="139">Micronesia, Federated States of</option>
+                  <option value="140">Moldova, Republic of</option>
+                  <option value="141">Monaco</option>
+                  <option value="142">Mongolia</option>
+                  <option value="143">Montserrat</option>
+                  <option value="144">Morocco</option>
+                  <option value="145">Mozambique</option>
+                  <option value="146">Myanmar</option>
+                  <option value="147">Namibia</option>
+                  <option value="148">Nauru</option>
+                  <option value="149">Nepal</option>
+                  <option value="150">Netherlands</option>
+                  <option value="151">Netherlands Antilles</option>
+                  <option value="152">New Caledonia</option>
+                  <option value="153">New Zealand</option>
+                  <option value="154">Nicaragua</option>
+                  <option value="155">Niger</option>
+                  <option value="156">Nigeria</option>
+                  <option value="157">Niue</option>
+                  <option value="158">Norfolk Island</option>
+                  <option value="159">Northern Mariana Islands</option>
+                  <option value="160">Norway</option>
+                  <option value="161">Oman</option>
+                  <option value="162">Pakistan</option>
+                  <option value="163">Palau</option>
+                  <option value="164">Panama</option>
+                  <option value="165">Papua New Guinea</option>
+                  <option value="166">Paraguay</option>
+                  <option value="167">Peru</option>
+                  <option value="168">Philippines</option>
+                  <option value="169">Pitcairn</option>
+                  <option value="170">Poland</option>
+                  <option value="171">Portugal</option>
+                  <option value="172">Puerto Rico</option>
+                  <option value="173">Qatar</option>
+                  <option value="174">Reunion</option>
+                  <option value="175">Romania</option>
+                  <option value="176">Russian Federation</option>
+                  <option value="177">Rwanda</option>
+                  <option value="178">Saint Kitts and Nevis</option>
+                  <option value="179">Saint Lucia</option>
+                  <option value="180">Saint Vincent and the Grenadines</option>
+                  <option value="181">Samoa</option>
+                  <option value="182">San Marino</option>
+                  <option value="183">Sao Tome and Principe</option>
+                  <option value="184">Saudi Arabia</option>
+                  <option value="185">Senegal</option>
+                  <option value="186">Seychelles</option>
+                  <option value="187">Sierra Leone</option>
+                  <option value="188">Singapore</option>
+                  <option value="189">Slovak Republic</option>
+                  <option value="190">Slovenia</option>
+                  <option value="191">Solomon Islands</option>
+                  <option value="192">Somalia</option>
+                  <option value="193">South Africa</option>
+                  <option value="194">South Georgia &amp;amp; South Sandwich Islands</option>
+                  <option value="195">Spain</option>
+                  <option value="196">Sri Lanka</option>
+                  <option value="197">St. Helena</option>
+                  <option value="198">St. Pierre and Miquelon</option>
+                  <option value="199">Sudan</option>
+                  <option value="200">Suriname</option>
+                  <option value="201">Svalbard and Jan Mayen Islands</option>
+                  <option value="202">Swaziland</option>
+                  <option value="203">Sweden</option>
+                  <option value="204">Switzerland</option>
+                  <option value="205">Syrian Arab Republic</option>
+                  <option value="206">Taiwan</option>
+                  <option value="207">Tajikistan</option>
+                  <option value="208">Tanzania, United Republic of</option>
+                  <option value="209">Thailand</option>
+                  <option value="210">Togo</option>
+                  <option value="211">Tokelau</option>
+                  <option value="212">Tonga</option>
+                  <option value="213">Trinidad and Tobago</option>
+                  <option value="214">Tunisia</option>
+                  <option value="215">Turkey</option>
+                  <option value="216">Turkmenistan</option>
+                  <option value="217">Turks and Caicos Islands</option>
+                  <option value="218">Tuvalu</option>
+                  <option value="219">Uganda</option>
+                  <option value="220">Ukraine</option>
+                  <option value="221">United Arab Emirates</option>
+                  <option value="222">United Kingdom</option>
+                  <option value="223">United States</option>
+                  <option value="224">United States Minor Outlying Islands</option>
+                  <option value="225">Uruguay</option>
+                  <option value="226">Uzbekistan</option>
+                  <option value="227">Vanuatu</option>
+                  <option value="228">Vatican City State (Holy See)</option>
+                  <option value="229">Venezuela</option>
+                  <option selected="selected" value="230">Viet Nam</option>
+                  <option value="231">Virgin Islands (British)</option>
+                  <option value="232">Virgin Islands (U.S.)</option>
+                  <option value="233">Wallis and Futuna Islands</option>
+                  <option value="234">Western Sahara</option>
+                  <option value="235">Yemen</option>
+                  <option value="237">Democratic Republic of Congo</option>
+                  <option value="238">Zambia</option>
+                  <option value="239">Zimbabwe</option>
+                  <option value="240">Jersey</option>
+                  <option value="241">Guernsey</option>
+                  <option value="242">Montenegro</option>
+                  <option value="243">Serbia</option>
+                  <option value="244">Aaland Islands</option>
+                  <option value="245">Bonaire, Sint Eustatius and Saba</option>
+                  <option value="246">Curacao</option>
+                  <option value="247">Palestinian Territory, Occupied</option>
+                  <option value="248">South Sudan</option>
+                  <option value="249">St. Barthelemy</option>
+                  <option value="250">St. Martin (French part)</option>
+                  <option value="251">Canary Islands</option>
+                                </select>      
+                            <span class="txt_select user_looking_textselect">
+                                <span> Western Sahara </span>
+                            </span> 
+                            <span class="btn_combo_down"></span> 
+                        </div>
+                        <div class="select_style">
+                            <select name="LoginForm[online_lookingfor]" id="LoginForm_online_lookingfor">
+                                <option value="">-- Chọn quốc gia --</option>
+                  <option value="1">Afghanistan</option>
+                  <option value="2">Albania</option>
+                  <option value="3">Algeria</option>
+                  <option value="4">American Samoa</option>
+                  <option value="5">Andorra</option>
+                  <option value="6">Angola</option>
+                  <option value="7">Anguilla</option>
+                  <option value="8">Antarctica</option>
+                  <option value="9">Antigua and Barbuda</option>
+                  <option value="10">Argentina</option>
+                  <option value="11">Armenia</option>
+                  <option value="12">Aruba</option>
+                  <option value="13">Australia</option>
+                  <option value="14">Austria</option>
+                  <option value="15">Azerbaijan</option>
+                  <option value="16">Bahamas</option>
+                  <option value="17">Bahrain</option>
+                  <option value="18">Bangladesh</option>
+                  <option value="19">Barbados</option>
+                  <option value="20">Belarus</option>
+                  <option value="21">Belgium</option>
+                  <option value="22">Belize</option>
+                  <option value="23">Benin</option>
+                  <option value="24">Bermuda</option>
+                  <option value="25">Bhutan</option>
+                  <option value="26">Bolivia</option>
+                  <option value="27">Bosnia and Herzegovina</option>
+                  <option value="28">Botswana</option>
+                  <option value="29">Bouvet Island</option>
+                  <option value="30">Brazil</option>
+                  <option value="31">British Indian Ocean Territory</option>
+                  <option value="32">Brunei Darussalam</option>
+                  <option value="33">Bulgaria</option>
+                  <option value="34">Burkina Faso</option>
+                  <option value="35">Burundi</option>
+                  <option value="36">Cambodia</option>
+                  <option value="37">Cameroon</option>
+                  <option value="38">Canada</option>
+                  <option value="39">Cape Verde</option>
+                  <option value="40">Cayman Islands</option>
+                  <option value="41">Central African Republic</option>
+                  <option value="42">Chad</option>
+                  <option value="43">Chile</option>
+                  <option value="44">China</option>
+                  <option value="45">Christmas Island</option>
+                  <option value="46">Cocos (Keeling) Islands</option>
+                  <option value="47">Colombia</option>
+                  <option value="48">Comoros</option>
+                  <option value="49">Congo</option>
+                  <option value="50">Cook Islands</option>
+                  <option value="51">Costa Rica</option>
+                  <option value="52">Cote D'Ivoire</option>
+                  <option value="53">Croatia</option>
+                  <option value="54">Cuba</option>
+                  <option value="55">Cyprus</option>
+                  <option value="56">Czech Republic</option>
+                  <option value="57">Denmark</option>
+                  <option value="58">Djibouti</option>
+                  <option value="59">Dominica</option>
+                  <option value="60">Dominican Republic</option>
+                  <option value="61">East Timor</option>
+                  <option value="62">Ecuador</option>
+                  <option value="63">Egypt</option>
+                  <option value="64">El Salvador</option>
+                  <option value="65">Equatorial Guinea</option>
+                  <option value="66">Eritrea</option>
+                  <option value="67">Estonia</option>
+                  <option value="68">Ethiopia</option>
+                  <option value="69">Falkland Islands (Malvinas)</option>
+                  <option value="70">Faroe Islands</option>
+                  <option value="71">Fiji</option>
+                  <option value="72">Finland</option>
+                  <option value="74">France, Metropolitan</option>
+                  <option value="75">French Guiana</option>
+                  <option value="76">French Polynesia</option>
+                  <option value="77">French Southern Territories</option>
+                  <option value="78">Gabon</option>
+                  <option value="79">Gambia</option>
+                  <option value="80">Georgia</option>
+                  <option value="81">Germany</option>
+                  <option value="82">Ghana</option>
+                  <option value="83">Gibraltar</option>
+                  <option value="84">Greece</option>
+                  <option value="85">Greenland</option>
+                  <option value="86">Grenada</option>
+                  <option value="87">Guadeloupe</option>
+                  <option value="88">Guam</option>
+                  <option value="89">Guatemala</option>
+                  <option value="90">Guinea</option>
+                  <option value="91">Guinea-Bissau</option>
+                  <option value="92">Guyana</option>
+                  <option value="93">Haiti</option>
+                  <option value="94">Heard and Mc Donald Islands</option>
+                  <option value="95">Honduras</option>
+                  <option value="96">Hong Kong</option>
+                  <option value="97">Hungary</option>
+                  <option value="98">Iceland</option>
+                  <option value="99">India</option>
+                  <option value="100">Indonesia</option>
+                  <option value="101">Iran (Islamic Republic of)</option>
+                  <option value="102">Iraq</option>
+                  <option value="103">Ireland</option>
+                  <option value="104">Israel</option>
+                  <option value="105">Italy</option>
+                  <option value="106">Jamaica</option>
+                  <option value="107">Japan</option>
+                  <option value="108">Jordan</option>
+                  <option value="109">Kazakhstan</option>
+                  <option value="110">Kenya</option>
+                  <option value="111">Kiribati</option>
+                  <option value="112">North Korea</option>
+                  <option value="113">Korea, Republic of</option>
+                  <option value="114">Kuwait</option>
+                  <option value="115">Kyrgyzstan</option>
+                  <option value="116">Lao People's Democratic Republic</option>
+                  <option value="117">Latvia</option>
+                  <option value="118">Lebanon</option>
+                  <option value="119">Lesotho</option>
+                  <option value="120">Liberia</option>
+                  <option value="121">Libyan Arab Jamahiriya</option>
+                  <option value="122">Liechtenstein</option>
+                  <option value="123">Lithuania</option>
+                  <option value="124">Luxembourg</option>
+                  <option value="125">Macau</option>
+                  <option value="126">FYROM</option>
+                  <option value="127">Madagascar</option>
+                  <option value="128">Malawi</option>
+                  <option value="129">Malaysia</option>
+                  <option value="130">Maldives</option>
+                  <option value="131">Mali</option>
+                  <option value="132">Malta</option>
+                  <option value="133">Marshall Islands</option>
+                  <option value="134">Martinique</option>
+                  <option value="135">Mauritania</option>
+                  <option value="136">Mauritius</option>
+                  <option value="137">Mayotte</option>
+                  <option value="138">Mexico</option>
+                  <option value="139">Micronesia, Federated States of</option>
+                  <option value="140">Moldova, Republic of</option>
+                  <option value="141">Monaco</option>
+                  <option value="142">Mongolia</option>
+                  <option value="143">Montserrat</option>
+                  <option value="144">Morocco</option>
+                  <option value="145">Mozambique</option>
+                  <option value="146">Myanmar</option>
+                  <option value="147">Namibia</option>
+                  <option value="148">Nauru</option>
+                  <option value="149">Nepal</option>
+                  <option value="150">Netherlands</option>
+                  <option value="151">Netherlands Antilles</option>
+                  <option value="152">New Caledonia</option>
+                  <option value="153">New Zealand</option>
+                  <option value="154">Nicaragua</option>
+                  <option value="155">Niger</option>
+                  <option value="156">Nigeria</option>
+                  <option value="157">Niue</option>
+                  <option value="158">Norfolk Island</option>
+                  <option value="159">Northern Mariana Islands</option>
+                  <option value="160">Norway</option>
+                  <option value="161">Oman</option>
+                  <option value="162">Pakistan</option>
+                  <option value="163">Palau</option>
+                  <option value="164">Panama</option>
+                  <option value="165">Papua New Guinea</option>
+                  <option value="166">Paraguay</option>
+                  <option value="167">Peru</option>
+                  <option value="168">Philippines</option>
+                  <option value="169">Pitcairn</option>
+                  <option value="170">Poland</option>
+                  <option value="171">Portugal</option>
+                  <option value="172">Puerto Rico</option>
+                  <option value="173">Qatar</option>
+                  <option value="174">Reunion</option>
+                  <option value="175">Romania</option>
+                  <option value="176">Russian Federation</option>
+                  <option value="177">Rwanda</option>
+                  <option value="178">Saint Kitts and Nevis</option>
+                  <option value="179">Saint Lucia</option>
+                  <option value="180">Saint Vincent and the Grenadines</option>
+                  <option value="181">Samoa</option>
+                  <option value="182">San Marino</option>
+                  <option value="183">Sao Tome and Principe</option>
+                  <option value="184">Saudi Arabia</option>
+                  <option value="185">Senegal</option>
+                  <option value="186">Seychelles</option>
+                  <option value="187">Sierra Leone</option>
+                  <option value="188">Singapore</option>
+                  <option value="189">Slovak Republic</option>
+                  <option value="190">Slovenia</option>
+                  <option value="191">Solomon Islands</option>
+                  <option value="192">Somalia</option>
+                  <option value="193">South Africa</option>
+                  <option value="194">South Georgia &amp;amp; South Sandwich Islands</option>
+                  <option value="195">Spain</option>
+                  <option value="196">Sri Lanka</option>
+                  <option value="197">St. Helena</option>
+                  <option value="198">St. Pierre and Miquelon</option>
+                  <option value="199">Sudan</option>
+                  <option value="200">Suriname</option>
+                  <option value="201">Svalbard and Jan Mayen Islands</option>
+                  <option value="202">Swaziland</option>
+                  <option value="203">Sweden</option>
+                  <option value="204">Switzerland</option>
+                  <option value="205">Syrian Arab Republic</option>
+                  <option value="206">Taiwan</option>
+                  <option value="207">Tajikistan</option>
+                  <option value="208">Tanzania, United Republic of</option>
+                  <option value="209">Thailand</option>
+                  <option value="210">Togo</option>
+                  <option value="211">Tokelau</option>
+                  <option value="212">Tonga</option>
+                  <option value="213">Trinidad and Tobago</option>
+                  <option value="214">Tunisia</option>
+                  <option value="215">Turkey</option>
+                  <option value="216">Turkmenistan</option>
+                  <option value="217">Turks and Caicos Islands</option>
+                  <option value="218">Tuvalu</option>
+                  <option value="219">Uganda</option>
+                  <option value="220">Ukraine</option>
+                  <option value="221">United Arab Emirates</option>
+                  <option value="222">United Kingdom</option>
+                  <option value="223">United States</option>
+                  <option value="224">United States Minor Outlying Islands</option>
+                  <option value="225">Uruguay</option>
+                  <option value="226">Uzbekistan</option>
+                  <option value="227">Vanuatu</option>
+                  <option value="228">Vatican City State (Holy See)</option>
+                  <option value="229">Venezuela</option>
+                  <option selected="selected" value="230">Viet Nam</option>
+                  <option value="231">Virgin Islands (British)</option>
+                  <option value="232">Virgin Islands (U.S.)</option>
+                  <option value="233">Wallis and Futuna Islands</option>
+                  <option value="234">Western Sahara</option>
+                  <option value="235">Yemen</option>
+                  <option value="237">Democratic Republic of Congo</option>
+                  <option value="238">Zambia</option>
+                  <option value="239">Zimbabwe</option>
+                  <option value="240">Jersey</option>
+                  <option value="241">Guernsey</option>
+                  <option value="242">Montenegro</option>
+                  <option value="243">Serbia</option>
+                  <option value="244">Aaland Islands</option>
+                  <option value="245">Bonaire, Sint Eustatius and Saba</option>
+                  <option value="246">Curacao</option>
+                  <option value="247">Palestinian Territory, Occupied</option>
+                  <option value="248">South Sudan</option>
+                  <option value="249">St. Barthelemy</option>
+                  <option value="250">St. Martin (French part)</option>
+                  <option value="251">Canary Islands</option>
+                                </select>      
+                            <span class="txt_select user_looking_textselect">
+                                <span> Western Sahara </span>
+                            </span> 
+                            <span class="btn_combo_down"></span> 
+                        </div>    
+                        <div style="display:none" id="Notes_country_id_em_" class="errorMessage"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fake table row -->
+                  <div class="table-row">
+                    <label for="">Từ</label>
+                    <div class="table-cell-right">
+                      <div style="font-size: 12px;" class="input-wrap input-short">
+                        <input type="text" name="Notes[date]" readonly id="start_date">
+                        <div style="position: absolute; z-index: 100;">
+                          <div class="datepicker" style="width: auto; display: none;">
+                            <div class="datepicker_header"><a class="icon-home" title="Hôm nay"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?--><svg viewBox="0 0 10 10" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                              <g transform="translate(-5.5772299,-26.54581)">
+                                <path d="m 14.149807,31.130932 c 0,-0.01241 0,-0.02481 -0.0062,-0.03721 L 10.57723,28.153784 7.0108528,31.093719 c 0,0.01241 -0.0062,0.02481 -0.0062,0.03721 l 0,2.97715 c 0,0.217084 0.1798696,0.396953 0.3969534,0.396953 l 2.3817196,0 0,-2.38172 1.5878132,0 0,2.38172 2.381719,0 c 0.217084,0 0.396953,-0.179869 0.396953,-0.396953 l 0,-2.97715 m 1.383134,-0.427964 c 0.06823,-0.08063 0.05582,-0.210882 -0.02481,-0.279108 l -1.358324,-1.128837 0,-2.530576 c 0,-0.111643 -0.08683,-0.198477 -0.198477,-0.198477 l -1.190859,0 c -0.111643,0 -0.198477,0.08683 -0.198477,0.198477 l 0,1.209467 -1.513384,-1.265289 c -0.2605,-0.217083 -0.682264,-0.217083 -0.942764,0 L 5.6463253,30.42386 c -0.080631,0.06823 -0.093036,0.198476 -0.024809,0.279108 l 0.3845485,0.458976 c 0.031012,0.03721 0.080631,0.06203 0.1302503,0.06823 0.055821,0.0062 0.1054407,-0.01241 0.1488574,-0.04342 l 4.2920565,-3.578782 4.292058,3.578782 c 0.03721,0.03101 0.08063,0.04342 0.13025,0.04342 0.0062,0 0.01241,0 0.01861,0 0.04962,-0.0062 0.09924,-0.03101 0.130251,-0.06823 l 0.384549,-0.458976"/>
+                              </g>
+                              </svg></a><a title="Tháng sau">&lt;</a><span>2014 - T.Ba</span><a title="Tháng tới">&gt;</a></div>
+                            <div class="datepicker_inner_container">
+                              <div class="datepicker_calendar">
+                                <table class="datepicker_table">
+                                  <tbody>
+                                    <tr>
+                                      <th>CN</th>
+                                      <th>T.Hai</th>
+                                      <th>T.Ba</th>
+                                      <th>T.Tư</th>
+                                      <th>T.Năm</th>
+                                      <th>T.Sáu</th>
+                                      <th>T.Bảy</th>
+                                    </tr>
+                                    <tr>
+                                      <td class="day_another_month wday_sun">23</td>
+                                      <td class="day_another_month">24</td>
+                                      <td class="day_another_month">25</td>
+                                      <td class="day_another_month">26</td>
+                                      <td class="day_another_month">27</td>
+                                      <td class="day_another_month">28</td>
+                                      <td class="wday_sat">1</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="wday_sun">2</td>
+                                      <td>3</td>
+                                      <td>4</td>
+                                      <td>5</td>
+                                      <td>6</td>
+                                      <td>7</td>
+                                      <td class="wday_sat">8</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="wday_sun">9</td>
+                                      <td>10</td>
+                                      <td>11</td>
+                                      <td>12</td>
+                                      <td>13</td>
+                                      <td>14</td>
+                                      <td class="wday_sat">15</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="wday_sun">16</td>
+                                      <td class="active today">17</td>
+                                      <td>18</td>
+                                      <td>19</td>
+                                      <td>20</td>
+                                      <td>21</td>
+                                      <td class="wday_sat">22</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="wday_sun">23</td>
+                                      <td>24</td>
+                                      <td>25</td>
+                                      <td>26</td>
+                                      <td>27</td>
+                                      <td>28</td>
+                                      <td class="wday_sat">29</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="wday_sun">30</td>
+                                      <td>31</td>
+                                      <td class="day_another_month">1</td>
+                                      <td class="day_another_month">2</td>
+                                      <td class="day_another_month">3</td>
+                                      <td class="day_another_month">4</td>
+                                      <td class="day_another_month wday_sat">5</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                              <div class="datepicker_timelist" style="height: 129px;">
+                                <div class="timelist_item">00:00</div>
+                                <div class="timelist_item">00:30</div>
+                                <div class="timelist_item">01:00</div>
+                                <div class="timelist_item">01:30</div>
+                                <div class="timelist_item">02:00</div>
+                                <div class="timelist_item">02:30</div>
+                                <div class="timelist_item">03:00</div>
+                                <div class="timelist_item">03:30</div>
+                                <div class="timelist_item">04:00</div>
+                                <div class="timelist_item">04:30</div>
+                                <div class="timelist_item">05:00</div>
+                                <div class="timelist_item">05:30</div>
+                                <div class="timelist_item">06:00</div>
+                                <div class="timelist_item">06:30</div>
+                                <div class="timelist_item">07:00</div>
+                                <div class="timelist_item">07:30</div>
+                                <div class="timelist_item">08:00</div>
+                                <div class="timelist_item">08:30</div>
+                                <div class="timelist_item">09:00</div>
+                                <div class="timelist_item">09:30</div>
+                                <div class="timelist_item">10:00</div>
+                                <div class="timelist_item">10:30</div>
+                                <div class="timelist_item">11:00</div>
+                                <div class="timelist_item">11:30</div>
+                                <div class="timelist_item">12:00</div>
+                                <div class="timelist_item">12:30</div>
+                                <div class="timelist_item">13:00</div>
+                                <div class="timelist_item">13:30</div>
+                                <div class="timelist_item">14:00</div>
+                                <div class="timelist_item">14:30</div>
+                                <div class="timelist_item">15:00</div>
+                                <div class="timelist_item">15:30</div>
+                                <div class="timelist_item">16:00</div>
+                                <div class="timelist_item">16:30</div>
+                                <div class="timelist_item">17:00</div>
+                                <div class="timelist_item">17:30</div>
+                                <div class="timelist_item">18:00</div>
+                                <div class="timelist_item">18:30</div>
+                                <div class="timelist_item">19:00</div>
+                                <div class="timelist_item">19:30</div>
+                                <div class="timelist_item">20:00</div>
+                                <div class="timelist_item">20:30</div>
+                                <div class="timelist_item">21:00</div>
+                                <div class="timelist_item">21:30</div>
+                                <div class="timelist_item">22:00</div>
+                                <div class="timelist_item">22:30</div>
+                                <div class="timelist_item">23:00</div>
+                                <div class="timelist_item">23:30</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <b>đến&nbsp;</b>
+                        <input type="text" name="Notes[end_date]" placeholder="đến" readonly id="end_date">
+                        <div style="position: absolute; z-index: 100;">
+                          <div class="datepicker" style="width: auto; display: none;">
+                            <div class="datepicker_header"><a class="icon-home" title="Hôm nay"><!--?xml version="1.0" encoding="UTF-8" standalone="no"?--><svg viewBox="0 0 10 10" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                              <g transform="translate(-5.5772299,-26.54581)">
+                                <path d="m 14.149807,31.130932 c 0,-0.01241 0,-0.02481 -0.0062,-0.03721 L 10.57723,28.153784 7.0108528,31.093719 c 0,0.01241 -0.0062,0.02481 -0.0062,0.03721 l 0,2.97715 c 0,0.217084 0.1798696,0.396953 0.3969534,0.396953 l 2.3817196,0 0,-2.38172 1.5878132,0 0,2.38172 2.381719,0 c 0.217084,0 0.396953,-0.179869 0.396953,-0.396953 l 0,-2.97715 m 1.383134,-0.427964 c 0.06823,-0.08063 0.05582,-0.210882 -0.02481,-0.279108 l -1.358324,-1.128837 0,-2.530576 c 0,-0.111643 -0.08683,-0.198477 -0.198477,-0.198477 l -1.190859,0 c -0.111643,0 -0.198477,0.08683 -0.198477,0.198477 l 0,1.209467 -1.513384,-1.265289 c -0.2605,-0.217083 -0.682264,-0.217083 -0.942764,0 L 5.6463253,30.42386 c -0.080631,0.06823 -0.093036,0.198476 -0.024809,0.279108 l 0.3845485,0.458976 c 0.031012,0.03721 0.080631,0.06203 0.1302503,0.06823 0.055821,0.0062 0.1054407,-0.01241 0.1488574,-0.04342 l 4.2920565,-3.578782 4.292058,3.578782 c 0.03721,0.03101 0.08063,0.04342 0.13025,0.04342 0.0062,0 0.01241,0 0.01861,0 0.04962,-0.0062 0.09924,-0.03101 0.130251,-0.06823 l 0.384549,-0.458976"/>
+                              </g>
+                              </svg></a><a title="Tháng sau">&lt;</a><span>2014 - T.Ba</span><a title="Tháng tới">&gt;</a></div>
+                            <div class="datepicker_inner_container">
+                              <div class="datepicker_calendar">
+                                <table class="datepicker_table">
+                                  <tbody>
+                                    <tr>
+                                      <th>CN</th>
+                                      <th>T.Hai</th>
+                                      <th>T.Ba</th>
+                                      <th>T.Tư</th>
+                                      <th>T.Năm</th>
+                                      <th>T.Sáu</th>
+                                      <th>T.Bảy</th>
+                                    </tr>
+                                    <tr>
+                                      <td class="day_another_month wday_sun">23</td>
+                                      <td class="day_another_month">24</td>
+                                      <td class="day_another_month">25</td>
+                                      <td class="day_another_month">26</td>
+                                      <td class="day_another_month">27</td>
+                                      <td class="day_another_month">28</td>
+                                      <td class="wday_sat">1</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="wday_sun">2</td>
+                                      <td>3</td>
+                                      <td>4</td>
+                                      <td>5</td>
+                                      <td>6</td>
+                                      <td>7</td>
+                                      <td class="wday_sat">8</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="wday_sun">9</td>
+                                      <td>10</td>
+                                      <td>11</td>
+                                      <td>12</td>
+                                      <td>13</td>
+                                      <td>14</td>
+                                      <td class="wday_sat">15</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="wday_sun">16</td>
+                                      <td class="active today">17</td>
+                                      <td>18</td>
+                                      <td>19</td>
+                                      <td>20</td>
+                                      <td>21</td>
+                                      <td class="wday_sat">22</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="wday_sun">23</td>
+                                      <td>24</td>
+                                      <td>25</td>
+                                      <td>26</td>
+                                      <td>27</td>
+                                      <td>28</td>
+                                      <td class="wday_sat">29</td>
+                                    </tr>
+                                    <tr>
+                                      <td class="wday_sun">30</td>
+                                      <td>31</td>
+                                      <td class="day_another_month">1</td>
+                                      <td class="day_another_month">2</td>
+                                      <td class="day_another_month">3</td>
+                                      <td class="day_another_month">4</td>
+                                      <td class="day_another_month wday_sat">5</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                              <div class="datepicker_timelist" style="height: 129px;">
+                                <div class="timelist_item">00:00</div>
+                                <div class="timelist_item">00:30</div>
+                                <div class="timelist_item">01:00</div>
+                                <div class="timelist_item">01:30</div>
+                                <div class="timelist_item">02:00</div>
+                                <div class="timelist_item">02:30</div>
+                                <div class="timelist_item">03:00</div>
+                                <div class="timelist_item">03:30</div>
+                                <div class="timelist_item">04:00</div>
+                                <div class="timelist_item">04:30</div>
+                                <div class="timelist_item">05:00</div>
+                                <div class="timelist_item">05:30</div>
+                                <div class="timelist_item">06:00</div>
+                                <div class="timelist_item">06:30</div>
+                                <div class="timelist_item">07:00</div>
+                                <div class="timelist_item">07:30</div>
+                                <div class="timelist_item">08:00</div>
+                                <div class="timelist_item">08:30</div>
+                                <div class="timelist_item">09:00</div>
+                                <div class="timelist_item">09:30</div>
+                                <div class="timelist_item">10:00</div>
+                                <div class="timelist_item">10:30</div>
+                                <div class="timelist_item">11:00</div>
+                                <div class="timelist_item">11:30</div>
+                                <div class="timelist_item">12:00</div>
+                                <div class="timelist_item">12:30</div>
+                                <div class="timelist_item">13:00</div>
+                                <div class="timelist_item">13:30</div>
+                                <div class="timelist_item">14:00</div>
+                                <div class="timelist_item">14:30</div>
+                                <div class="timelist_item">15:00</div>
+                                <div class="timelist_item">15:30</div>
+                                <div class="timelist_item">16:00</div>
+                                <div class="timelist_item">16:30</div>
+                                <div class="timelist_item">17:00</div>
+                                <div class="timelist_item">17:30</div>
+                                <div class="timelist_item">18:00</div>
+                                <div class="timelist_item">18:30</div>
+                                <div class="timelist_item">19:00</div>
+                                <div class="timelist_item">19:30</div>
+                                <div class="timelist_item">20:00</div>
+                                <div class="timelist_item">20:30</div>
+                                <div class="timelist_item">21:00</div>
+                                <div class="timelist_item">21:30</div>
+                                <div class="timelist_item">22:00</div>
+                                <div class="timelist_item">22:30</div>
+                                <div class="timelist_item">23:00</div>
+                                <div class="timelist_item">23:30</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div style="display:none" id="Notes_date_em_" class="errorMessage"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fake table row -->
+                  <div class="table-row row-editor">
+                    <label for="">Nội dung</label>
+                    <div class="table-cell-right">
+                      <div class="editor">
+                        <textarea name="Notes[body]" id="Notes_body" cols="10" rows="15" style="display: none;" aria-hidden="true"></textarea>
+                        <span role="application" aria-labelledby="Notes_body_voice" id="Notes_body_parent" class="mceEditor cirkuitSkin"><span class="mceVoiceLabel" style="display:none;" id="Notes_body_voice">Rich Text Area</span>
+                        <table cellspacing="0" cellpadding="0" role="presentation" id="Notes_body_tbl" class="mceLayout" style="width: 500px; height: 100px;">
+                          <tbody>
+                            <tr role="toolbar" class="mceFirst">
+                              <td class="mceToolbar mceLeft mceFirst mceLast" role="toolbar"><div aria-labelledby="Notes_body_toolbargroup_voice" role="group" id="Notes_body_toolbargroup" tabindex="-1"><span role="application"><span style="display:none;" class="mceVoiceLabel" id="Notes_body_toolbargroup_voice">Toolbar</span>
+                                  <table cellspacing="0" cellpadding="0" align="" tabindex="-1" role="presentation" class="mceToolbar mceToolbarRow1 Enabled" id="Notes_body_toolbar1" aria-disabled="false" aria-pressed="false">
+                                    <tbody>
+                                      <tr>
+                                        <td class="mceToolbarStart mceToolbarStartButton mceFirst"><span><!-- IE --></span></td>
+                                        <td style="position: relative"><a title="Chữ đậm (Ctrl+B)" aria-labelledby="Notes_body_bold_voice" onclick="return false;" onmousedown="return false;" class="mceButton mceButtonEnabled mce_bold" href="javascript:;" id="Notes_body_bold" role="button" tabindex="-1"><span class="mceIcon mce_bold"></span><span id="Notes_body_bold_voice" style="display: none;" class="mceVoiceLabel mceIconOnly">Chữ đậm (Ctrl+B)</span></a></td>
+                                        <td style="position: relative"><a title="Chữ nghiêng (Ctrl+I)" aria-labelledby="Notes_body_italic_voice" onclick="return false;" onmousedown="return false;" class="mceButton mceButtonEnabled mce_italic" href="javascript:;" id="Notes_body_italic" role="button" tabindex="-1"><span class="mceIcon mce_italic"></span><span id="Notes_body_italic_voice" style="display: none;" class="mceVoiceLabel mceIconOnly">Chữ nghiêng (Ctrl+I)</span></a></td>
+                                        <td style="position: relative"><a title="Gạch chân (Ctrl+U)" aria-labelledby="Notes_body_underline_voice" onclick="return false;" onmousedown="return false;" class="mceButton mceButtonEnabled mce_underline" href="javascript:;" id="Notes_body_underline" role="button" tabindex="-1"><span class="mceIcon mce_underline"></span><span id="Notes_body_underline_voice" style="display: none;" class="mceVoiceLabel mceIconOnly">Gạch chân (Ctrl+U)</span></a></td>
+                                        <td class="mceToolbarEnd mceToolbarEndButton mceLast"><span><!-- IE --></span></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  </span></div>
+                                <a onfocus="tinyMCE.getInstanceById('Notes_body').focus();" title="Nhảy tới các nút công cụ - Alt+Q, Tới trình soạn thảo - Alt-Z, Tới đường dẫn các phần tử - Alt-X" accesskey="z" href="#"><!-- IE --></a></td>
+                            </tr>
+                            <tr>
+                              <td class="mceIframeContainer mceFirst mceLast"><iframe frameborder="0" id="Notes_body_ifr" src="javascript:&quot;&quot;" allowtransparency="true" title="Rich Text AreaPress ALT-F10 for toolbar. Press ALT-0 for help" style="width: 100%; height: 100px; display: block;"></iframe></td>
+                            </tr>
+                            <tr class="mceLast">
+                              <td class="mceStatusbar mceFirst mceLast"><div id="Notes_body_path_row" role="group" aria-labelledby="Notes_body_path_voice"><span>&nbsp;</span></div></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </span>
+                        <div style="display:none" id="Notes_body_em_" class="errorMessage"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fake table row -->
+                  <div class="table-row row-photo">
+                    <label for="">Hình ảnh</label>
+                    <div class="table-cell-right">
+                      <button class="btn btn-white" onclick="javascript:ISU.open_upload('upload-zone', true);" type="button">Tải ảnh</button>
+                      <div class="input-wrap input-semi">
+                        <div class="upload-zone" style="display: none;">
+                          <div id="FineUploader">
+                            <div class="qq-uploader">
+                              <div class="qq-upload-drop-area" style="display: none;"><span>Drop files here to upload</span></div>
+                              <div class="qq-upload-button" style="position: relative; overflow: hidden; direction: ltr;">
+                                <div>Upload a file</div>
+                                <input type="file" name="file" style="position: absolute; right: 0px; top: 0px; font-family: Arial; font-size: 118px; margin: 0px; padding: 0px; cursor: pointer; opacity: 0;">
+                              </div>
+                              <span class="qq-drop-processing"><span>Processing dropped files...</span><span class="qq-drop-processing-spinner"></span></span>
+                              <ul class="qq-upload-list">
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="hotbox_thumbnail">
+                          <ul>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 
+			<div class="table-row isu-option-thumbnail" style="">
+				<label for="">Tùy chọn</label>
+				<div class="table-cell-right">
+					<div class="input-wrap input-short">
+					<input id="ytNotes_image_in_body" type="hidden" value="0" name="Notes[image_in_body]" /><input name="Notes[image_in_body]" id="Notes_image_in_body" value="1" type="checkbox" />					<div class="errorMessage" id="Notes_image_in_body_em_" style="display:none"></div>					</div>
+					Sử dụng ảnh này trong nội dung bài viết				</div>
+			</div>
+			 --> 
+                  <!-- fake table row -->
+                  <div class="table-row">
+                    <label for=""></label>
+                    <div class="table-cell-right">
+                      <div class="buttons">
+                        <button class="btn btn-violet" id="isu-submit">Gửi lên</button>
+                        <button class="btn btn-white" onclick="ISU.form_back();" type="button" id="isu-cancel">Thoát</button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fake table row --> 
+                </div>
+                <!-- create ISU form --> 
+              </div>
+            </div>
+            <div class="position"></div>
+          </form>
+          <!-- form container --> 
+        </div>
+        <div style="position: absolute; display: none;" class="mCSB_scrollTools">
+          <div class="mCSB_draggerContainer">
+            <div oncontextmenu="return false;" style="position: absolute; top: 0px;" class="mCSB_dragger">
+              <div style="position:relative;" class="mCSB_dragger_bar"></div>
+            </div>
+            <div class="mCSB_draggerRail"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- wrap --> 
+  </div>
+  
+  <div class="chat-box-area"> 
+    <!-- chat boxed -->
+    <div class="chat-content"></div>
+    <div class="chat-list active">
+      <div class="head">
+        <div class="title"><i></i>Đang Online</div>
+        <a class="btn-slide" href="javascript:void(0);"><i class="arrow" style="border-top: medium none; border-bottom: 6px solid rgb(51, 51, 51);"></i></a> </div>
+      <div class="list" style="display: none;"> 
+        <!-- online list, append from nodejs -->
+        <div class="chat-online-list"></div>
+        <div class="sprnav">
+          <div class="chat-search">
+            <div class="input-wrap">
+              <button> <i class="ismall ismall-search"></i> </button>
+              <input type="text" placeholder="Tìm kiếm">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- online list --> 
+  </div>
+  <!-- chat area 96898989--> 
+  
+</div>
+<!-- wrapper -->
+<div class="footer">
+  <div class="ft-wrap">
+    <ul>
+      <li> <a href="#" title="">About</a> </li>
+      <li> <a href="#" title="">Privacy</a> </li>
+      <li> <a href="#" title="">Terms</a> </li>
+      <li> <a href="#" title="">Community Guidelines</a> </li>
+    </ul>
+  </div>
+</div>
+<!-- footer -->
+
+</body>
+</html>

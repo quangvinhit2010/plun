@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+.update_profile_step3 table tr td.title{ width:105px;}
+.update_profile_step3 table.table_small{ width:510px;}
+.update_profile_step3 table.table_small tr td{ padding-left:0 !important;}
+
+.update_profile_step4 table tr td.title{ width:120px;}
+
+.update_profile_step4 .squaredCheck{ width:95px;}
+
+.setting_basic_info table tr td table{ width:320px !important;}
+
+.reference-cont .with_profile_pic{ margin-left:199px;}
+
+.login-remember {
+    margin-left: 140px;
+    text-align: left;
+}
+.reference-cont label.relationship {
+    width: 116px !important;
+}
+.find-him-pop{ width:558px !important;}
+
+
+
+.update_profile_step4 {
+    max-height: 402px;
+    overflow-y: scroll;
+    width: 605px;
+}
+.update_profile_step4 table{ width:605px;}
+.update_profile_step4 .squaredCheck{
+	padding-right: 14px;
+    width: 140px;
+}
+.update_profile_step4 table tr td .btn-violet{ margin-right:20px;}
+
+
+.setting_col1 table tr td .select_style .txt_select{ width:130px;}
+
+.home-left .buttons .signin{ /*padding:2px 30px 6px;*/}
+.home-left .buttons button{ /*padding:2px 30px 6px;*/}
+.home-left .content-wrap .sign_in_up ul li input#LoginForm_rememberMe{ margin-left:68px;}
+
+.reference-cont .btn-white{ margin:5px 0 0 200px;}
+
+/* Trang About us */
+.aboutus_new .content_aboutus_new .left .title_aboutus_new{ background:url(images/aboutus_new_title_vi.jpg) left top no-repeat;}
+
+
+.user .pop-status .border .wrap .input-foot .btn-wrap{ right:45px;}
+
+.photo_share_one .txt p a.but_share_photo{ margin-left:105px;}
+
+.add_cont {
+    padding-right: 10px;
+}
+.w369 {
+    width: 359px;
+}
+.add_cont p{ line-height:16px;}
