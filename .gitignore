@@ -1,0 +1,7 @@
+/.settings/
+/.buildpath
+/.project
+/uploads/
+/elasticsearch.log
+/plun.com-error.log
+*.log
