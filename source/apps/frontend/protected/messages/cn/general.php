@@ -1,0 +1,33 @@
+<?php
+//created with TranslatePhpMessage module 0.4 at November 19, 2013, 15:33:14
+return array(
+'Show More'=>'Show More',
+'Feeds'=>'Feeds',
+'Photo'=>'Photo',
+'Message'=>'Message',
+'Bookmark'=>'Bookmark',
+'Alerts'=>'Alerts',
+'Friends'=>'Friends',
+'Candy'=>'Candy',
+'Setting'=>'Setting',
+'Fancy'=>'Fancy',
+'Rate'=>'Rate',
+'Explore'=>'Explore',
+'Hot box'=>'Hot box',
+'Isu'=>'Isu',
+'Talk That Talk'=>'Talk That Talk',
+'Hide'=>'Hide',
+'member_online_now'=>'members are in {html_tag_begin} your area{html_tag_end} now',
+'Accept'=>'Accept',
+'Decline'=>'Decline',
+'Show'=>'Show',
+'Accept All'=>'Accept All',
+'Back'=>'Back',
+'notice'	=>	'notice',
+'Looking For When Online' => 'Looking For When Online',
+'None' => 'None',
+'All' => 'All',
+'Help' => 'Help',
+'Log Out' => 'Log Out',
+) 
+?>

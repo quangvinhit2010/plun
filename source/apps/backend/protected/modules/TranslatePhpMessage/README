@@ -1,0 +1,97 @@
+##Manage translations with CPhpMessageSource
+
+This module creates a user interface to translate your message files.  
+Your application must be setup to use messages CPhpMessageSource.  
+Check **Resources** for links with information about this.
+
+##Requirements
+
+Tested with Yii 1.1.10.
+
+
+##Configuration
+
+Edit your config file and add or change these lines:
+
+~~~
+[php]
+.........
+'modules'=>array(
+    .........
+    'TranslatePhpMessage' => array(
+        'encoding' => 'UTF-8', //encoding used to save messages
+        'excludedirs' => array(), //directories to exclude
+        'excludefiles' => array(), //files to exclude
+        ),
+    .........
+    ),
+.........
+// default Yii language, CHANGE to your language
+'language' => 'en_us', 
+~~~
+
+Every directory under `/protected/messages/` should have **777** permissions (Unix only).  
+
+##How to use
+
+Extract the file to `protected/modules`.  
+Create a link to `'/TranslatePhpMessage')` or navigate to `index.php?r=TranslatePhpMessage`  
+
+This module assumes that the developer mantains the default language files, all operations are based of that files, so keep them in order.  
+  
+The module displays an error if it cant find the directories where message files are stored.  
+Ideally you will have at least two directories (default language, other language).  
+ If not you will get a warning, until you create them manually, there isn't any functionalty for that.
+
+Choose the language you want to translate. You can choose the same language as the default to edit a source file.  
+ The next screen shows two lists of files.  
+ On the left the files you have. If you need a new file you must create it manually  
+ On the right shows what files are missing (you can create a new blank file).  
+  
+Again, this lists refer to the default language, so no missing files will show if you are editing the default language.  
+If you need a file not found on either list you must create it manualy in the default language directory.  
+Just make sure the file contains:  
+  
+~~~
+[php]
+<?php
+return array()
+?>
+~~~
+
+The translate view compares between your default language and the language you choose.  
+  To translate just write on the translation column and save.  
+You can also insert new key=>value pairs in the default language message file  
+  
+  
+##Options Usage
+ * 'encoding' => 'UTF-8'  
+    change to the encoding you want to use, defaults to UTF-8  
+ * 'excludedirs' => array()  
+   directories to exclude, list like this: array('.dir1', 'otherdir')  
+ * 'excludefiles' => array()  
+   files to exclude, use like this: array('firstfile.php', 'otherfile.php')  
+  
+##Resources
+
+ * [CPhpMessageSource](http://www.yiiframework.com/doc/api/1.1/CPhpMessageSource)  
+ * [Internationalization](http://www.yiiframework.com/doc/guide/1.1/en/topics.i18n)  
+
+
+##Change log
+  
+0.4 02/04/2012  
+ - add option to exclude files / directories from the listing  
+ - some settings can now be changed from config file  
+ - solved bug under linux where filepath was wrong  
+  
+0.3 02/03/2012  
+ - Should work under Linux with no errors (Windows is ok).  
+  
+0.2 29/02/2012  
+ - no longer gives errors with PHP error reporting other than server production settings  
+ - more helpful error messages  
+ - UI tweaks  
+  
+0.1 27/02/2012  
+ - initial release

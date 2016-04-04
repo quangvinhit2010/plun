@@ -1,0 +1,31 @@
+<?php
+//created with TranslatePhpMessage module 0.4 at December 9, 2013, 15:47:14
+return array(
+'Messages'=>'Messages',
+'Friends List'=>'Friends List',
+'Message'=>'Message',
+'Are you sure you want to delete this conversation?'=>'Are you sure you want to delete this conversation?',
+'OK'=>'OK',
+'Cancel'=>'Cancel',
+'Write a reply...'=>'Write a reply...',
+'Re'=>'Re',
+'To'=>'To',
+'You'=>'You',
+'This username doesn`t exist'=>'This username doesn`t exist',
+'Full your quota. You have {num} new message.'=>'Full your quota. You have {num} new message.',
+'Send a message'=>'Send a message',
+'No new messages'=>'No new messages',
+'New message'=>'New message',
+'Message sent and delivered!'	=>	'Message sent and delivered!',
+'Message sent but recipient`s inbox is full. He has to delete old messages to read yours'	=>	'Message sent but recipient`s inbox is full. He has to delete old messages to read yours',
+'Message send failure!'	=>	'Message send failure!',
+'Send'	=>	'Send',
+'Subject'	=>	'Subject',
+'Body'	=>	'Body',
+'Enter text...' => 'Enter text...',		
+'{username} sent your new message!' => '{username} sent your new message!',	
+'Compose' => 'Compose',
+'No content to show'=>'No content to show',
+'See all message'=>'See all message',
+)
+?>

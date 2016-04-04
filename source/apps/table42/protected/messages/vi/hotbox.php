@@ -1,0 +1,38 @@
+<?php
+//created with TranslatePhpMessage module 0.4 at October 29, 2013, 9:32:46
+return array(
+'Search'=>'Tìm kiếm',
+'Photo'=>'Ảnh',
+'Events'=>'Sự kiện',
+'Event'=>'Sự kiện',
+'All'=>'Tất cả',
+'Location'=>'Địa điểm',
+'Close'=>'Đóng',
+'View gallery' => 'Xem ảnh',
+'Date' => 'Ngày',
+'Comment' => 'Bình luận',
+'Like' => 'Thích',
+'Unlike' => 'Bỏ thích',
+'View previous comments' => 'Xem bình luận cũ',
+'This post is pending for approval' => 'Bài viết của bạn đang chờ được duyệt',
+'Title' => 'Tiêu đề',
+'Enter title...' => 'Nhập tiêu đề...',
+'Content' => 'Nội dung',
+'Sections' => 'Mục',
+'Upload' => 'Tải ảnh',
+'Sumbit' => 'Gửi lên',
+'Back' => 'Thoát',
+'Create New' => 'Nội Dung Mới',
+'My Hotbox' => 'Hotbox của tôi',
+'Set thumbnail' => 'Đặt làm ảnh thu nhỏ',
+'Delete image' => 'Xóa ảnh',
+'Write a reply...' => 'Viết bình luận...',
+'Please login to leave comment' => 'Vui lòng đăng nhập để gửi bình luận',
+'End day must be greater than start day' => 'Ngày kết thúc phải lớn hơn ngày bắt đầu',
+'Where' => 'Địa điểm',
+'When' => 'Thời gian',
+'To' => 'Đến',
+'Body' => 'Nội dung',
+)
+
+?>

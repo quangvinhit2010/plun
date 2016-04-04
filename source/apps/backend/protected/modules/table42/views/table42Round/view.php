@@ -1,0 +1,22 @@
+<?php
+/* @var $this PurpleguyRoundController */
+/* @var $model PurpleguyRound */
+
+$this->breadcrumbs=array(
+	'Table42 Rounds'=>array('index'),
+	$model->id,
+);
+
+?>
+
+<h1>View PurpleguyRound #<?php echo $model->id; ?></h1>
+
+<?php $this->widget('zii.widgets.CDetailView', array(
+	'data'=>$model,
+	'attributes'=>array(
+		'id',
+		'title',
+		'time_start',
+		'time_end',
+	),
+)); ?>

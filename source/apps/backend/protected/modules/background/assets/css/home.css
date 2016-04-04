@@ -1,0 +1,121 @@
+.home_hot_pics *{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -khtml-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+}
+.home_hot_pics ul,
+.home_hot_pics ul li{
+    list-style:none;
+    background:none;
+}
+.home_hot_pics{
+    width:100%;
+}
+#masonry_box{
+    position:relative;
+    float:left;
+    width:100%;
+}
+#masonry_box li{
+  /* position: absolute; */
+  width: 245px;
+  height: 245px;
+}
+#masonry_box > .ss-placeholder-child {
+    background: transparent;
+    border: 1px dashed blue;
+}
+#masonry_box li[data-col="1"]{
+    width:245px;
+}
+#masonry_box li[data-row="1"]{
+    height:245px;
+}
+#masonry_box li[data-col="2"]{
+    width:490px;
+}
+#masonry_box li[data-row="2"]{
+    height:490px;
+}
+#masonry_box li a{
+  display:block;
+  width:100%;
+  height:100%;
+  background:url(sub_black_add.png) no-repeat center;
+  cursor:move;
+}
+.wrap_edit_photo{
+  position:absolute;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  padding:10px;
+  background:url(opacity_1.png);
+  text-align:center;
+  display:none;
+}
+#masonry_box li .wrapbox_img:hover .wrap_edit_photo{
+  display:block;
+}
+.boxAddLink .saveLink,
+.wrap_edit_photo .addLink,
+.wrap_edit_photo .delPhoto{
+  display: inline-block;
+  padding: 2px 15px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+  margin-right:10px;
+}
+.boxAddLink{
+  display:none;
+  margin-top:5px;
+  text-align:left;
+}
+.boxAddLink .saveLink:hover,
+.wrap_edit_photo .addLink:hover,
+.wrap_edit_photo .delPhoto:hover{
+  color: #fff;
+  background-color: #3071a9;
+  border-color: #285e8e;
+}
+.boxAddLink input{
+  display:inline;
+  width:78%;
+  padding:2px 3px;
+  margin-right:5px;
+}
+.boxAddLink .saveLink{
+  padding: 1px 5px;
+  margin-right:0px;
+}
+.wrapbox_img{
+  display:block;
+  width:100%;
+  height:100%;
+  position:relative;
+}
+.wrapbox_img a img{
+  display:block;
+  width:100%;
+  height:100%;
+}
